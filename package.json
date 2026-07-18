@@ -1,0 +1,12 @@
+{
+  "name": "hanyang-course-grade-ratio-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-grade-ratios.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  }
+}

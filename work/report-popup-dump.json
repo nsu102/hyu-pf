@@ -1,0 +1,338 @@
+{
+  "report": {
+    "url": "https://portal.hanyang.ac.kr/openPop.do?url=%2FopenPage.do%3FpgmId%3DP308628&scrollbars=auto",
+    "title": "교과목 포트폴리오 차트",
+    "text": "교과목 포트폴리오 차트\n\nAdobe Reader 가 설치되지 않아 PDF 미리보기를 할 수 없습니다.\n\n생성된 PDF파일을 다운로드 하려면 \"여기\" 를 클릭하세요.\n",
+    "controls": [
+      {
+        "i": 0,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "title": null,
+        "alt": null,
+        "href": "#",
+        "onclick": null,
+        "src": null,
+        "action": null,
+        "data": null
+      },
+      {
+        "i": 1,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "Adobe Reader",
+        "title": null,
+        "alt": null,
+        "href": "http://get.adobe.com/kr/reader/",
+        "onclick": null,
+        "src": null,
+        "action": null,
+        "data": null
+      },
+      {
+        "i": 2,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "여기",
+        "title": null,
+        "alt": null,
+        "href": "https://rd.portal.hanyang.ac.kr/ReportingServer/service?protocol=file&opcode=500&export_type=pdf&mrd_path=haksa%2Fptfl%2Fggpf%2Fggpf0200Chart.mrd&mrd_param=%2Frfn%20%5Bhttps%3A%2F%2Fportal.hanyang.ac.kr%2Fhaksa%2FSupfAct%2FfindGyogwamokPortfolioChartOutputs.do%3FpgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frpost%20%5BstrSuPf%3DhaksuNo%3DACC2056!!!cbCampus%3DH0002256!!!%26pgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frv%20%20NgmSsoName%5BHYIN_JSESSIONID%5D%20NgmSsoData%5BXwomuLrRvf2lEeczLL91-QFte4erQnN7KCPr7zNGtE__6WWRQh4t!-1610658326!979177926%5D",
+        "onclick": null,
+        "src": null,
+        "action": null,
+        "data": null
+      }
+    ],
+    "htmlMatches": {
+      "pdf": "opener != null && typeof ServiceController != 'undefined') {\n\t            if(typeof opener.currPopupOptions != \"undefined\" && ServiceController[opener.currPopupOptions.onOpen]) {\n\t                ServiceController[opener.currPopupOptions.onOpen](opener.currPopupOptions.onOpenData);\n\t            }\n\t        }\n\t    } catch(e) {}\n    });\n\n    $(\"div.browser_pop p.btn_close a\").click(function() {\n        if(window.location.href.indexOf(\"referer%3Dmi\") > -1) {\n            document.title = \"close=true\";\n        }\n        self.close();\n    });\n\n});\n</script>\n</head>\n\n<body style=\"background: none; margin: 0; padding: 0\">\n    <div class=\"browser_pop\">\n                    <h1 style=\"text-align: left;\">교과목 포트폴리오 차트</h1>\n                        <p class=\"btn_close\">\n                <a href=\"#\"><img src=\"images/popup/btn_close.gif\" alt=\"닫기\"></a>\n            </p>\n                            <div id=\"hyinContents\" style=\"background: none; margin: 0; padding: 0\"><div id=\"rdPopFrame\" style=\"height: 600px;\"><div class=\"hyinTemplate\" style=\"padding: 10px;\"><div class=\"alert-box\"><p class=\"top\"><img src=\"../images/icon/ico_warning_small.png\" alt=\"\"> <span class=\"t_l\"></span> <span class=\"t_r\"></span></p><div class=\"text\"><u><a href=\"http://get.adobe.com/kr/reader/\" target=\"_black\"><font color=\"blue\">Adobe Reader</font></a></u> 가 설치되지 않아 PDF 미리보기를 할 수 없습니다.<br><br>생성된 PDF파일을 다운로드 하려면 \"<u><a href=\"https://rd.portal.hanyang.ac.kr/ReportingServer/service?protocol=file&amp;opcode=500&amp;export_type=pdf&amp;mrd_path=haksa%2Fptfl%2Fggpf%2Fggpf0200Chart.mrd&amp;mrd_param=%2Frfn%20%5Bhttps%3A%2F%2Fportal.hanyang.ac.kr%2Fhaksa%2FSupfAct%2FfindGyogwamokPortfolioChartOutputs.do%3FpgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frpost%20%5BstrSuPf%3DhaksuNo%3DACC2056!!!cbCampus%3DH0002256!!!%26pgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frv%20%20NgmSsoName%5BHYIN_JSESSIONID%5D%20NgmSsoData%5BXwomuLrRvf2lEeczLL91-QFte4erQnN7KCPr7zNGtE__6WWRQh4t!-1610658326!979177926%5D\"><font color=\"blue\">여기</font></a></u>\"  를 클릭하세요.<br></div></div></div></div>\n<var id=\"contextDataRepository\"></var></div>\n    </div>\n\n</body></html>",
+      "PDF": "rPopup) {\n\t                        opener.currPopup = undefined;\n\t                    }\n\t                } catch(e) {}\n\t            });\n\t        }\n\t\n\t        if(opener != null && typeof ServiceController != 'undefined') {\n\t            if(typeof opener.currPopupOptions != \"undefined\" && ServiceController[opener.currPopupOptions.onOpen]) {\n\t                ServiceController[opener.currPopupOptions.onOpen](opener.currPopupOptions.onOpenData);\n\t            }\n\t        }\n\t    } catch(e) {}\n    });\n\n    $(\"div.browser_pop p.btn_close a\").click(function() {\n        if(window.location.href.indexOf(\"referer%3Dmi\") > -1) {\n            document.title = \"close=true\";\n        }\n        self.close();\n    });\n\n});\n</script>\n</head>\n\n<body style=\"background: none; margin: 0; padding: 0\">\n    <div class=\"browser_pop\">\n                    <h1 style=\"text-align: left;\">교과목 포트폴리오 차트</h1>\n                        <p class=\"btn_close\">\n                <a href=\"#\"><img src=\"images/popup/btn_close.gif\" alt=\"닫기\"></a>\n            </p>\n                            <div id=\"hyinContents\" style=\"background: none; margin: 0; padding: 0\"><div id=\"rdPopFrame\" style=\"height: 600px;\"><div class=\"hyinTemplate\" style=\"padding: 10px;\"><div class=\"alert-box\"><p class=\"top\"><img src=\"../images/icon/ico_warning_small.png\" alt=\"\"> <span class=\"t_l\"></span> <span class=\"t_r\"></span></p><div class=\"text\"><u><a href=\"http://get.adobe.com/kr/reader/\" target=\"_black\"><font color=\"blue\">Adobe Reader</font></a></u> 가 설치되지 않아 PDF 미리보기를 할 수 없습니다.<br><br>생성된 PDF파일을 다운로드 하려면 \"<u><a href=\"https://rd.portal.hanyang.ac.kr/ReportingServer/service?protocol=file&amp;opcode=500&amp;export_type=pdf&amp;mrd_path=haksa%2Fptfl%2Fggpf%2Fggpf0200Chart.mrd&amp;mrd_param=%2Frfn%20%5Bhttps%3A%2F%2Fportal.hanyang.ac.kr%2Fhaksa%2FSupfAct%2FfindGyogwamokPortfolioChartOutputs.do%3FpgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frpost%20%5BstrSuPf%3DhaksuNo%3DACC2056!!!cbCampus%3DH0002256!!!%26pgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frv%20%20NgmSsoName%5BHYIN_JSESSIONID%5D%20NgmSsoData%5BXwomuLrRvf2lEeczLL91-QFte4erQnN7KCPr7zNGtE__6WWRQh4t!-1610658326!979177926%5D\"><font color=\"blue\">여기</font></a></u>\"  를 클릭하세요.<br></div></div></div></div>\n<var id=\"contextDataRepository\"></var></div>\n    </div>\n\n</body></html>",
+      "다운": "ner.currPopup = undefined;\n\t                    }\n\t                } catch(e) {}\n\t            });\n\t        }\n\t\n\t        if(opener != null && typeof ServiceController != 'undefined') {\n\t            if(typeof opener.currPopupOptions != \"undefined\" && ServiceController[opener.currPopupOptions.onOpen]) {\n\t                ServiceController[opener.currPopupOptions.onOpen](opener.currPopupOptions.onOpenData);\n\t            }\n\t        }\n\t    } catch(e) {}\n    });\n\n    $(\"div.browser_pop p.btn_close a\").click(function() {\n        if(window.location.href.indexOf(\"referer%3Dmi\") > -1) {\n            document.title = \"close=true\";\n        }\n        self.close();\n    });\n\n});\n</script>\n</head>\n\n<body style=\"background: none; margin: 0; padding: 0\">\n    <div class=\"browser_pop\">\n                    <h1 style=\"text-align: left;\">교과목 포트폴리오 차트</h1>\n                        <p class=\"btn_close\">\n                <a href=\"#\"><img src=\"images/popup/btn_close.gif\" alt=\"닫기\"></a>\n            </p>\n                            <div id=\"hyinContents\" style=\"background: none; margin: 0; padding: 0\"><div id=\"rdPopFrame\" style=\"height: 600px;\"><div class=\"hyinTemplate\" style=\"padding: 10px;\"><div class=\"alert-box\"><p class=\"top\"><img src=\"../images/icon/ico_warning_small.png\" alt=\"\"> <span class=\"t_l\"></span> <span class=\"t_r\"></span></p><div class=\"text\"><u><a href=\"http://get.adobe.com/kr/reader/\" target=\"_black\"><font color=\"blue\">Adobe Reader</font></a></u> 가 설치되지 않아 PDF 미리보기를 할 수 없습니다.<br><br>생성된 PDF파일을 다운로드 하려면 \"<u><a href=\"https://rd.portal.hanyang.ac.kr/ReportingServer/service?protocol=file&amp;opcode=500&amp;export_type=pdf&amp;mrd_path=haksa%2Fptfl%2Fggpf%2Fggpf0200Chart.mrd&amp;mrd_param=%2Frfn%20%5Bhttps%3A%2F%2Fportal.hanyang.ac.kr%2Fhaksa%2FSupfAct%2FfindGyogwamokPortfolioChartOutputs.do%3FpgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frpost%20%5BstrSuPf%3DhaksuNo%3DACC2056!!!cbCampus%3DH0002256!!!%26pgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frv%20%20NgmSsoName%5BHYIN_JSESSIONID%5D%20NgmSsoData%5BXwomuLrRvf2lEeczLL91-QFte4erQnN7KCPr7zNGtE__6WWRQh4t!-1610658326!979177926%5D\"><font color=\"blue\">여기</font></a></u>\"  를 클릭하세요.<br></div></div></div></div>\n<var id=\"contextDataRepository\"></var></div>\n    </div>\n\n</body></html>",
+      "저장": "",
+      "export": "\t        if(opener != null && typeof ServiceController != 'undefined') {\n\t            if(typeof opener.currPopupOptions != \"undefined\" && ServiceController[opener.currPopupOptions.onOpen]) {\n\t                ServiceController[opener.currPopupOptions.onOpen](opener.currPopupOptions.onOpenData);\n\t            }\n\t        }\n\t    } catch(e) {}\n    });\n\n    $(\"div.browser_pop p.btn_close a\").click(function() {\n        if(window.location.href.indexOf(\"referer%3Dmi\") > -1) {\n            document.title = \"close=true\";\n        }\n        self.close();\n    });\n\n});\n</script>\n</head>\n\n<body style=\"background: none; margin: 0; padding: 0\">\n    <div class=\"browser_pop\">\n                    <h1 style=\"text-align: left;\">교과목 포트폴리오 차트</h1>\n                        <p class=\"btn_close\">\n                <a href=\"#\"><img src=\"images/popup/btn_close.gif\" alt=\"닫기\"></a>\n            </p>\n                            <div id=\"hyinContents\" style=\"background: none; margin: 0; padding: 0\"><div id=\"rdPopFrame\" style=\"height: 600px;\"><div class=\"hyinTemplate\" style=\"padding: 10px;\"><div class=\"alert-box\"><p class=\"top\"><img src=\"../images/icon/ico_warning_small.png\" alt=\"\"> <span class=\"t_l\"></span> <span class=\"t_r\"></span></p><div class=\"text\"><u><a href=\"http://get.adobe.com/kr/reader/\" target=\"_black\"><font color=\"blue\">Adobe Reader</font></a></u> 가 설치되지 않아 PDF 미리보기를 할 수 없습니다.<br><br>생성된 PDF파일을 다운로드 하려면 \"<u><a href=\"https://rd.portal.hanyang.ac.kr/ReportingServer/service?protocol=file&amp;opcode=500&amp;export_type=pdf&amp;mrd_path=haksa%2Fptfl%2Fggpf%2Fggpf0200Chart.mrd&amp;mrd_param=%2Frfn%20%5Bhttps%3A%2F%2Fportal.hanyang.ac.kr%2Fhaksa%2FSupfAct%2FfindGyogwamokPortfolioChartOutputs.do%3FpgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frpost%20%5BstrSuPf%3DhaksuNo%3DACC2056!!!cbCampus%3DH0002256!!!%26pgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frv%20%20NgmSsoName%5BHYIN_JSESSIONID%5D%20NgmSsoData%5BXwomuLrRvf2lEeczLL91-QFte4erQnN7KCPr7zNGtE__6WWRQh4t!-1610658326!979177926%5D\"><font color=\"blue\">여기</font></a></u>\"  를 클릭하세요.<br></div></div></div></div>\n<var id=\"contextDataRepository\"></var></div>\n    </div>\n\n</body></html>",
+      "Export": "",
+      "download": "",
+      "Download": "",
+      "Rex": "",
+      "UBI": "",
+      "clip": "",
+      "viewer": "",
+      "oz": ""
+    }
+  },
+  "frames": [
+    {
+      "url": "https://portal.hanyang.ac.kr/openPop.do?url=%2FopenPage.do%3FpgmId%3DP308628&scrollbars=auto",
+      "title": "교과목 포트폴리오 차트",
+      "text": "교과목 포트폴리오 차트\n\nAdobe Reader 가 설치되지 않아 PDF 미리보기를 할 수 없습니다.\n\n생성된 PDF파일을 다운로드 하려면 \"여기\" 를 클릭하세요.\n",
+      "controls": [
+        {
+          "i": 0,
+          "tag": "A",
+          "id": "",
+          "name": null,
+          "type": null,
+          "value": null,
+          "text": "",
+          "title": null,
+          "href": "#",
+          "onclick": null,
+          "src": null,
+          "action": null
+        },
+        {
+          "i": 1,
+          "tag": "A",
+          "id": "",
+          "name": null,
+          "type": null,
+          "value": null,
+          "text": "Adobe Reader",
+          "title": null,
+          "href": "http://get.adobe.com/kr/reader/",
+          "onclick": null,
+          "src": null,
+          "action": null
+        },
+        {
+          "i": 2,
+          "tag": "A",
+          "id": "",
+          "name": null,
+          "type": null,
+          "value": null,
+          "text": "여기",
+          "title": null,
+          "href": "https://rd.portal.hanyang.ac.kr/ReportingServer/service?protocol=file&opcode=500&export_type=pdf&mrd_path=haksa%2Fptfl%2Fggpf%2Fggpf0200Chart.mrd&mrd_param=%2Frfn%20%5Bhttps%3A%2F%2Fportal.hanyang.ac.kr%2Fhaksa%2FSupfAct%2FfindGyogwamokPortfolioChartOutputs.do%3FpgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frpost%20%5BstrSuPf%3DhaksuNo%3DACC2056!!!cbCampus%3DH0002256!!!%26pgmId%3DP320316%26menuId%3DM319477%26tk%3D2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7%5D%20%2Frv%20%20NgmSsoName%5BHYIN_JSESSIONID%5D%20NgmSsoData%5BXwomuLrRvf2lEeczLL91-QFte4erQnN7KCPr7zNGtE__6WWRQh4t!-1610658326!979177926%5D",
+          "onclick": null,
+          "src": null,
+          "action": null
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "page": "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/openPage.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/CommAct/findJojikGbCodeList.do?&strMode=S&strJojikGb=[23]&strUse=1&pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SuggAct/findGyoyukGwajeongCdMngs.do?&strJojikGbCd=H0002256&strIsWeb=true&pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findSosokListOrderNm.do?&strStartSosokCd=H0002256&sosokGb=slg&pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findGyoGwaMokWeb.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{\"strGnjSosokCd\":\"H0002867\",\"strCampus\":\"H0002256\",\"strSosokGb\":\"slg\",\"strGaeinNoChk\":\"2024001285\"}"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/saveSuPfInfo.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{\"haksuNo\":\"ACC2056\",\"cbCampus\":\"H0002256\"}"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/openPage.do?pgmId=P320321&pPopupYn=Y&pHaksuNo=ACC2056&pHakbun=9999999999&pSosokCd=FH02528&pidx0100=&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/css/reset.css?v=1.1",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/css/layout.css?v=1.1",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/css/student_style.css?v=1.1",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/js/jquery.bxslider.min.js?_=1783061073253",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/js/design.fn.js?_=1783061073279",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/js/design.js?_=1783061073298",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/openPage.do?pgmId=P320322&tk=2bcb4e1826e328e42493052304fd996a67f8801795d0f802528aa6524a4845af&menuId=M319477",
+      "postData": "pHakbun=9999999999&pSosokCd=FH02528&pHakbunNm=&pMenuStatus=M&pStartPage=&"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findGyogwamukInfo.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{}"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findGyogwamukChangeHis.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{}"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findGyogwamukdamdanggyogangsa.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{}"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findSuPfInfo.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{}"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/logo.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/aside_h2_arrow.gif",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/top_bg.gif",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/sub_tit_bar.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/page_location_arrow.gif",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/nav_bg.gif",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/nav_on_02.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/nav_student_menu_02.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/aside_btn_close.gif",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/footer_bg.gif",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNjb250ZW50cyRAXnBIYWtidW49OTk5OTk5OTk5OSZwU29zb2tDZD1GSDAyNTI4JnBIYWtidW5ObT0mcE1lbnVTdGF0dXM9TSZwU3RhcnRQYWdlPSYkQF5oYWtzYS9vcGVuUGFnZS5kbz9wZ21JZD1QMzIwMzIyJnRrPTJiY2I0ZTE4MjZlMzI4ZTQyNDkzMDUyMzA0ZmQ5OTZhNjdmODgwMTc5NWQwZjgwMjUyOGFhNjUyNGE0ODQ1YWYmbWVudUlkPU0zMTk0Nzc=",
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/openPage.do?pgmId=P320333&tk=a572e6f2c4eddbd9cc52de0a986f5cb2f3913bee6413f6d699d3635fa72e7b66&menuId=M319477",
+      "postData": "pHakbun=&pSosokCd=&pHakbunNm=&pMenuStatus=M&pStartPage=&"
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNoeWluQ29udGVudHMkQF5wSGFrYnVuPSZwU29zb2tDZD0mcEhha2J1bk5tPSZwTWVudVN0YXR1cz1NJnBTdGFydFBhZ2U9JiRAXmhha3NhL29wZW5QYWdlLmRvP3BnbUlkPVAzMjAzMzMmdGs9YTU3MmU2ZjJjNGVkZGJkOWNjNTJkZTBhOTg2ZjVjYjJmMzkxM2JlZTY0MTNmNmQ2OTlkMzYzNWZhNzJlN2I2NiZtZW51SWQ9TTMxOTQ3Nw==",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/js/jquery.bxslider.min.js?_=1783061074673",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNoeWluQ29udGVudHMkQF5wSGFrYnVuPSZwU29zb2tDZD0mcEhha2J1bk5tPSZwTWVudVN0YXR1cz1NJnBTdGFydFBhZ2U9JiRAXmhha3NhL29wZW5QYWdlLmRvP3BnbUlkPVAzMjAzMzMmdGs9YTU3MmU2ZjJjNGVkZGJkOWNjNTJkZTBhOTg2ZjVjYjJmMzkxM2JlZTY0MTNmNmQ2OTlkMzYzNWZhNzJlN2I2NiZtZW51SWQ9TTMxOTQ3Nw==",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/ctn_icon_plus.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNoeWluQ29udGVudHMkQF5wSGFrYnVuPSZwU29zb2tDZD0mcEhha2J1bk5tPSZwTWVudVN0YXR1cz1NJnBTdGFydFBhZ2U9JiRAXmhha3NhL29wZW5QYWdlLmRvP3BnbUlkPVAzMjAzMzMmdGs9YTU3MmU2ZjJjNGVkZGJkOWNjNTJkZTBhOTg2ZjVjYjJmMzkxM2JlZTY0MTNmNmQ2OTlkMzYzNWZhNzJlN2I2NiZtZW51SWQ9TTMxOTQ3Nw==",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/mj_chart_arrow_left.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNoeWluQ29udGVudHMkQF5wSGFrYnVuPSZwU29zb2tDZD0mcEhha2J1bk5tPSZwTWVudVN0YXR1cz1NJnBTdGFydFBhZ2U9JiRAXmhha3NhL29wZW5QYWdlLmRvP3BnbUlkPVAzMjAzMzMmdGs9YTU3MmU2ZjJjNGVkZGJkOWNjNTJkZTBhOTg2ZjVjYjJmMzkxM2JlZTY0MTNmNmQ2OTlkMzYzNWZhNzJlN2I2NiZtZW51SWQ9TTMxOTQ3Nw==",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/mj_chart_arrow_right.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNoeWluQ29udGVudHMkQF5wSGFrYnVuPSZwU29zb2tDZD0mcEhha2J1bk5tPSZwTWVudVN0YXR1cz1NJnBTdGFydFBhZ2U9JiRAXmhha3NhL29wZW5QYWdlLmRvP3BnbUlkPVAzMjAzMzMmdGs9YTU3MmU2ZjJjNGVkZGJkOWNjNTJkZTBhOTg2ZjVjYjJmMzkxM2JlZTY0MTNmNmQ2OTlkMzYzNWZhNzJlN2I2NiZtZW51SWQ9TTMxOTQ3Nw==",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/ptfl/images/layout/mj_print_icon.png",
+      "postData": ""
+    },
+    {
+      "page": "https://portal.hanyang.ac.kr/openPop.do?url=%2FopenPage.do%3FpgmId%3DP308628&scrollbars=auto",
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/openPage.do?pgmId=P308628&pidx0100=&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    }
+  ]
+}

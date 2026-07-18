@@ -1,0 +1,1885 @@
+severity,issue_type,course_no,course_name,year,term,detail
+warning,course_without_grade_data,APS1010,산업융합수학,,,parse_status=not_found
+warning,course_without_grade_data,APS2010,사회기술시스템,,,parse_status=not_found
+warning,course_without_grade_data,APS2011,마케팅원리,,,parse_status=not_found
+warning,course_without_grade_data,APS3004,데이터마이닝1,,,parse_status=not_found
+warning,course_without_grade_data,APS3008,생산운영관리2,,,parse_status=not_found
+warning,course_without_grade_data,APS3009,인간중심디자인,,,parse_status=not_found
+warning,course_without_grade_data,APS3010,데이터마이닝2,,,parse_status=not_found
+warning,course_without_grade_data,APS3022,지속가능경영시스템,,,parse_status=not_found
+warning,course_without_grade_data,APS3023,기술금융,,,parse_status=not_found
+warning,course_without_grade_data,APS4001,실험및시험방법론,,,parse_status=not_found
+warning,course_without_grade_data,APS4002,공급망관리,,,parse_status=not_found
+warning,course_without_grade_data,APS4003,ERP실무,,,parse_status=not_found
+warning,course_without_grade_data,APS4004,컴퓨터통합제조,,,parse_status=not_found
+warning,course_without_grade_data,APS4005,산업융합세미나,,,parse_status=not_found
+warning,course_without_grade_data,APS4007,실험및시험방법론2,,,parse_status=not_found
+warning,course_without_grade_data,APS4008,프로젝트관리론,,,parse_status=not_found
+warning,course_without_grade_data,APS4011,응용시스템세미나2,,,parse_status=not_found
+warning,course_without_grade_data,APS4012,경영공학종합설계,,,parse_status=not_found
+warning,course_without_grade_data,APS4013,의사결정론,,,parse_status=not_found
+warning,course_without_grade_data,APS4014,경영시뮬레이션,,,parse_status=not_found
+warning,course_without_grade_data,APS4015,제조혁신,,,parse_status=not_found
+warning,course_without_grade_data,APS4017,하이브리드프로토타이핑,,,parse_status=not_found
+warning,course_without_grade_data,APS4019,글로벌혁신시스템,,,parse_status=not_found
+warning,course_without_grade_data,APS4021,산업문제해결컨설팅,,,parse_status=not_found
+warning,course_without_grade_data,ARE3088,건축융합설계,,,parse_status=not_found
+warning,course_without_grade_data,ARE4020,건축공학실험,,,parse_status=not_found
+warning,course_without_grade_data,ARE4108,건축공학종합설계,,,parse_status=not_found
+warning,course_without_grade_data,ATC0008,아두이노아트캡스톤디자인,,,parse_status=not_found
+warning,course_without_grade_data,BAT4001,에너지저장변환기술,,,parse_status=not_found
+warning,course_without_grade_data,BAT4002,이차전지공정개론,,,parse_status=not_found
+warning,course_without_grade_data,BAT4003,이차전지설계개론,,,parse_status=not_found
+warning,course_without_grade_data,BIG3004,빅데이터융합세미나,,,parse_status=not_found
+warning,course_without_grade_data,BIG4002,사회연결망분석방법론,,,parse_status=not_found
+warning,course_without_grade_data,BIO1070,기초생명과학1,,,parse_status=not_found
+warning,course_without_grade_data,BIO1071,기초생명과학2,,,parse_status=not_found
+warning,course_without_grade_data,BIO4034,신경생물학1,,,parse_status=not_found
+warning,course_without_grade_data,BIO4035,신경생물학2,,,parse_status=not_found
+warning,course_without_grade_data,BIO4107,멀티오믹스데이터마이닝,,,parse_status=not_found
+warning,course_without_grade_data,BIO4112,생명의료정보데이터마이닝,,,parse_status=not_found
+warning,course_without_grade_data,BUS2011,경영통계학,,,parse_status=not_found
+warning,course_without_grade_data,BUS2055,경영정보시스템,,,parse_status=not_found
+warning,course_without_grade_data,BUS3111,경영대연구실현장실습1,,,parse_status=not_found
+warning,course_without_grade_data,BUS4112,M&A전략,,,parse_status=not_found
+warning,course_without_grade_data,BUS4115,인공지능금융투자와데이터,,,parse_status=not_found
+warning,course_without_grade_data,BUS5010,기술과경영,,,parse_status=not_found
+warning,course_without_grade_data,C-T4039,패션과테크놀로지,,,parse_status=not_found
+warning,course_without_grade_data,C-T4044,패션스마트팩토리인공지능,,,parse_status=not_found
+warning,course_without_grade_data,CEC4002,AI시대중국의경제정책,,,parse_status=not_found
+warning,course_without_grade_data,CHI2074,중국어통사론,,,parse_status=not_found
+warning,course_without_grade_data,CHI4066,언어데이터의정량분석,,,parse_status=not_found
+warning,course_without_grade_data,CHI4069,중국미디어문화의이해,,,parse_status=not_found
+warning,course_without_grade_data,CHM5009,재료분석,,,parse_status=not_found
+warning,course_without_grade_data,CIE3009,철도공학,,,parse_status=not_found
+warning,course_without_grade_data,CIE3074,생태하천공학,,,parse_status=not_found
+warning,course_without_grade_data,CIE4078,지반시스템설계,,,parse_status=not_found
+warning,course_without_grade_data,CIN4005,최적화이론,,,parse_status=not_found
+warning,course_without_grade_data,COP3026,전자음악프로젝트,,,parse_status=not_found
+warning,course_without_grade_data,COP3072,이론전공세미나1,,,parse_status=not_found
+warning,course_without_grade_data,COP3073,전자음악작곡실기1,,,parse_status=not_found
+warning,course_without_grade_data,COP3074,이론전공세미나2,,,parse_status=not_found
+warning,course_without_grade_data,COP3075,전자음악작곡실기2,,,parse_status=not_found
+warning,course_without_grade_data,COP3086,리허설테크닉2,,,parse_status=not_found
+warning,course_without_grade_data,COP3087,연주매체특강A,,,parse_status=not_found
+warning,course_without_grade_data,COP4052,이론전공세미나3,,,parse_status=not_found
+warning,course_without_grade_data,COP4053,이론전공세미나4,,,parse_status=not_found
+warning,course_without_grade_data,COP4063,동시대음악,,,parse_status=not_found
+warning,course_without_grade_data,COP4064,음악과사회,,,parse_status=not_found
+warning,course_without_grade_data,COP4065,작곡과캡스톤,,,parse_status=not_found
+warning,course_without_grade_data,COP4066,오디오프로덕션1,,,parse_status=not_found
+warning,course_without_grade_data,COP4067,오디오프로덕션2,,,parse_status=not_found
+warning,course_without_grade_data,COP4068,연주와비평7,,,parse_status=not_found
+warning,course_without_grade_data,COP4069,연주와비평8,,,parse_status=not_found
+warning,course_without_grade_data,CSE3010,데이터베이스,,,parse_status=not_found
+warning,course_without_grade_data,CSE4056,딥러닝시스템,,,parse_status=not_found
+warning,course_without_grade_data,CSS1002,사회과학의이해,,,parse_status=not_found
+warning,course_without_grade_data,CSS1003,사회과학의논리적사고,,,parse_status=not_found
+warning,course_without_grade_data,CUL0074,텍스트언어학의이해,,,parse_status=not_found
+warning,course_without_grade_data,CUL0110,에너지와문명,,,parse_status=not_found
+warning,course_without_grade_data,CUL0112,탄소문명과에너지,,,parse_status=not_found
+warning,course_without_grade_data,CUL0113,과학기술의융합으로서의공학,,,parse_status=not_found
+warning,course_without_grade_data,CUL0132,트랜스내셔널문학읽기,,,parse_status=not_found
+warning,course_without_grade_data,CUL0134,중국의도시문화와비즈니스,,,parse_status=not_found
+warning,course_without_grade_data,CUL0213,AI시대디지털보안입문,,,parse_status=not_found
+warning,course_without_grade_data,CUL1121,사회혁신캡스톤디자인(Plus),,,parse_status=not_found
+warning,course_without_grade_data,CUL1124,맞춤형성장멘토링교과목I,,,parse_status=not_found
+warning,course_without_grade_data,CUL1126,여성공학자연계멘토링,,,parse_status=not_found
+warning,course_without_grade_data,CUL1133,(여성공학도)기업가정신과창의적사고,,,parse_status=not_found
+warning,course_without_grade_data,CUL1143,치매와문화예술,,,parse_status=not_found
+warning,course_without_grade_data,CUL1146,한미관계의정치경제,,,parse_status=not_found
+warning,course_without_grade_data,CUL1147,사물인터넷시스템(캡스톤디자인),,,parse_status=not_found
+warning,course_without_grade_data,CUL1161,SDGs달성을위한CSR과지속가능경영에대한이해,,,parse_status=not_found
+warning,course_without_grade_data,CUL1177,디지털인문학,,,parse_status=not_found
+warning,course_without_grade_data,CUL1195,"ESG와사회혁신,커뮤니케이션",,,parse_status=not_found
+warning,course_without_grade_data,CUL1206,기후환경에따른환경문제와융복합처리기술,,,parse_status=not_found
+warning,course_without_grade_data,CUL1207,반도체의물리와화학,,,parse_status=not_found
+warning,course_without_grade_data,CUL1239,딥러닝과생성형인공지능–딥러닝,,,parse_status=not_found
+warning,course_without_grade_data,CUL1240,딥러닝과생성형인공지능-생성형인공지능,,,parse_status=not_found
+warning,course_without_grade_data,CUL1241,모두를위한피지컬AI,,,parse_status=not_found
+warning,course_without_grade_data,CUL1242,생성형AI와플랫폼을활용한산업문제해결,,,parse_status=not_found
+warning,course_without_grade_data,CUL1243,현대소비생활과법,,,parse_status=not_found
+warning,course_without_grade_data,CUL1244,AI시대새로배우는대화법,,,parse_status=not_found
+warning,course_without_grade_data,CUL1245,인구로읽는미래사회,,,parse_status=not_found
+warning,course_without_grade_data,CUL1246,고대이집트문명으로의초대,,,parse_status=not_found
+warning,course_without_grade_data,CUL3100,American Popular Music of the 20th Century : Cultural and Linguistic Significance,,,parse_status=not_found
+warning,course_without_grade_data,CUL7111,실전취업전략최종완성,,,parse_status=not_found
+warning,course_without_grade_data,CUL7112,융합과혁신캡스톤디자인,,,parse_status=not_found
+warning,course_without_grade_data,DAN1047,필라테스와이미지,,,parse_status=not_found
+warning,course_without_grade_data,DAN1054,사회무용의연구,,,parse_status=not_found
+warning,course_without_grade_data,DAN2048,서양무용음악연구,,,parse_status=not_found
+warning,course_without_grade_data,DEE2053,글로벌시대의문화적감수성,,,parse_status=not_found
+warning,course_without_grade_data,DEE3054,영어구문연구,,,parse_status=not_found
+warning,course_without_grade_data,DEE3055,영어연극과글로벌역량,,,parse_status=not_found
+warning,course_without_grade_data,DEE3056,AI활용영어텍스트분석,,,parse_status=not_found
+warning,course_without_grade_data,DEE3057,시네마휴머니즘,,,parse_status=not_found
+warning,course_without_grade_data,DEE4047,영미고전과삶의가치,,,parse_status=not_found
+warning,course_without_grade_data,DET1006,학습과학의이론적기초,,,parse_status=not_found
+warning,course_without_grade_data,DET2040,조직개발과조직문화,,,parse_status=not_found
+warning,course_without_grade_data,DET3031,디지털영상미디어제작실습,,,parse_status=not_found
+warning,course_without_grade_data,DET3032,교육공학글로벌인턴십,,,parse_status=not_found
+warning,course_without_grade_data,DET3034,교육공학인턴십,,,parse_status=not_found
+warning,course_without_grade_data,DET3041,AI활용교육도구설계,,,parse_status=not_found
+warning,course_without_grade_data,DET3043,하이브리드러닝플랫폼설계,,,parse_status=not_found
+warning,course_without_grade_data,DET3044,학습분석의이해와적용,,,parse_status=not_found
+warning,course_without_grade_data,DET4030,교육공학연구방법과통계,,,parse_status=not_found
+warning,course_without_grade_data,DIS1001,Contemporary Society and Philosophy,,,parse_status=not_found
+warning,course_without_grade_data,DIS1003,Special Lecture Series I,,,parse_status=not_found
+warning,course_without_grade_data,DIS1016,East Asian History and Culture,,,parse_status=not_found
+warning,course_without_grade_data,DIS1017,Economic Growth and Development,,,parse_status=not_found
+warning,course_without_grade_data,DIS1018,Global Ethics,,,parse_status=not_found
+warning,course_without_grade_data,DIS1025,Basic Quantitative Methods,,,parse_status=not_found
+warning,course_without_grade_data,DIS1026,Business and Society,,,parse_status=not_found
+warning,course_without_grade_data,DIS1027,Law and Society,,,parse_status=not_found
+warning,course_without_grade_data,DIS1028,Quantitative Methods,,,parse_status=not_found
+warning,course_without_grade_data,DIS2006,International Law,,,parse_status=not_found
+warning,course_without_grade_data,DIS2007,International Economics,,,parse_status=not_found
+warning,course_without_grade_data,DIS2009,Leadership Workshop,,,parse_status=not_found
+warning,course_without_grade_data,DIS2016,International Conflict & Cooperation,,,parse_status=not_found
+warning,course_without_grade_data,DIS2018,Russian Politics & Foreign Policy,,,parse_status=not_found
+warning,course_without_grade_data,DIS2019,Chinese Politics and Foreign Policy,,,parse_status=not_found
+warning,course_without_grade_data,DIS2020,Japanese Politics & Foreign Policy,,,parse_status=not_found
+warning,course_without_grade_data,DIS2021,American Politics & Foreign Policy,,,parse_status=not_found
+warning,course_without_grade_data,DIS2024,Model United Nations,,,parse_status=not_found
+warning,course_without_grade_data,DIS2034,Macroeconomics,,,parse_status=not_found
+warning,course_without_grade_data,DIS2045,Contemporary Korean Society,,,parse_status=not_found
+warning,course_without_grade_data,DIS2046,Korean History and Culture,,,parse_status=not_found
+warning,course_without_grade_data,DIS2048,Debate and Argumentation,,,parse_status=not_found
+warning,course_without_grade_data,DIS2052,Accounting,,,parse_status=not_found
+warning,course_without_grade_data,DIS2053,Principle of Marketing,,,parse_status=not_found
+warning,course_without_grade_data,DIS2056,Digital Strategy I,,,parse_status=not_found
+warning,course_without_grade_data,DIS2059,한류의정치경제학,,,parse_status=not_found
+warning,course_without_grade_data,DIS2069,Quantative Analysis,,,parse_status=not_found
+warning,course_without_grade_data,DIS3003,Public International Law,,,parse_status=not_found
+warning,course_without_grade_data,DIS3004,Global Marketing and Business Strategy,,,parse_status=not_found
+warning,course_without_grade_data,DIS3007,International Banking and Capital Market,,,parse_status=not_found
+warning,course_without_grade_data,DIS3010,Microeconomics,,,parse_status=not_found
+warning,course_without_grade_data,DIS3012,Korean Politics and Foreign Policy,,,parse_status=not_found
+warning,course_without_grade_data,DIS3013,Korean Economy and Business,,,parse_status=not_found
+warning,course_without_grade_data,DIS3019,Transnational Management,,,parse_status=not_found
+warning,course_without_grade_data,DIS3021,Individual Study:Internships,,,parse_status=not_found
+warning,course_without_grade_data,DIS3027,Corporate Finance I,,,parse_status=not_found
+warning,course_without_grade_data,DIS3028,Corporate Finance II,,,parse_status=not_found
+warning,course_without_grade_data,DIS3029,Operation Management,,,parse_status=not_found
+warning,course_without_grade_data,DIS3030,Chinese Society & Culture,,,parse_status=not_found
+warning,course_without_grade_data,DIS3031,Special TopicsI,,,parse_status=not_found
+warning,course_without_grade_data,DIS3032,Chinese Economy & Business,,,parse_status=not_found
+warning,course_without_grade_data,DIS3036,Research Methodology,,,parse_status=not_found
+warning,course_without_grade_data,DIS3037,Basic Econometrics,,,parse_status=not_found
+warning,course_without_grade_data,DIS3038,The 4th Industrial Revolution and the Future of Asia,,,parse_status=not_found
+warning,course_without_grade_data,DIS3042,관광경영,,,parse_status=not_found
+warning,course_without_grade_data,DIS3043,한국기업의경쟁전략,,,parse_status=not_found
+warning,course_without_grade_data,DIS3048,북한체제의이해,,,parse_status=not_found
+warning,course_without_grade_data,DIS3049,한국의시민사회,,,parse_status=not_found
+warning,course_without_grade_data,DIS3056,Advanced Research Methods,,,parse_status=not_found
+warning,course_without_grade_data,DIS4002,Human Resource Management,,,parse_status=not_found
+warning,course_without_grade_data,DIS4003,캡스톤특강:M&A와기업구조조정,,,parse_status=not_found
+warning,course_without_grade_data,DIS4004,U.S. Legal System,,,parse_status=not_found
+warning,course_without_grade_data,DIS4005,Special Topics III,,,parse_status=not_found
+warning,course_without_grade_data,DIS4006,캡스톤특강:국제경영컨설팅실무,,,parse_status=not_found
+warning,course_without_grade_data,DIS4007,Special Topics IV,,,parse_status=not_found
+warning,course_without_grade_data,DIS4009,캡스톤특강:DigitalStrategy,,,parse_status=not_found
+warning,course_without_grade_data,DIS4010,글로벌사회와한중일,,,parse_status=not_found
+warning,course_without_grade_data,DIS4011,Impact Investing,,,parse_status=not_found
+warning,course_without_grade_data,DIS4016,사회과학연구방법론,,,parse_status=not_found
+warning,course_without_grade_data,DIS4017,4차산업혁명과한국기업의신성장전략,,,parse_status=not_found
+warning,course_without_grade_data,DIS4019,남북관계론,,,parse_status=not_found
+warning,course_without_grade_data,DIS4021,한국의기업가정신,,,parse_status=not_found
+warning,course_without_grade_data,DIS4022,실무실습: 임팩트투자와창업,,,parse_status=not_found
+warning,course_without_grade_data,DIS4023,한국과세계정치경제,,,parse_status=not_found
+warning,course_without_grade_data,DIS4024,캡스톤특강:한국학과뉴미디어,,,parse_status=not_found
+warning,course_without_grade_data,DIS4025,미디어콘텐츠기획,,,parse_status=not_found
+warning,course_without_grade_data,DIS4033,한국문화와글로벌역량,,,parse_status=not_found
+warning,course_without_grade_data,DIS4034,K-엔터테인먼트실무,,,parse_status=not_found
+warning,course_without_grade_data,DIS4035,캡스톤:글로벌콘텐츠와엔터테인먼트산업,,,parse_status=not_found
+warning,course_without_grade_data,DSD3002,디지털프로토타이핑,,,parse_status=not_found
+warning,course_without_grade_data,DSD4001,혁신서비스개발PBL,,,parse_status=not_found
+warning,course_without_grade_data,DSI2006,스포츠심화실기2,,,parse_status=not_found
+warning,course_without_grade_data,DSI2026,스포츠산업현장투어,,,parse_status=not_found
+warning,course_without_grade_data,DST2003,디지털서비스혁신개론,,,parse_status=not_found
+warning,course_without_grade_data,DST3001,SW기반특허분석실무,,,parse_status=not_found
+warning,course_without_grade_data,DST3002,LLM과비즈니스,,,parse_status=not_found
+warning,course_without_grade_data,ECL3010,전기기초실험3,,,parse_status=not_found
+warning,course_without_grade_data,ECL4020,에너지하베스팅,,,parse_status=not_found
+warning,course_without_grade_data,ECL4023,산업플라즈마입자시뮬레이션,,,parse_status=not_found
+warning,course_without_grade_data,ECO3093,시장설계이론,,,parse_status=not_found
+warning,course_without_grade_data,EDU2069,진로교육과상담,,,parse_status=not_found
+warning,course_without_grade_data,EDU3035,이러닝과원격교육,,,parse_status=not_found
+warning,course_without_grade_data,EDU3036,디지털교육,,,parse_status=not_found
+warning,course_without_grade_data,EDU3082,교사교육과수업장학,,,parse_status=not_found
+warning,course_without_grade_data,EDU4038,동기의이해,,,parse_status=not_found
+warning,course_without_grade_data,EDU4093,교육컨설팅,,,parse_status=not_found
+warning,course_without_grade_data,EDU4098,교육측정및검사,,,parse_status=not_found
+warning,course_without_grade_data,ELE3085,머신러닝개론,,,parse_status=not_found
+warning,course_without_grade_data,ELE4011,전기응용실험1,,,parse_status=not_found
+warning,course_without_grade_data,ELE4012,전기응용실험2,,,parse_status=not_found
+warning,course_without_grade_data,ENG2089,비판적생각과영어쓰기1,,,parse_status=not_found
+warning,course_without_grade_data,ENG2094,연극심화이해와실제캡스톤,,,parse_status=not_found
+warning,course_without_grade_data,ENG3094,실험언어학,,,parse_status=not_found
+warning,course_without_grade_data,ENG3097,비판적생각과영어쓰기2,,,parse_status=not_found
+warning,course_without_grade_data,ENG3103,영미정치사상과문학,,,parse_status=not_found
+warning,course_without_grade_data,ENG4090,영어읽기와토론3,,,parse_status=not_found
+warning,course_without_grade_data,ENG4091,비판적생각과영어쓰기3,,,parse_status=not_found
+warning,course_without_grade_data,EWE4023,광통신,,,parse_status=not_found
+warning,course_without_grade_data,FET1002,에너지와지속가능경영의기초,,,parse_status=not_found
+warning,course_without_grade_data,FET3004,에너지자원순환공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9101,에너지소재개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9102,에너지신산업머신러닝개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9103,AI와에너지신산업,,,parse_status=not_found
+warning,course_without_grade_data,FET9104,에너지와지식재산라이센싱,,,parse_status=not_found
+warning,course_without_grade_data,FET9201,에너지저장공학개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9202,신에너지공학개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9203,전기화학에너지저장이론및실험,,,parse_status=not_found
+warning,course_without_grade_data,FET9204,재생에너지공학개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9205,수소연료전지개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9206,에너지와기술의경제학,,,parse_status=not_found
+warning,course_without_grade_data,FET9207,에너지와기후변화,,,parse_status=not_found
+warning,course_without_grade_data,FET9208,파이썬프로그래밍입문,,,parse_status=not_found
+warning,course_without_grade_data,FET9209,원자력발전공학개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9210,탄소중립과ESG,,,parse_status=not_found
+warning,course_without_grade_data,FET9211,수소에너지개론,,,parse_status=not_found
+warning,course_without_grade_data,FET9301,에너지기후변화정책,,,parse_status=not_found
+warning,course_without_grade_data,FET9302,거대에너지저장,,,parse_status=not_found
+warning,course_without_grade_data,FET9303,에너지저장소재설계,,,parse_status=not_found
+warning,course_without_grade_data,FET9304,에너지생산소재공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9305,에너지반응공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9306,바이오폐기물에너지공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9307,화학적에너지수송,,,parse_status=not_found
+warning,course_without_grade_data,FET9308,AI기반에너지안전공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9309,제로에너지시스템,,,parse_status=not_found
+warning,course_without_grade_data,FET9310,에너지빅데이터분석,,,parse_status=not_found
+warning,course_without_grade_data,FET9311,이산화탄소포집활용저장,,,parse_status=not_found
+warning,course_without_grade_data,FET9401,태양에너지공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9402,지열에너지공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9403,풍력에너지공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9404,에너지사업타당성평가,,,parse_status=not_found
+warning,course_without_grade_data,FET9405,수소생산과연료전지응용,,,parse_status=not_found
+warning,course_without_grade_data,FET9406,열에너지변환공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9407,AI기반시스템최적화,,,parse_status=not_found
+warning,course_without_grade_data,FET9408,수소에너지공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9409,전기차배터리공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9410,차세대에너지저장변환공학,,,parse_status=not_found
+warning,course_without_grade_data,FET9411,무선에너지전달,,,parse_status=not_found
+warning,course_without_grade_data,FET9412,수소에너지실험,,,parse_status=not_found
+warning,course_without_grade_data,FET9413,에너지신산업커리어디자인,,,parse_status=not_found
+warning,course_without_grade_data,FUT4004,Lego-H인문캡스톤디자인1:현장전문가리더십특강,,,parse_status=not_found
+warning,course_without_grade_data,FUT4005,Lego-H인문캡스톤디자인2:현장커뮤니케이션및과제,,,parse_status=not_found
+warning,course_without_grade_data,GEN2100,기독교영성의 이해,,,parse_status=not_found
+warning,course_without_grade_data,GEN3082,보건학,,,parse_status=not_found
+warning,course_without_grade_data,GEN3095,Relational dialogue,,,parse_status=not_found
+warning,course_without_grade_data,GEN4079,사회봉사,,,parse_status=not_found
+warning,course_without_grade_data,GEN6061,특허실무,,,parse_status=not_found
+warning,course_without_grade_data,GEN7036,스페인어회화,,,parse_status=not_found
+warning,course_without_grade_data,GEN9027,Intensive Korean,,,parse_status=not_found
+warning,course_without_grade_data,GEN9181,블록체인과미래사회비즈니스,,,parse_status=not_found
+warning,course_without_grade_data,GER3069,독일현대소설,,,parse_status=not_found
+warning,course_without_grade_data,GER3080,독일어어휘연습,,,parse_status=not_found
+warning,course_without_grade_data,GER3099,독일어텍스트의이해,,,parse_status=not_found
+warning,course_without_grade_data,GER3104,독영언어대조,,,parse_status=not_found
+warning,course_without_grade_data,GER4089,유럽지성사,,,parse_status=not_found
+warning,course_without_grade_data,HIC1002,Make Core,,,parse_status=not_found
+warning,course_without_grade_data,HIC1003,Life Project,,,parse_status=not_found
+warning,course_without_grade_data,HIC1004,Unified Systems Science,,,parse_status=not_found
+warning,course_without_grade_data,HIC1005,Mathematical Thinking,,,parse_status=not_found
+warning,course_without_grade_data,HIC1006,"Algorithmic, Computational, and Data Thinking",,,parse_status=not_found
+warning,course_without_grade_data,HIC1007,Global Critical Anthropology,,,parse_status=not_found
+warning,course_without_grade_data,HIC1008,Global Research Immersion,,,parse_status=not_found
+warning,course_without_grade_data,HIC1009,Unified Systems Science_StreamⅠ,,,parse_status=not_found
+warning,course_without_grade_data,HIC1010,Unified Systems Science_StreamⅡ,,,parse_status=not_found
+warning,course_without_grade_data,HIC1011,Unified Systems Science_Lab(Biochem),,,parse_status=not_found
+warning,course_without_grade_data,HIC1012,Unified Systems Science_Lab(Physics),,,parse_status=not_found
+warning,course_without_grade_data,HIC2004,디자인과혁신심리학,,,parse_status=not_found
+warning,course_without_grade_data,HIC2005,마인드이론과fMRI,,,parse_status=not_found
+warning,course_without_grade_data,HIC2006,머신러닝기초와응용,,,parse_status=not_found
+warning,course_without_grade_data,HIC2007,미래사회와우주자원개발,,,parse_status=not_found
+warning,course_without_grade_data,HIC2008,반도체및재료과학입문,,,parse_status=not_found
+warning,course_without_grade_data,HIC2010,반도체전자기학2,,,parse_status=not_found
+warning,course_without_grade_data,HIC2011,법의기초적이해,,,parse_status=not_found
+warning,course_without_grade_data,HIC2012,보건학의이해,,,parse_status=not_found
+warning,course_without_grade_data,HIC2013,빅데이터분석의학통계,,,parse_status=not_found
+warning,course_without_grade_data,HIC2014,생체신호센서,,,parse_status=not_found
+warning,course_without_grade_data,HIC2016,융합약리학개론,,,parse_status=not_found
+warning,course_without_grade_data,HIC2017,융합의과학개론,,,parse_status=not_found
+warning,course_without_grade_data,HIC2018,의료데이타사이언스,,,parse_status=not_found
+warning,course_without_grade_data,HIC2021,인지적왜곡과인지치료,,,parse_status=not_found
+warning,course_without_grade_data,HIC2022,CrossDisciplinary Project,,,parse_status=not_found
+warning,course_without_grade_data,HIC2024,지속가능경영과ESG,,,parse_status=not_found
+warning,course_without_grade_data,HIC2025,혁신가와기업가정신,,,parse_status=not_found
+warning,course_without_grade_data,HIC2027,휴먼컴퓨터인터페이스,,,parse_status=not_found
+warning,course_without_grade_data,HIC2028,신경융합과학,,,parse_status=not_found
+warning,course_without_grade_data,HIC2029,인공지능의활용,,,parse_status=not_found
+warning,course_without_grade_data,HIC3001,4차산업혁명시대의노동과법,,,parse_status=not_found
+warning,course_without_grade_data,HIC3002,감각증강과융합인지과학,,,parse_status=not_found
+warning,course_without_grade_data,HIC3003,기반시설모니터링,,,parse_status=not_found
+warning,course_without_grade_data,HIC3004,기후변화와클라이밋파이낸스,,,parse_status=not_found
+warning,course_without_grade_data,HIC3005,뇌와감각인지의응용,,,parse_status=not_found
+warning,course_without_grade_data,HIC3006,대전환의시대와변화의법,,,parse_status=not_found
+warning,course_without_grade_data,HIC3007,딥러닝과인공지능활용,,,parse_status=not_found
+warning,course_without_grade_data,HIC3008,메이크어드밴스드,,,parse_status=not_found
+warning,course_without_grade_data,HIC3009,반도체고체물리학개론,,,parse_status=not_found
+warning,course_without_grade_data,HIC3010,반도체를위한AI와머신러닝활용,,,parse_status=not_found
+warning,course_without_grade_data,HIC3011,반도체소자공정,,,parse_status=not_found
+warning,course_without_grade_data,HIC3012,반도체소자및분석,,,parse_status=not_found
+warning,course_without_grade_data,HIC3013,반도체소재응용및특성분석,,,parse_status=not_found
+warning,course_without_grade_data,HIC3014,반도체제조및공정제어,,,parse_status=not_found
+warning,course_without_grade_data,HIC3015,"보건경제학과정책결정,의료미디어",,,parse_status=not_found
+warning,course_without_grade_data,HIC3016,보건의료빅데이터연구,,,parse_status=not_found
+warning,course_without_grade_data,HIC3017,브랜드전략과마케팅,,,parse_status=not_found
+warning,course_without_grade_data,HIC3018,비즈니스데이터스토리텔링,,,parse_status=not_found
+warning,course_without_grade_data,HIC3019,사회인프라경제성분석,,,parse_status=not_found
+warning,course_without_grade_data,HIC3020,생체에너지소자,,,parse_status=not_found
+warning,course_without_grade_data,HIC3021,생체영상공학,,,parse_status=not_found
+warning,course_without_grade_data,HIC3022,스타트업런치패드,,,parse_status=not_found
+warning,course_without_grade_data,HIC3023,신경과학과학습설계,,,parse_status=not_found
+warning,course_without_grade_data,HIC3024,의학연구의설계와이해,,,parse_status=not_found
+warning,course_without_grade_data,HIC3025,인지계산,,,parse_status=not_found
+warning,course_without_grade_data,HIC3026,인지발달과신경과학,,,parse_status=not_found
+warning,course_without_grade_data,HIC3027,InterDisciplinary Project,,,parse_status=not_found
+warning,course_without_grade_data,HIC3028,임상신경과학,,,parse_status=not_found
+warning,course_without_grade_data,HIC3029,임상질환학,,,parse_status=not_found
+warning,course_without_grade_data,HIC3030,임팩트비즈니스와임팩트이코노미,,,parse_status=not_found
+warning,course_without_grade_data,HIC3032,지식재산과사업화전략,,,parse_status=not_found
+warning,course_without_grade_data,HIC3033,혁신애널리틱스,,,parse_status=not_found
+warning,course_without_grade_data,HIC3034,의학종양학,,,parse_status=not_found
+warning,course_without_grade_data,HIC3035,줄기세포학,,,parse_status=not_found
+warning,course_without_grade_data,HIC4001,AI융합인지임상,,,parse_status=not_found
+warning,course_without_grade_data,HIC4002,HCI인지융합설계,,,parse_status=not_found
+warning,course_without_grade_data,HIC4003,계산인지와행동분석,,,parse_status=not_found
+warning,course_without_grade_data,HIC4004,국가발전의원리,,,parse_status=not_found
+warning,course_without_grade_data,HIC4005,뇌신경공학,,,parse_status=not_found
+warning,course_without_grade_data,HIC4006,딥테크혁신경영,,,parse_status=not_found
+warning,course_without_grade_data,HIC4007,로컬리즘과리빙랩,,,parse_status=not_found
+warning,course_without_grade_data,HIC4008,리걸디자인,,,parse_status=not_found
+warning,course_without_grade_data,HIC4009,마음과기계:AI기반인지시스템의미래,,,parse_status=not_found
+warning,course_without_grade_data,HIC4010,바이오인공장기,,,parse_status=not_found
+warning,course_without_grade_data,HIC4011,반도체결함제어및활용,,,parse_status=not_found
+warning,course_without_grade_data,HIC4012,반도체의현재와미래,,,parse_status=not_found
+warning,course_without_grade_data,HIC4013,반도체패키징,,,parse_status=not_found
+warning,course_without_grade_data,HIC4014,반도체한계극복,,,parse_status=not_found
+warning,course_without_grade_data,HIC4015,보건의료정책인턴쉽,,,parse_status=not_found
+warning,course_without_grade_data,HIC4016,생물수학,,,parse_status=not_found
+warning,course_without_grade_data,HIC4017,스타트업파이낸싱과투자,,,parse_status=not_found
+warning,course_without_grade_data,HIC4018,오픈이노베이션과크로스섹터파트너십,,,parse_status=not_found
+warning,course_without_grade_data,HIC4019,의학영상시스템,,,parse_status=not_found
+warning,course_without_grade_data,HIC4020,인간답게사는법,,,parse_status=not_found
+warning,course_without_grade_data,HIC4021,인지과학과AI융합:인지편향과AI윤리,,,parse_status=not_found
+warning,course_without_grade_data,HIC4022,TransDisciplinary Project,,,parse_status=not_found
+warning,course_without_grade_data,HIC4023,임상유전체학,,,parse_status=not_found
+warning,course_without_grade_data,HIC4024,집단과심리치료,,,parse_status=not_found
+warning,course_without_grade_data,HIC4025,차세대유연전자소자,,,parse_status=not_found
+warning,course_without_grade_data,HIC4026,헬스케어소프트웨어설계및실습,,,parse_status=not_found
+warning,course_without_grade_data,HIC4027,환경과건강,,,parse_status=not_found
+warning,course_without_grade_data,HOM2029,공간사용자경험,,,parse_status=not_found
+warning,course_without_grade_data,HOM3035,실내디자인경영,,,parse_status=not_found
+warning,course_without_grade_data,HOM4027,현대실내공간론,,,parse_status=not_found
+warning,course_without_grade_data,HOM4038,디자인아카데믹라이팅,,,parse_status=not_found
+warning,course_without_grade_data,HOM4041,AIxDesign리서치,,,parse_status=not_found
+warning,course_without_grade_data,HYP1006,바이오메디컬공학HY-UP(실용연구실습)1,,,parse_status=not_found
+warning,course_without_grade_data,HYP1007,경영학HY-UP(실용연구실습)1,,,parse_status=not_found
+warning,course_without_grade_data,HYP1018,융합전자공학HY-UP(실용연구실습)1,,,parse_status=not_found
+warning,course_without_grade_data,HYP1022,독어독문학HY-UP(실용연구실습)1,,,parse_status=not_found
+warning,course_without_grade_data,HYP1024,중어중문학HY-UP(실용연구실습)1,,,parse_status=not_found
+warning,course_without_grade_data,HYP2002,정보시스템HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2004,미래자동차공학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2005,바이오메디컬공학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2006,경영학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2009,심리뇌과학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2010,데이터사이언스HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2011,도시공학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2016,융합전자공학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2017,수학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2018,컴퓨터소프트웨어HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2021,전기공학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2022,중어중문학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP2024,영어영문학HY-UP(실용연구실습)2,,,parse_status=not_found
+warning,course_without_grade_data,HYP3002,전기공학HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3003,정보시스템HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3005,미래자동차공학HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3006,바이오메디컬공학HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3007,경영학HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3011,도시공학HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3015,컴퓨터소프트웨어HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP3018,중어중문학HY-UP(실용연구실습)3,,,parse_status=not_found
+warning,course_without_grade_data,HYP4002,정보시스템HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4004,미래자동차공학HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4005,바이오메디컬공학HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4006,경영학HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4008,의류학HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4013,컴퓨터소프트웨어HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4016,전기공학HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYP4017,중어중문학HY-UP(실용연구실습)4,,,parse_status=not_found
+warning,course_without_grade_data,HYR0004,정보시스템HY-UROP(실용연구심화),,,parse_status=not_found
+warning,course_without_grade_data,HYR0009,영어영문학HY-UROP(실용연구심화),,,parse_status=not_found
+warning,course_without_grade_data,I-D3027,제품디자인,,,parse_status=not_found
+warning,course_without_grade_data,IAI3001,인공지능핵심및응용,,,parse_status=not_found
+warning,course_without_grade_data,IAI3002,중급산업AI프로젝트,,,parse_status=not_found
+warning,course_without_grade_data,IAI3003,산업LLM이해및실습,,,parse_status=not_found
+warning,course_without_grade_data,IAI3004,고급산업AI프로젝트,,,parse_status=not_found
+warning,course_without_grade_data,IAI3005,산업AI해커톤1,,,parse_status=not_found
+warning,course_without_grade_data,IAI3006,피지컬AI를위한데이터레이블링과모델구축,,,parse_status=not_found
+warning,course_without_grade_data,IAI4001,클라우드데이터엔지니어링,,,parse_status=not_found
+warning,course_without_grade_data,IAI4002,에이전트AI응용,,,parse_status=not_found
+warning,course_without_grade_data,IAI4003,AI기반산업데이터분석실습,,,parse_status=not_found
+warning,course_without_grade_data,IAI4004,산업데이터시각화와스토리텔링,,,parse_status=not_found
+warning,course_without_grade_data,IAI4005,멀티모달AI기술과산업응용,,,parse_status=not_found
+warning,course_without_grade_data,IAI4006,생성형모델컨텍스트설계,,,parse_status=not_found
+warning,course_without_grade_data,IAI4007,AI를위한GPU병렬프로그래밍,,,parse_status=not_found
+warning,course_without_grade_data,IAI4008,차량센서데이터융합AI,,,parse_status=not_found
+warning,course_without_grade_data,IAI4009,자율주행AI해커톤,,,parse_status=not_found
+warning,course_without_grade_data,IAI4010,디지털트윈기반차량용AI검증,,,parse_status=not_found
+warning,course_without_grade_data,IAI4011,자율주행시뮬레이션구현원리,,,parse_status=not_found
+warning,course_without_grade_data,IAI4012,AI의이해원리와딥러닝(IC-PBL),,,parse_status=not_found
+warning,course_without_grade_data,IAI4013,AI를이용한3D자율주행,,,parse_status=not_found
+warning,course_without_grade_data,IAI4014,FuriosaAINPU로끝내는멀티모달프로젝트,,,parse_status=not_found
+warning,course_without_grade_data,IAI4015,생성형AI원리와응용(IC-PBL),,,parse_status=not_found
+warning,course_without_grade_data,IDC1001,응용시스템개론,,,parse_status=not_found
+warning,course_without_grade_data,IDC1002,정보융합개론,,,parse_status=not_found
+warning,course_without_grade_data,IDC2002,정보융합심리학,,,parse_status=not_found
+warning,course_without_grade_data,IDC4001,CEO특강,,,parse_status=not_found
+warning,course_without_grade_data,INV2005,사회적경제의고전강의,,,parse_status=not_found
+warning,course_without_grade_data,INV2014,국제개발협력과ICT4ED,,,parse_status=not_found
+warning,course_without_grade_data,INV2016,공감기반리빙랩1:지식창조,,,parse_status=not_found
+warning,course_without_grade_data,INV3003,체인지메이커액션러닝,,,parse_status=not_found
+warning,course_without_grade_data,INV3004,단기체인지메이커액션러닝,,,parse_status=not_found
+warning,course_without_grade_data,INV3005,체인지메이커액션러닝(일반선택),,,parse_status=not_found
+warning,course_without_grade_data,INV3006,체인지메이커액션러닝(일반교양),,,parse_status=not_found
+warning,course_without_grade_data,INV3012,임팩트커리어의이해,,,parse_status=not_found
+warning,course_without_grade_data,INV3014,국제개발협력평가,,,parse_status=not_found
+warning,course_without_grade_data,INV4001,나로부터시작하는사회혁신과라이프디자인,,,parse_status=not_found
+warning,course_without_grade_data,INV4006,공감기반리빙랩2:시스템전환,,,parse_status=not_found
+warning,course_without_grade_data,ISS1001,Beginning Korean Language,,,parse_status=not_found
+warning,course_without_grade_data,ISS1002,Intermediate Korean Language,,,parse_status=not_found
+warning,course_without_grade_data,ISS1003,Cross Cultural Documentary Research & Production in Korea,,,parse_status=not_found
+warning,course_without_grade_data,ISS1004,Understanding a Visual Language in Media,,,parse_status=not_found
+warning,course_without_grade_data,ISS1006,Seminar: Media Industry in Korea,,,parse_status=not_found
+warning,course_without_grade_data,ISS1011,International Advertising and Communication,,,parse_status=not_found
+warning,course_without_grade_data,ISS1012,Introduction to Art History,,,parse_status=not_found
+warning,course_without_grade_data,ISS1013,Project Management,,,parse_status=not_found
+warning,course_without_grade_data,ISS1014,Crisis Communication,,,parse_status=not_found
+warning,course_without_grade_data,ISS1015,Introduction to World Literature,,,parse_status=not_found
+warning,course_without_grade_data,ISS1017,Art of Self Defense (Taekwondo),,,parse_status=not_found
+warning,course_without_grade_data,ISS1018,Communicating Through Technology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1019,Comparative Studies in Criminal Justice System,,,parse_status=not_found
+warning,course_without_grade_data,ISS1020,Contemporary Art Globally,,,parse_status=not_found
+warning,course_without_grade_data,ISS1021,Customer Relationship Management (CRM),,,parse_status=not_found
+warning,course_without_grade_data,ISS1022,East Asian Linguistics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1023,Emerging Asian Markets and the Global Economic Crisis,,,parse_status=not_found
+warning,course_without_grade_data,ISS1024,"Gender, Race, and Empire in Asia",,,parse_status=not_found
+warning,course_without_grade_data,ISS1025,Health Equity & Determinants of Health,,,parse_status=not_found
+warning,course_without_grade_data,ISS1026,Innovative ID Studio,,,parse_status=not_found
+warning,course_without_grade_data,ISS1027,Strategic Communication Campaign,,,parse_status=not_found
+warning,course_without_grade_data,ISS1028,Understanding Modern Business and Management,,,parse_status=not_found
+warning,course_without_grade_data,ISS1029,Women and Politics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1031,Introduction to Rehabilitation,,,parse_status=not_found
+warning,course_without_grade_data,ISS1032,Multicultural Counseling,,,parse_status=not_found
+warning,course_without_grade_data,ISS1033,History of the Documentary,,,parse_status=not_found
+warning,course_without_grade_data,ISS1034,Tourism and Recreation,,,parse_status=not_found
+warning,course_without_grade_data,ISS1035,Contemporary Society and Philosophy,,,parse_status=not_found
+warning,course_without_grade_data,ISS1036,Understanding U.S. History,,,parse_status=not_found
+warning,course_without_grade_data,ISS1037,Business Calculus,,,parse_status=not_found
+warning,course_without_grade_data,ISS1038,Data Science,,,parse_status=not_found
+warning,course_without_grade_data,ISS1039,East Asian Politics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1040,"Empire, War and Memory",,,parse_status=not_found
+warning,course_without_grade_data,ISS1041,Engineer and Society,,,parse_status=not_found
+warning,course_without_grade_data,ISS1042,Entrepreneurship-Management and Human Development,,,parse_status=not_found
+warning,course_without_grade_data,ISS1043,Health Equity,,,parse_status=not_found
+warning,course_without_grade_data,ISS1044,Impact of Electromagnetic Radiation,,,parse_status=not_found
+warning,course_without_grade_data,ISS1045,International Experiential Marketing,,,parse_status=not_found
+warning,course_without_grade_data,ISS1046,"Language, Culture and Society in Korea",,,parse_status=not_found
+warning,course_without_grade_data,ISS1047,Media Constructions,,,parse_status=not_found
+warning,course_without_grade_data,ISS1048,Numerical Analysis,,,parse_status=not_found
+warning,course_without_grade_data,ISS1049,Paperclay and Paperporcelain,,,parse_status=not_found
+warning,course_without_grade_data,ISS1050,The History and Theory of Documentary,,,parse_status=not_found
+warning,course_without_grade_data,ISS1051,Topics in Korean Arts and Society,,,parse_status=not_found
+warning,course_without_grade_data,ISS1052,Visual Arts for Elementary Teachers,,,parse_status=not_found
+warning,course_without_grade_data,ISS1053,Introduction to Education,,,parse_status=not_found
+warning,course_without_grade_data,ISS1054,Marketing,,,parse_status=not_found
+warning,course_without_grade_data,ISS1055,Introduction to Political Science,,,parse_status=not_found
+warning,course_without_grade_data,ISS1056,Ceramic Art,,,parse_status=not_found
+warning,course_without_grade_data,ISS1057,History of Graphic Design,,,parse_status=not_found
+warning,course_without_grade_data,ISS1058,Korean Traditional Fan Dance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1059,Contemporary Environmental and Activist Media,,,parse_status=not_found
+warning,course_without_grade_data,ISS1060,Photo and Video Journalism,,,parse_status=not_found
+warning,course_without_grade_data,ISS1061,Art of Film,,,parse_status=not_found
+warning,course_without_grade_data,ISS1062,"Housing, Family and Community",,,parse_status=not_found
+warning,course_without_grade_data,ISS1063,Confucian Ethics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1064,Premodern Chinese Literature,,,parse_status=not_found
+warning,course_without_grade_data,ISS1065,East Asian Linguistics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1066,Arab Spring Revolt,,,parse_status=not_found
+warning,course_without_grade_data,ISS1067,Government and Politics of Middle East and North Africa,,,parse_status=not_found
+warning,course_without_grade_data,ISS1068,Introduction to Korean Cinema,,,parse_status=not_found
+warning,course_without_grade_data,ISS1069,Advanced Korean Language,,,parse_status=not_found
+warning,course_without_grade_data,ISS1070,Adulthood and Aging in South Korea,,,parse_status=not_found
+warning,course_without_grade_data,ISS1071,Introduction to Research Methods for Social Work,,,parse_status=not_found
+warning,course_without_grade_data,ISS1072,Introduction to Social Work and Social Welfare,,,parse_status=not_found
+warning,course_without_grade_data,ISS1073,Introduction to International Studies,,,parse_status=not_found
+warning,course_without_grade_data,ISS1074,Introduction to International Relations,,,parse_status=not_found
+warning,course_without_grade_data,ISS1075,Korean Traditional Mask Dance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1076,Digital Studio,,,parse_status=not_found
+warning,course_without_grade_data,ISS1077,Korean Civilization,,,parse_status=not_found
+warning,course_without_grade_data,ISS1078,Mind-body Health,,,parse_status=not_found
+warning,course_without_grade_data,ISS1079,Architecture Design Studio: Reinterpreting the Korean Hanok,,,parse_status=not_found
+warning,course_without_grade_data,ISS1080,Gender and Korean Society,,,parse_status=not_found
+warning,course_without_grade_data,ISS1081,Korean Language 1 (Basic),,,parse_status=not_found
+warning,course_without_grade_data,ISS1082,Korean Language 2 (Beginning),,,parse_status=not_found
+warning,course_without_grade_data,ISS1083,Korean Language 3 (Intermediate),,,parse_status=not_found
+warning,course_without_grade_data,ISS1084,Korean Language 4 (Intermediate),,,parse_status=not_found
+warning,course_without_grade_data,ISS1085,Engineering Communication,,,parse_status=not_found
+warning,course_without_grade_data,ISS1086,Asian Cinema,,,parse_status=not_found
+warning,course_without_grade_data,ISS1087,Korean Beauty and Make-up,,,parse_status=not_found
+warning,course_without_grade_data,ISS1088,Seminar:Fashion Design for Well-being,,,parse_status=not_found
+warning,course_without_grade_data,ISS1089,Fundamentals of Business Start-Up,,,parse_status=not_found
+warning,course_without_grade_data,ISS1090,Adulthood and Aging,,,parse_status=not_found
+warning,course_without_grade_data,ISS1091,Investments,,,parse_status=not_found
+warning,course_without_grade_data,ISS1092,Introduction to Computer Graphic,,,parse_status=not_found
+warning,course_without_grade_data,ISS1093,Look around you:Language and City,,,parse_status=not_found
+warning,course_without_grade_data,ISS1094,New Neighbors:Refugees and Immigrants,,,parse_status=not_found
+warning,course_without_grade_data,ISS1095,Human Anatomy,,,parse_status=not_found
+warning,course_without_grade_data,ISS1096,Principles of Nutrition,,,parse_status=not_found
+warning,course_without_grade_data,ISS1097,Abnormal Psychology Across Cultures,,,parse_status=not_found
+warning,course_without_grade_data,ISS1098,Multicultural Psychology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1099,Psychology of Women,,,parse_status=not_found
+warning,course_without_grade_data,ISS1100,Operations Research,,,parse_status=not_found
+warning,course_without_grade_data,ISS1101,Sociology of Religion,,,parse_status=not_found
+warning,course_without_grade_data,ISS1102,International Organizations,,,parse_status=not_found
+warning,course_without_grade_data,ISS1103,Numerical Methods for Engineers,,,parse_status=not_found
+warning,course_without_grade_data,ISS1104,Design Thinking and Product Design Strategy,,,parse_status=not_found
+warning,course_without_grade_data,ISS1105,Sustainable Business and Development,,,parse_status=not_found
+warning,course_without_grade_data,ISS1106,International Social Entrepreneurship,,,parse_status=not_found
+warning,course_without_grade_data,ISS1107,Global Entrepreneurship-Launch your Startup,,,parse_status=not_found
+warning,course_without_grade_data,ISS1108,Communication & Negotiation Strategy,,,parse_status=not_found
+warning,course_without_grade_data,ISS1109,International Journalism,,,parse_status=not_found
+warning,course_without_grade_data,ISS1110,Art of Self Defense 2 (Taekwondo),,,parse_status=not_found
+warning,course_without_grade_data,ISS1111,Intro to Mass Communication,,,parse_status=not_found
+warning,course_without_grade_data,ISS1112,Documentary Research Methods,,,parse_status=not_found
+warning,course_without_grade_data,ISS1113,Environmental Issues In Documentary Films,,,parse_status=not_found
+warning,course_without_grade_data,ISS1114,Korean Pop Dance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1115,Korean Pop Vocal,,,parse_status=not_found
+warning,course_without_grade_data,ISS1116,Epidemiology:Application to Public Health,,,parse_status=not_found
+warning,course_without_grade_data,ISS1117,Research Project,,,parse_status=not_found
+warning,course_without_grade_data,ISS1118,Consumer Psychology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1119,Psychology of Happiness,,,parse_status=not_found
+warning,course_without_grade_data,ISS1120,Integrated Marketing Communications,,,parse_status=not_found
+warning,course_without_grade_data,ISS1121,Introduction to Criminology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1122,International Criminal Justice System,,,parse_status=not_found
+warning,course_without_grade_data,ISS1123,Civil Rights and Literature,,,parse_status=not_found
+warning,course_without_grade_data,ISS1124,Literature and Film,,,parse_status=not_found
+warning,course_without_grade_data,ISS1125,Microprocessor and IoT,,,parse_status=not_found
+warning,course_without_grade_data,ISS1126,Human Development,,,parse_status=not_found
+warning,course_without_grade_data,ISS1127,Healthy Life Skills,,,parse_status=not_found
+warning,course_without_grade_data,ISS1128,Research Project,,,parse_status=not_found
+warning,course_without_grade_data,ISS1129,Human Physiology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1130,Stem Cell and Regenerative Medicine,,,parse_status=not_found
+warning,course_without_grade_data,ISS1131,Fluid Mechanics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1132,Ceramic Practice,,,parse_status=not_found
+warning,course_without_grade_data,ISS1133,Communication Strategies and Tactics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1134,Korean Food and Culture,,,parse_status=not_found
+warning,course_without_grade_data,ISS1135,Digital Consumer Behavior,,,parse_status=not_found
+warning,course_without_grade_data,ISS1136,Python for Beginners,,,parse_status=not_found
+warning,course_without_grade_data,ISS1137,Foundations on Data Science and Visualization,,,parse_status=not_found
+warning,course_without_grade_data,ISS1138,The Rise of the Korean Wave,,,parse_status=not_found
+warning,course_without_grade_data,ISS1139,Digital Media Storytelling,,,parse_status=not_found
+warning,course_without_grade_data,ISS1140,Introduction to Power Electronics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1141,Transmedia Journalism,,,parse_status=not_found
+warning,course_without_grade_data,ISS1142,AI and Finance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1143,Omnibus Lecture Series in STEM,,,parse_status=not_found
+warning,course_without_grade_data,ISS1144,Introduction to Electronics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1145,Designing Sustainably,,,parse_status=not_found
+warning,course_without_grade_data,ISS1146,Interior Urbanism,,,parse_status=not_found
+warning,course_without_grade_data,ISS1147,Transformative Responsive Environments,,,parse_status=not_found
+warning,course_without_grade_data,ISS1148,Understanding Collective Intelligence & Encyclopedic Writing through Editing Wikipedia,,,parse_status=not_found
+warning,course_without_grade_data,ISS1149,Globalization and Society,,,parse_status=not_found
+warning,course_without_grade_data,ISS1150,K-pop as Transnational Phenomenon,,,parse_status=not_found
+warning,course_without_grade_data,ISS1151,Understanding Korea through Korean films,,,parse_status=not_found
+warning,course_without_grade_data,ISS1152,Introduction to Managerial Accounting,,,parse_status=not_found
+warning,course_without_grade_data,ISS1153,Statistics and Probability for Engineers,,,parse_status=not_found
+warning,course_without_grade_data,ISS1154,Introduction to Cybersecurity,,,parse_status=not_found
+warning,course_without_grade_data,ISS1155,Exploring Seoul: Geography of the City,,,parse_status=not_found
+warning,course_without_grade_data,ISS1156,Geographies of Sustainable Agriculture,,,parse_status=not_found
+warning,course_without_grade_data,ISS1157,Environmental Issues in Korean & North American Cinema,,,parse_status=not_found
+warning,course_without_grade_data,ISS1158,Introduction to AI and Deep Learning Basics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1159,Brand Workshop,,,parse_status=not_found
+warning,course_without_grade_data,ISS1160,XR Experience Design with Unity,,,parse_status=not_found
+warning,course_without_grade_data,ISS1161,Introduction to Big Data Analysis,,,parse_status=not_found
+warning,course_without_grade_data,ISS1162,Creative Programming,,,parse_status=not_found
+warning,course_without_grade_data,ISS1163,Introduction to Acting,,,parse_status=not_found
+warning,course_without_grade_data,ISS1164,AI Basics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1165,Computer Networks,,,parse_status=not_found
+warning,course_without_grade_data,ISS1166,Understanding of Psychology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1167,Basic Korean (Level 1),,,parse_status=not_found
+warning,course_without_grade_data,ISS1168,Basic Korean (Level 2),,,parse_status=not_found
+warning,course_without_grade_data,ISS1169,Behavioral Insights for International Business,,,parse_status=not_found
+warning,course_without_grade_data,ISS1170,International Marketing and Content Creation,,,parse_status=not_found
+warning,course_without_grade_data,ISS1171,Introduction to Microelectronics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1172,General Physics 1,,,parse_status=not_found
+warning,course_without_grade_data,ISS1173,General Physics 2,,,parse_status=not_found
+warning,course_without_grade_data,ISS1174,Exploring Korean Entertainment Business,,,parse_status=not_found
+warning,course_without_grade_data,ISS1175,Cultural Geography: Exploring Korea Through Film,,,parse_status=not_found
+warning,course_without_grade_data,ISS1176,East Asian Political Economy,,,parse_status=not_found
+warning,course_without_grade_data,ISS1177,Politics of Science and Technology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1178,Beginning Korean Language with K-Culture,,,parse_status=not_found
+warning,course_without_grade_data,ISS1179,Intermediate Korean Language with K-Culture,,,parse_status=not_found
+warning,course_without_grade_data,ISS1180,Financial Management and Decision-Making,,,parse_status=not_found
+warning,course_without_grade_data,ISS1181,Exploring Statistical Analyses Using Korean Data,,,parse_status=not_found
+warning,course_without_grade_data,ISS1182,Learning Korean Traditions and Culture with Folk Dance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1183,Investment in Advanced Economies,,,parse_status=not_found
+warning,course_without_grade_data,ISS1184,Financial Management in Advanced Economies,,,parse_status=not_found
+warning,course_without_grade_data,ISS1185,The Architectural Imagination,,,parse_status=not_found
+warning,course_without_grade_data,ISS1186,"Managerial Accounting, Decision-Making Perspective",,,parse_status=not_found
+warning,course_without_grade_data,ISS1187,East Asian Languages and Cultures,,,parse_status=not_found
+warning,course_without_grade_data,ISS1188,Contemporary Society and Marketing,,,parse_status=not_found
+warning,course_without_grade_data,ISS1189,Principles of Microconomics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1190,Exploring Pop Music,,,parse_status=not_found
+warning,course_without_grade_data,ISS1191,Advertising & Promotion,,,parse_status=not_found
+warning,course_without_grade_data,ISS1192,Interactive Media Performance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1193,Korean Traditional Sogo Dance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1194,Business Practice in the Asian Market,,,parse_status=not_found
+warning,course_without_grade_data,ISS1195,Multimedia Marketing and Content Design,,,parse_status=not_found
+warning,course_without_grade_data,ISS1196,"Health, Environment, Lifestyle and Preserve earth(HELP)",,,parse_status=not_found
+warning,course_without_grade_data,ISS1197,Cross Cultural Communication,,,parse_status=not_found
+warning,course_without_grade_data,ISS1198,Marketing for Engineers,,,parse_status=not_found
+warning,course_without_grade_data,ISS1199,Korea and Japan in the World,,,parse_status=not_found
+warning,course_without_grade_data,ISS1200,Korean Language and Creative Dance Workshop,,,parse_status=not_found
+warning,course_without_grade_data,ISS1201,Mobile Storytelling and Social Media,,,parse_status=not_found
+warning,course_without_grade_data,ISS1202,Creative Computing and Data with Python,,,parse_status=not_found
+warning,course_without_grade_data,ISS1203,"Culture, Content, Creative Industry and Financial Strategies",,,parse_status=not_found
+warning,course_without_grade_data,ISS1204,Designing the Future_Creativity with Generative AI,,,parse_status=not_found
+warning,course_without_grade_data,ISS1205,Future Design & Technology,,,parse_status=not_found
+warning,course_without_grade_data,ISS1206,Introduction to Behavioral Finance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1207,Introduction to Ethical Hacking,,,parse_status=not_found
+warning,course_without_grade_data,ISS1208,Introduction to Korean Architecture and its urban forms,,,parse_status=not_found
+warning,course_without_grade_data,ISS1209,Jiu-Jitsu and Self Defense,,,parse_status=not_found
+warning,course_without_grade_data,ISS1210,Korean Dystopian Content : From Train to Busan to Parasite,,,parse_status=not_found
+warning,course_without_grade_data,ISS1211,Korean Wave Deconstructed,,,parse_status=not_found
+warning,course_without_grade_data,ISS1212,Nutrition and Disease Prevention,,,parse_status=not_found
+warning,course_without_grade_data,ISS1213,Racket Sports,,,parse_status=not_found
+warning,course_without_grade_data,ISS1214,SDGs to Social Innovation,,,parse_status=not_found
+warning,course_without_grade_data,ISS1215,Visual Communication and Merchandising,,,parse_status=not_found
+warning,course_without_grade_data,ISS1216,Visual Language of Korea,,,parse_status=not_found
+warning,course_without_grade_data,ISS1217,Consumer Behaviour,,,parse_status=not_found
+warning,course_without_grade_data,ISS1218,Creative Fashion Design with AI,,,parse_status=not_found
+warning,course_without_grade_data,ISS1219,Digital Film and Video Editing,,,parse_status=not_found
+warning,course_without_grade_data,ISS1220,Entrepreneurship,,,parse_status=not_found
+warning,course_without_grade_data,ISS1221,Forecasting and Predictive Analytics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1222,Global English Communication: Real-World Fluency,,,parse_status=not_found
+warning,course_without_grade_data,ISS1223,Innovation and Project Management,,,parse_status=not_found
+warning,course_without_grade_data,ISS1224,Introduction to Semiconductor,,,parse_status=not_found
+warning,course_without_grade_data,ISS1225,"K-Fashion, Creative Design",,,parse_status=not_found
+warning,course_without_grade_data,ISS1226,Step by Step: Introduction to Line Dance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1227,Machine Learning for Business,,,parse_status=not_found
+warning,course_without_grade_data,ISS1228,Marketing Analytics,,,parse_status=not_found
+warning,course_without_grade_data,ISS1229,Marketing Research,,,parse_status=not_found
+warning,course_without_grade_data,ISS1230,Outbreak,,,parse_status=not_found
+warning,course_without_grade_data,ISS1231,R Programming,,,parse_status=not_found
+warning,course_without_grade_data,ISS1232,Regression Analysis,,,parse_status=not_found
+warning,course_without_grade_data,ISS1233,Social Psychology: K-Pop Edition,,,parse_status=not_found
+warning,course_without_grade_data,ISS1234,South Korean Creative Industries,,,parse_status=not_found
+warning,course_without_grade_data,ISS1235,Startup Strategy with Real Startups,,,parse_status=not_found
+warning,course_without_grade_data,ISS1236,Introduction to Smart Manufacturing,,,parse_status=not_found
+warning,course_without_grade_data,ISS1237,K-Culture Communication,,,parse_status=not_found
+warning,course_without_grade_data,ISS1238,Sustainable Marketing,,,parse_status=not_found
+warning,course_without_grade_data,ISS1239,AI and Society,,,parse_status=not_found
+warning,course_without_grade_data,ISS1240,ESG Supply Chain Management,,,parse_status=not_found
+warning,course_without_grade_data,ISS1241,From Microprocessor to Intelligent IoT,,,parse_status=not_found
+warning,course_without_grade_data,ISS1242,Korean Goods Design with Hands-on Experience,,,parse_status=not_found
+warning,course_without_grade_data,ISS1243,Art in Seoul: City as a Living Mutation,,,parse_status=not_found
+warning,course_without_grade_data,ISS1244,From 8-Bit to Orchestra: The Art and Technology of Video Game Music,,,parse_status=not_found
+warning,course_without_grade_data,ISS1245,Marketing Data Analytercy(Data Analytics + AI Literacy),,,parse_status=not_found
+warning,course_without_grade_data,ISS1246,Korean Language and Culture within East Asia,,,parse_status=not_found
+warning,course_without_grade_data,ISS1247,Basic Korean (Level 0 - Korean Alphabet),,,parse_status=not_found
+warning,course_without_grade_data,ISS1248,Applied Bioinspiration and Biodesign,,,parse_status=not_found
+warning,course_without_grade_data,ISS1249,Cultural Re-Engineering in South Korea,,,parse_status=not_found
+warning,course_without_grade_data,ISS1250,Deep Learning and Visual Intelligence,,,parse_status=not_found
+warning,course_without_grade_data,ISS1251,Financial Markets 101: From Fundamentals to Contemporary Issues,,,parse_status=not_found
+warning,course_without_grade_data,ISS1252,"Globalisation, Citizenship & Ethics in the Age of AI",,,parse_status=not_found
+warning,course_without_grade_data,ISS1253,Introduction to Finance,,,parse_status=not_found
+warning,course_without_grade_data,ISS1254,Philosophy of Art and Film,,,parse_status=not_found
+warning,course_without_grade_data,ISS1255,Photojournalism,,,parse_status=not_found
+warning,course_without_grade_data,ISS1256,Statistics Foundation for AI,,,parse_status=not_found
+warning,course_without_grade_data,ISS1257,"Strategic Personal Branding: Stories, Values, and Decisions",,,parse_status=not_found
+warning,course_without_grade_data,ISS1258,Artistic Research on Culture and Nature in Korea,,,parse_status=not_found
+warning,course_without_grade_data,ISS1259,"Society at a Crossroads: AI, Technology and You",,,parse_status=not_found
+warning,course_without_grade_data,ISS1260,Introductory Korean (Level 3),,,parse_status=not_found
+warning,course_without_grade_data,ISS1261,Basic Korean,,,parse_status=not_found
+warning,course_without_grade_data,ISS4001,Cultural Perspectiveson Substance Abuse and Addictions,,,parse_status=not_found
+warning,course_without_grade_data,ITC2001,파이썬데이터분석,,,parse_status=not_found
+warning,course_without_grade_data,ITC2002,디지털기술과경영,,,parse_status=not_found
+warning,course_without_grade_data,ITC2005,컴퓨터그래픽스디자인,,,parse_status=not_found
+warning,course_without_grade_data,ITC3001,고객경험관리,,,parse_status=not_found
+warning,course_without_grade_data,ITC3008,정보검색및추출,,,parse_status=not_found
+warning,course_without_grade_data,ITC3010,모바일앱프로그래밍,,,parse_status=not_found
+warning,course_without_grade_data,ITC3011,서비스UX디자인,,,parse_status=not_found
+warning,course_without_grade_data,ITC3012,UI/UX입문,,,parse_status=not_found
+warning,course_without_grade_data,ITC3013,해석가능인공지능,,,parse_status=not_found
+warning,course_without_grade_data,ITC3014,경험서비스디자인,,,parse_status=not_found
+warning,course_without_grade_data,ITC3015,데이터베이스이론과응용,,,parse_status=not_found
+warning,course_without_grade_data,ITC3016,객체지향컴퓨팅,,,parse_status=not_found
+warning,course_without_grade_data,ITC3017,경험평가방법론,,,parse_status=not_found
+warning,course_without_grade_data,ITC3018,데이터기반경험서비스설계,,,parse_status=not_found
+warning,course_without_grade_data,ITC4001,기업가정신과창업,,,parse_status=not_found
+warning,course_without_grade_data,ITC4005,정보융합세미나,,,parse_status=not_found
+warning,course_without_grade_data,ITC4007,정보공학종합설계,,,parse_status=not_found
+warning,course_without_grade_data,ITC4008,지식공학,,,parse_status=not_found
+warning,course_without_grade_data,ITC4010,인공지능2,,,parse_status=not_found
+warning,course_without_grade_data,ITC4011,산업사물인터넷(캡스톤디자인),,,parse_status=not_found
+warning,course_without_grade_data,ITC4012,사운드스케이프디자인,,,parse_status=not_found
+warning,course_without_grade_data,ITC4013,디지털콘텐츠개발,,,parse_status=not_found
+warning,course_without_grade_data,ITC4014,인간-인공지능협업제품서비스설계,,,parse_status=not_found
+warning,course_without_grade_data,ITE3025,기술인텔리전스,,,parse_status=not_found
+warning,course_without_grade_data,ITE4018,시스템분석및설계,,,parse_status=not_found
+warning,course_without_grade_data,ITE4066,클라우드컴퓨팅,,,parse_status=not_found
+warning,course_without_grade_data,ITE4079,모바일시스템및프로그래밍,,,parse_status=not_found
+warning,course_without_grade_data,ITE4081,지능제어SW,,,parse_status=not_found
+warning,course_without_grade_data,ITE4082,차량임베디드시스템설계기초,,,parse_status=not_found
+warning,course_without_grade_data,JMC4031,미디어경영,,,parse_status=not_found
+warning,course_without_grade_data,JMC4034,미디어문화산업의과제,,,parse_status=not_found
+warning,course_without_grade_data,JOB1001,현장실습(단기),,,parse_status=not_found
+warning,course_without_grade_data,JOB1002,해외단기현장실습,,,parse_status=not_found
+warning,course_without_grade_data,JOB1005,현장실습(단기)1,,,parse_status=not_found
+warning,course_without_grade_data,JOB1006,현장실습(단기)2,,,parse_status=not_found
+warning,course_without_grade_data,JOB2001,현장실습(전공핵심),,,parse_status=not_found
+warning,course_without_grade_data,JOB2002,현장실습(전공심화),,,parse_status=not_found
+warning,course_without_grade_data,JOB2003,현장실습(일반교양),,,parse_status=not_found
+warning,course_without_grade_data,JOB2005,현장실습(일반선택),,,parse_status=not_found
+warning,course_without_grade_data,JOB3001,현장실습(4+1),,,parse_status=not_found
+warning,course_without_grade_data,JOB5001,단기창업현장실습,,,parse_status=not_found
+warning,course_without_grade_data,JOB6001,창업현장실습(전공핵심),,,parse_status=not_found
+warning,course_without_grade_data,JOB6002,창업현장실습(전공심화),,,parse_status=not_found
+warning,course_without_grade_data,JOB6003,창업현장실습(일반교양),,,parse_status=not_found
+warning,course_without_grade_data,JOB6005,창업현장실습(일반선택),,,parse_status=not_found
+warning,course_without_grade_data,JPS0001,Korean 1,,,parse_status=not_found
+warning,course_without_grade_data,JPS0002,Korean 2,,,parse_status=not_found
+warning,course_without_grade_data,JPS0003,Korean 3,,,parse_status=not_found
+warning,course_without_grade_data,JPS0004,Korean 4,,,parse_status=not_found
+warning,course_without_grade_data,JPS0005,Korean 5,,,parse_status=not_found
+warning,course_without_grade_data,JPS0006,Korean 6,,,parse_status=not_found
+warning,course_without_grade_data,JPS0007,Korean 7,,,parse_status=not_found
+warning,course_without_grade_data,KLE3024,글로벌한국어교육,,,parse_status=not_found
+warning,course_without_grade_data,KOR4078,학위논문지도1(국문),,,parse_status=not_found
+warning,course_without_grade_data,KOR4079,학위논문지도2(국문),,,parse_status=not_found
+warning,course_without_grade_data,KOR4082,경계를가로지르는한국문학과세계문학,,,parse_status=not_found
+warning,course_without_grade_data,KTM3080,세계음악문화,,,parse_status=not_found
+warning,course_without_grade_data,KTM4001,창작실험실습1,,,parse_status=not_found
+warning,course_without_grade_data,KTM4002,창작실험실습2,,,parse_status=not_found
+warning,course_without_grade_data,LIF4004,식물스트레스학,,,parse_status=not_found
+warning,course_without_grade_data,MAT3039,수치해석학,,,parse_status=not_found
+warning,course_without_grade_data,MAT3063,위상수학연습1,,,parse_status=not_found
+warning,course_without_grade_data,MAT3076,AI와공학도구를활용한수학수업,,,parse_status=not_found
+warning,course_without_grade_data,MAT4035,현대수학특강,,,parse_status=not_found
+warning,course_without_grade_data,MAT4036,응용수학특강,,,parse_status=not_found
+warning,course_without_grade_data,MAT4076,수학연구캡스톤디자인2,,,parse_status=not_found
+warning,course_without_grade_data,MED1016,병리학및실습,,,parse_status=not_found
+warning,course_without_grade_data,MED3101,의학연구프로젝트3,,,parse_status=not_found
+warning,course_without_grade_data,MED3102,기초의학실습캠프,,,parse_status=not_found
+warning,course_without_grade_data,MED4100,의학연구프로젝트4,,,parse_status=not_found
+warning,course_without_grade_data,MME2056,토양지하수오염복원학,,,parse_status=not_found
+warning,course_without_grade_data,MME3036,환경기초화학,,,parse_status=not_found
+warning,course_without_grade_data,MME4064,나노재료와자원환경,,,parse_status=not_found
+warning,course_without_grade_data,MOT0001,예술공학의이해,,,parse_status=not_found
+warning,course_without_grade_data,MOT0002,특허와지식재산경영,,,parse_status=not_found
+warning,course_without_grade_data,MOT0003,과학기술정책개론,,,parse_status=not_found
+warning,course_without_grade_data,MOT0004,디자인과기술혁신,,,parse_status=not_found
+warning,course_without_grade_data,MOT0005,기술경영공학의이해,,,parse_status=not_found
+warning,course_without_grade_data,NUR1006,간호와직업,,,parse_status=not_found
+warning,course_without_grade_data,NUR1007,간호고전,,,parse_status=not_found
+warning,course_without_grade_data,NUR1008,동양적건강과질병관,,,parse_status=not_found
+warning,course_without_grade_data,NUR2001,간호윤리,,,parse_status=not_found
+warning,course_without_grade_data,NUR2008,기본간호학및실습1,,,parse_status=not_found
+warning,course_without_grade_data,NUR2009,기본간호학및실습2,,,parse_status=not_found
+warning,course_without_grade_data,NUR2021,아동발달과건강,,,parse_status=not_found
+warning,course_without_grade_data,NUR2023,성인간호개론,,,parse_status=not_found
+warning,course_without_grade_data,NUR2028,출산기건강장애와간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR2029,성인건강간호중재론1,,,parse_status=not_found
+warning,course_without_grade_data,NUR2031,지역중심간호과학1,,,parse_status=not_found
+warning,course_without_grade_data,NUR2033,성장과발달,,,parse_status=not_found
+warning,course_without_grade_data,NUR2034,논리와비평적사고,,,parse_status=not_found
+warning,course_without_grade_data,NUR2036,기초간호과학4,,,parse_status=not_found
+warning,course_without_grade_data,NUR3009,임상실습1,,,parse_status=not_found
+warning,course_without_grade_data,NUR3010,임상실습2,,,parse_status=not_found
+warning,course_without_grade_data,NUR3015,보건교육,,,parse_status=not_found
+warning,course_without_grade_data,NUR3022,한방간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3037,간호생리학,,,parse_status=error|not_found
+warning,course_without_grade_data,NUR3039,인간발달,,,parse_status=not_found
+warning,course_without_grade_data,NUR3040,호스피스간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3041,성인건강간호중재론2,,,parse_status=not_found
+warning,course_without_grade_data,NUR3046,응급간호학,,,parse_status=not_found
+warning,course_without_grade_data,NUR3047,지역중심간호과학2,,,parse_status=not_found
+warning,course_without_grade_data,NUR3048,학교중심간호과학,,,parse_status=not_found
+warning,course_without_grade_data,NUR3052,중환자간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3053,정신건강간호중재,,,parse_status=not_found
+warning,course_without_grade_data,NUR3059,대체요법과간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3060,문화와전인간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3062,심리사회간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3064,간호연구및통계,,,parse_status=not_found
+warning,course_without_grade_data,NUR3066,지역사회/정신건강간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR3067,통합간호1,,,parse_status=not_found
+warning,course_without_grade_data,NUR3069,보건프로그램개발및평가,,,parse_status=not_found
+warning,course_without_grade_data,NUR3071,성인간호중재론(배설),,,parse_status=not_found
+warning,course_without_grade_data,NUR3073,성인간호중재론(인지와조절),,,parse_status=not_found
+warning,course_without_grade_data,NUR3074,성인간호중재론(산화),,,parse_status=not_found
+warning,course_without_grade_data,NUR3085,근거기반기본간호이슈,,,parse_status=not_found
+warning,course_without_grade_data,NUR3086,대상자교육중재,,,parse_status=not_found
+warning,course_without_grade_data,NUR4009,임상실습3,,,parse_status=not_found
+warning,course_without_grade_data,NUR4010,임상실습4,,,parse_status=not_found
+warning,course_without_grade_data,NUR4021,간호관리학1,,,parse_status=not_found
+warning,course_without_grade_data,NUR4022,간호관리학2,,,parse_status=not_found
+warning,course_without_grade_data,NUR4043,만성질환자간호,,,parse_status=not_found
+warning,course_without_grade_data,NUR4050,임상종합평가(PBL),,,parse_status=not_found
+warning,course_without_grade_data,NUR4063,간호과오론,,,parse_status=not_found
+warning,course_without_grade_data,NUR4064,통합간호2(중년건강간호),,,parse_status=not_found
+warning,course_without_grade_data,NUR4065,통합간호3,,,parse_status=not_found
+warning,course_without_grade_data,NUR4066,통합간호4,,,parse_status=not_found
+warning,course_without_grade_data,NUR4068,건강증진,,,parse_status=not_found
+warning,course_without_grade_data,NUR4069,통합간호실습1,,,parse_status=not_found
+warning,course_without_grade_data,NUR4070,통합간호실습2,,,parse_status=not_found
+warning,course_without_grade_data,NUR4074,통합간호실습,,,parse_status=not_found
+warning,course_without_grade_data,NUR4076,보건교육방법론,,,parse_status=not_found
+warning,course_without_grade_data,NUR4079,직업환경중심간호과학,,,parse_status=not_found
+warning,course_without_grade_data,NUR4081,성인간호중재론(대사),,,parse_status=not_found
+warning,course_without_grade_data,NUR4082,성인간호중재론(순환),,,parse_status=not_found
+warning,course_without_grade_data,NUR4098,지역사회간호실습,,,parse_status=not_found
+warning,course_without_grade_data,NUR4099,노인간호실습,,,parse_status=not_found
+warning,course_without_grade_data,PAD2061,행정기술론,,,parse_status=not_found
+warning,course_without_grade_data,PAD3065,국제사회와행정,,,parse_status=not_found
+warning,course_without_grade_data,PAD4043,졸업논문캡스톤디자인1,,,parse_status=not_found
+warning,course_without_grade_data,PBL4026,반도체공학캡스톤PBL,,,parse_status=not_found
+warning,course_without_grade_data,PER2017,중국어커뮤니케이션기초,,,parse_status=not_found
+warning,course_without_grade_data,PER2018,중국어커뮤니케이션연습,,,parse_status=not_found
+warning,course_without_grade_data,PER2054,한중커뮤니케이션기초1,,,parse_status=not_found
+warning,course_without_grade_data,PER2055,중국어통역기초1,,,parse_status=not_found
+warning,course_without_grade_data,PER2056,한국어통역기초1,,,parse_status=not_found
+warning,course_without_grade_data,PER3031,LANGUAGE AND MIND,,,parse_status=not_found
+warning,course_without_grade_data,PER3051,Politics and Drama,,,parse_status=not_found
+warning,course_without_grade_data,PER3055,중국어번역기초1,,,parse_status=not_found
+warning,course_without_grade_data,PER3056,한국어번역기초1,,,parse_status=not_found
+warning,course_without_grade_data,PER3057,중국어번역기초2,,,parse_status=not_found
+warning,course_without_grade_data,PER3058,한국어번역기초2,,,parse_status=not_found
+warning,course_without_grade_data,PER3059,한중프레젠테이션2,,,parse_status=not_found
+warning,course_without_grade_data,PER4033,한중통번역연습,,,parse_status=not_found
+warning,course_without_grade_data,PER4034,중한통번역연습,,,parse_status=not_found
+warning,course_without_grade_data,PHE2026,야영훈련,,,parse_status=not_found
+warning,course_without_grade_data,PHE3123,수상스포츠,,,parse_status=not_found
+warning,course_without_grade_data,PHE4092,해부기능학,,,parse_status=not_found
+warning,course_without_grade_data,PHE4113,스포츠와도핑,,,parse_status=not_found
+warning,course_without_grade_data,PHY4073,나노에너지및환경물리학,,,parse_status=not_found
+warning,course_without_grade_data,PHY4080,물리학연구실현장실습4,,,parse_status=not_found
+warning,course_without_grade_data,PHY4083,물리학연구캡스톤디자인,,,parse_status=not_found
+warning,course_without_grade_data,PNO4035,낭만주의피아노음악,,,parse_status=not_found
+warning,course_without_grade_data,PRE2038,의료데이터사이언스통섭,,,parse_status=not_found
+warning,course_without_grade_data,PRE2039,의공학융합연구특론,,,parse_status=not_found
+warning,course_without_grade_data,PRE2040,융합연구프로젝트1,,,parse_status=not_found
+warning,course_without_grade_data,PRE2041,융합연구프로젝트2,,,parse_status=not_found
+warning,course_without_grade_data,PSD4028,독재정치,,,parse_status=not_found
+warning,course_without_grade_data,ROB2003,전기전자회로,,,parse_status=not_found
+warning,course_without_grade_data,SBC0009,AI반도체기술의이해,,,parse_status=not_found
+warning,course_without_grade_data,SBC5001,차세대디스플레이,,,parse_status=not_found
+warning,course_without_grade_data,SBC5002,나노소재의물성과산업응용,,,parse_status=not_found
+warning,course_without_grade_data,SCE2001,양자역학개론,,,parse_status=not_found
+warning,course_without_grade_data,SCE2002,융합양자공학,,,parse_status=not_found
+warning,course_without_grade_data,SCE3002,기계학습입문,,,parse_status=not_found
+warning,course_without_grade_data,SCE4001,반도체공학종합설계1,,,parse_status=not_found
+warning,course_without_grade_data,SCE4002,반도체공학종합설계2,,,parse_status=not_found
+warning,course_without_grade_data,SCE4003,나노전자공학,,,parse_status=not_found
+warning,course_without_grade_data,SCE4004,전자재료,,,parse_status=not_found
+warning,course_without_grade_data,SOC3029,조사분석인턴쉽,,,parse_status=not_found
+warning,course_without_grade_data,SOC3055,영상사회학,,,parse_status=not_found
+warning,course_without_grade_data,SOI1001,인공지능기초,,,parse_status=not_found
+warning,course_without_grade_data,SOI1002,파이션기초,,,parse_status=not_found
+warning,course_without_grade_data,SOI1004,인공지능캡스톤프로젝트1-1,,,parse_status=not_found
+warning,course_without_grade_data,SOI1005,고급파이션프로그래밍,,,parse_status=not_found
+warning,course_without_grade_data,SOI1006,인지과학및인공지능,,,parse_status=not_found
+warning,course_without_grade_data,SOI1007,지식추출및추론,,,parse_status=not_found
+warning,course_without_grade_data,SOI2002,인공지능베이지안이론,,,parse_status=not_found
+warning,course_without_grade_data,SOI3009,강화학습이론및응용,,,parse_status=not_found
+warning,course_without_grade_data,SOI3015,AI컴퓨팅시스템,,,parse_status=not_found
+warning,course_without_grade_data,SOI3016,인지과학연구방법론1,,,parse_status=not_found
+warning,course_without_grade_data,SOI4003,인공지능졸업프로젝트,,,parse_status=not_found
+warning,course_without_grade_data,SOI4014,데이터사이언스산업트랜드,,,parse_status=not_found
+warning,course_without_grade_data,SOI4016,데이터사이언스세미나1,,,parse_status=not_found
+warning,course_without_grade_data,SOI4017,데이터사이언스세미나2,,,parse_status=not_found
+warning,course_without_grade_data,SOI4018,사회신경과학,,,parse_status=not_found
+warning,course_without_grade_data,SYB1106,경제학의이해,,,parse_status=not_found
+warning,course_without_grade_data,SYB2113,인터페이스디자인,,,parse_status=not_found
+warning,course_without_grade_data,SYB3064,C프로그래밍,,,parse_status=not_found
+warning,course_without_grade_data,SYB5044,E-비즈니스개론,,,parse_status=not_found
+warning,course_without_grade_data,SYB5103,사례관리론,,,parse_status=not_found
+warning,course_without_grade_data,SYB5105,비교의료제도론,,,parse_status=not_found
+warning,course_without_grade_data,SYB9106,취업리더십1:성공DNA,,,parse_status=not_found
+warning,course_without_grade_data,SYB9113,외국인학생을위한실용한국어,,,parse_status=not_found
+warning,course_without_grade_data,SYB9115,긍정컴퓨팅을통한인간과인공지능의공존,,,parse_status=not_found
+warning,course_without_grade_data,SYB9129,언어의품격:언어바르고품위있게사용하기,,,parse_status=not_found
+warning,course_without_grade_data,SYB9130,빅데이터시대의ESG트렌드,,,parse_status=not_found
+warning,course_without_grade_data,SYB9136,알고리즘및컴퓨터적사고,,,parse_status=not_found
+warning,course_without_grade_data,SYB9139,전자기학과미래산업,,,parse_status=not_found
+warning,course_without_grade_data,SYB9140,일상속의역학:힘과운동의비밀,,,parse_status=not_found
+warning,course_without_grade_data,SYB9141,생화학으로읽는몸과세계,,,parse_status=not_found
+warning,course_without_grade_data,SYB9145,"AI리터러시,아는것이힘이다",,,parse_status=not_found
+warning,course_without_grade_data,SYB9146,AI활용의기초와윤리,,,parse_status=not_found
+warning,course_without_grade_data,SYH0002,사랑의실천2(스마트커뮤니케이션),,,parse_status=not_found
+warning,course_without_grade_data,SYH0003,사랑의실천3(기업가정신),,,parse_status=not_found
+warning,course_without_grade_data,TOU3074,호텔·관광경영분석론,,,parse_status=not_found
+warning,course_without_grade_data,TOU3076,관광거버넌스론,,,parse_status=not_found
+warning,course_without_grade_data,URE4034,스마트모빌리티개론,,,parse_status=not_found
+warning,course_without_grade_data,VEN2004,창업기초:창업아이디어기획,,,parse_status=not_found
+warning,course_without_grade_data,VEN2033,Modern Stress Psychology,,,parse_status=not_found
+warning,course_without_grade_data,VEN2034,From K-Pop to K-Beauty: The Rise of Media Platforms and Korean Popular Culture,,,parse_status=not_found
+warning,course_without_grade_data,VEN2035,Principles of Chemistry,,,parse_status=not_found
+warning,course_without_grade_data,VEN2036,Introduction to Computer Graphics,,,parse_status=not_found
+warning,course_without_grade_data,VEN3003,창업심화:사회적기업과창업,,,parse_status=not_found
+warning,course_without_grade_data,VEN4002,창업실습:강소기업필드스터디,,,parse_status=not_found
+warning,course_without_grade_data,VEN4007,창업실습:실전창업워크숍2,,,parse_status=not_found
+warning,course_without_grade_data,VOC4062,성악마스터클래스2,,,parse_status=not_found
+warning,course_without_grade_data,VOC4067,예술가곡2,,,"parse_status=ok
+"
+warning,term_ratio_sum_not_near_100,ACC3001,원가회계,2026,1,"ratio_sum=93.75, grade_count=7"
+warning,term_ratio_sum_not_near_100,ARE5028,건축구조시스템,2026,1,"ratio_sum=87.51, grade_count=5"
+warning,term_ratio_sum_not_near_100,BUS2034,오퍼레이션관리,2026,1,"ratio_sum=80.14, grade_count=4"
+warning,term_ratio_sum_not_near_100,BUS2065,기초경영통계,2016,1,"ratio_sum=97.95, grade_count=8"
+warning,term_ratio_sum_not_near_100,CSE2010,자료구조론,2026,1,"ratio_sum=94.05, grade_count=6"
+warning,term_ratio_sum_not_near_100,CUL3013,일반생물학및실험1,2019,1,"ratio_sum=79.34, grade_count=5"
+warning,term_ratio_sum_not_near_100,D-C3031,서양연극사1,2017,1,"ratio_sum=52.64, grade_count=5"
+warning,term_ratio_sum_not_near_100,EDU4074,과학교육론,2005,2,"ratio_sum=81.81, grade_count=3"
+warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2022,1,"ratio_sum=13.46, grade_count=6"
+warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2023,1,"ratio_sum=14.03, grade_count=7"
+warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2024,1,"ratio_sum=10.69, grade_count=7"
+warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2025,1,"ratio_sum=11.43, grade_count=7"
+warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2026,1,"ratio_sum=16.79, grade_count=8"
+warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2022,2,"ratio_sum=9.13, grade_count=6"
+warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2023,2,"ratio_sum=10.54, grade_count=7"
+warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2024,2,"ratio_sum=9.30, grade_count=7"
+warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2025,2,"ratio_sum=9.13, grade_count=7"
+warning,term_ratio_sum_not_near_100,MED1015,약리학및실습,2008,2,"ratio_sum=98.21, grade_count=7"
+warning,term_ratio_sum_not_near_100,MEE3003,유체역학1,2026,1,"ratio_sum=99.04, grade_count=8"
+warning,term_ratio_sum_not_near_100,TOU1011,관광론,2026,1,"ratio_sum=78.10, grade_count=7"
+warning,coverage_report_issue,APS1010,산업융합수학,,,missing_grade_rows
+warning,coverage_report_issue,APS2010,사회기술시스템,,,missing_grade_rows
+warning,coverage_report_issue,APS2011,마케팅원리,,,missing_grade_rows
+warning,coverage_report_issue,APS3004,데이터마이닝1,,,missing_grade_rows
+warning,coverage_report_issue,APS3008,생산운영관리2,,,missing_grade_rows
+warning,coverage_report_issue,APS3009,인간중심디자인,,,missing_grade_rows
+warning,coverage_report_issue,APS3010,데이터마이닝2,,,missing_grade_rows
+warning,coverage_report_issue,APS3022,지속가능경영시스템,,,missing_grade_rows
+warning,coverage_report_issue,APS3023,기술금융,,,missing_grade_rows
+warning,coverage_report_issue,APS4001,실험및시험방법론,,,missing_grade_rows
+warning,coverage_report_issue,APS4002,공급망관리,,,missing_grade_rows
+warning,coverage_report_issue,APS4003,ERP실무,,,missing_grade_rows
+warning,coverage_report_issue,APS4004,컴퓨터통합제조,,,missing_grade_rows
+warning,coverage_report_issue,APS4005,산업융합세미나,,,missing_grade_rows
+warning,coverage_report_issue,APS4007,실험및시험방법론2,,,missing_grade_rows
+warning,coverage_report_issue,APS4008,프로젝트관리론,,,missing_grade_rows
+warning,coverage_report_issue,APS4011,응용시스템세미나2,,,missing_grade_rows
+warning,coverage_report_issue,APS4012,경영공학종합설계,,,missing_grade_rows
+warning,coverage_report_issue,APS4013,의사결정론,,,missing_grade_rows
+warning,coverage_report_issue,APS4014,경영시뮬레이션,,,missing_grade_rows
+warning,coverage_report_issue,APS4015,제조혁신,,,missing_grade_rows
+warning,coverage_report_issue,APS4017,하이브리드프로토타이핑,,,missing_grade_rows
+warning,coverage_report_issue,APS4019,글로벌혁신시스템,,,missing_grade_rows
+warning,coverage_report_issue,APS4021,산업문제해결컨설팅,,,missing_grade_rows
+warning,coverage_report_issue,ARE3088,건축융합설계,,,missing_grade_rows
+warning,coverage_report_issue,ARE4020,건축공학실험,,,missing_grade_rows
+warning,coverage_report_issue,ARE4108,건축공학종합설계,,,missing_grade_rows
+warning,coverage_report_issue,ATC0008,아두이노아트캡스톤디자인,,,missing_grade_rows
+warning,coverage_report_issue,BAT4001,에너지저장변환기술,,,missing_grade_rows
+warning,coverage_report_issue,BAT4002,이차전지공정개론,,,missing_grade_rows
+warning,coverage_report_issue,BAT4003,이차전지설계개론,,,missing_grade_rows
+warning,coverage_report_issue,BIG3004,빅데이터융합세미나,,,missing_grade_rows
+warning,coverage_report_issue,BIG4002,사회연결망분석방법론,,,missing_grade_rows
+warning,coverage_report_issue,BIO1070,기초생명과학1,,,missing_grade_rows
+warning,coverage_report_issue,BIO1071,기초생명과학2,,,missing_grade_rows
+warning,coverage_report_issue,BIO4034,신경생물학1,,,missing_grade_rows
+warning,coverage_report_issue,BIO4035,신경생물학2,,,missing_grade_rows
+warning,coverage_report_issue,BIO4107,멀티오믹스데이터마이닝,,,missing_grade_rows
+warning,coverage_report_issue,BIO4112,생명의료정보데이터마이닝,,,missing_grade_rows
+warning,coverage_report_issue,BUS2011,경영통계학,,,missing_grade_rows
+warning,coverage_report_issue,BUS2055,경영정보시스템,,,missing_grade_rows
+warning,coverage_report_issue,BUS3111,경영대연구실현장실습1,,,missing_grade_rows
+warning,coverage_report_issue,BUS4112,M&A전략,,,missing_grade_rows
+warning,coverage_report_issue,BUS4115,인공지능금융투자와데이터,,,missing_grade_rows
+warning,coverage_report_issue,BUS5010,기술과경영,,,missing_grade_rows
+warning,coverage_report_issue,C-T4039,패션과테크놀로지,,,missing_grade_rows
+warning,coverage_report_issue,C-T4044,패션스마트팩토리인공지능,,,missing_grade_rows
+warning,coverage_report_issue,CEC4002,AI시대중국의경제정책,,,missing_grade_rows
+warning,coverage_report_issue,CHI2074,중국어통사론,,,missing_grade_rows
+warning,coverage_report_issue,CHI4066,언어데이터의정량분석,,,missing_grade_rows
+warning,coverage_report_issue,CHI4069,중국미디어문화의이해,,,missing_grade_rows
+warning,coverage_report_issue,CHM5009,재료분석,,,missing_grade_rows
+warning,coverage_report_issue,CIE3009,철도공학,,,missing_grade_rows
+warning,coverage_report_issue,CIE3074,생태하천공학,,,missing_grade_rows
+warning,coverage_report_issue,CIE4078,지반시스템설계,,,missing_grade_rows
+warning,coverage_report_issue,CIN4005,최적화이론,,,missing_grade_rows
+warning,coverage_report_issue,COP3026,전자음악프로젝트,,,missing_grade_rows
+warning,coverage_report_issue,COP3072,이론전공세미나1,,,missing_grade_rows
+warning,coverage_report_issue,COP3073,전자음악작곡실기1,,,missing_grade_rows
+warning,coverage_report_issue,COP3074,이론전공세미나2,,,missing_grade_rows
+warning,coverage_report_issue,COP3075,전자음악작곡실기2,,,missing_grade_rows
+warning,coverage_report_issue,COP3086,리허설테크닉2,,,missing_grade_rows
+warning,coverage_report_issue,COP3087,연주매체특강A,,,missing_grade_rows
+warning,coverage_report_issue,COP4052,이론전공세미나3,,,missing_grade_rows
+warning,coverage_report_issue,COP4053,이론전공세미나4,,,missing_grade_rows
+warning,coverage_report_issue,COP4063,동시대음악,,,missing_grade_rows
+warning,coverage_report_issue,COP4064,음악과사회,,,missing_grade_rows
+warning,coverage_report_issue,COP4065,작곡과캡스톤,,,missing_grade_rows
+warning,coverage_report_issue,COP4066,오디오프로덕션1,,,missing_grade_rows
+warning,coverage_report_issue,COP4067,오디오프로덕션2,,,missing_grade_rows
+warning,coverage_report_issue,COP4068,연주와비평7,,,missing_grade_rows
+warning,coverage_report_issue,COP4069,연주와비평8,,,missing_grade_rows
+warning,coverage_report_issue,CSE3010,데이터베이스,,,missing_grade_rows
+warning,coverage_report_issue,CSE4056,딥러닝시스템,,,missing_grade_rows
+warning,coverage_report_issue,CSS1002,사회과학의이해,,,missing_grade_rows
+warning,coverage_report_issue,CSS1003,사회과학의논리적사고,,,missing_grade_rows
+warning,coverage_report_issue,CUL0074,텍스트언어학의이해,,,missing_grade_rows
+warning,coverage_report_issue,CUL0110,에너지와문명,,,missing_grade_rows
+warning,coverage_report_issue,CUL0112,탄소문명과에너지,,,missing_grade_rows
+warning,coverage_report_issue,CUL0113,과학기술의융합으로서의공학,,,missing_grade_rows
+warning,coverage_report_issue,CUL0132,트랜스내셔널문학읽기,,,missing_grade_rows
+warning,coverage_report_issue,CUL0134,중국의도시문화와비즈니스,,,missing_grade_rows
+warning,coverage_report_issue,CUL0213,AI시대디지털보안입문,,,missing_grade_rows
+warning,coverage_report_issue,CUL1121,사회혁신캡스톤디자인(Plus),,,missing_grade_rows
+warning,coverage_report_issue,CUL1124,맞춤형성장멘토링교과목I,,,missing_grade_rows
+warning,coverage_report_issue,CUL1126,여성공학자연계멘토링,,,missing_grade_rows
+warning,coverage_report_issue,CUL1133,(여성공학도)기업가정신과창의적사고,,,missing_grade_rows
+warning,coverage_report_issue,CUL1143,치매와문화예술,,,missing_grade_rows
+warning,coverage_report_issue,CUL1146,한미관계의정치경제,,,missing_grade_rows
+warning,coverage_report_issue,CUL1147,사물인터넷시스템(캡스톤디자인),,,missing_grade_rows
+warning,coverage_report_issue,CUL1161,SDGs달성을위한CSR과지속가능경영에대한이해,,,missing_grade_rows
+warning,coverage_report_issue,CUL1177,디지털인문학,,,missing_grade_rows
+warning,coverage_report_issue,CUL1195,"ESG와사회혁신,커뮤니케이션",,,missing_grade_rows
+warning,coverage_report_issue,CUL1206,기후환경에따른환경문제와융복합처리기술,,,missing_grade_rows
+warning,coverage_report_issue,CUL1207,반도체의물리와화학,,,missing_grade_rows
+warning,coverage_report_issue,CUL1239,딥러닝과생성형인공지능–딥러닝,,,missing_grade_rows
+warning,coverage_report_issue,CUL1240,딥러닝과생성형인공지능-생성형인공지능,,,missing_grade_rows
+warning,coverage_report_issue,CUL1241,모두를위한피지컬AI,,,missing_grade_rows
+warning,coverage_report_issue,CUL1242,생성형AI와플랫폼을활용한산업문제해결,,,missing_grade_rows
+warning,coverage_report_issue,CUL1243,현대소비생활과법,,,missing_grade_rows
+warning,coverage_report_issue,CUL1244,AI시대새로배우는대화법,,,missing_grade_rows
+warning,coverage_report_issue,CUL1245,인구로읽는미래사회,,,missing_grade_rows
+warning,coverage_report_issue,CUL1246,고대이집트문명으로의초대,,,missing_grade_rows
+warning,coverage_report_issue,CUL3100,American Popular Music of the 20th Century : Cultural and Linguistic Significance,,,missing_grade_rows
+warning,coverage_report_issue,CUL7111,실전취업전략최종완성,,,missing_grade_rows
+warning,coverage_report_issue,CUL7112,융합과혁신캡스톤디자인,,,missing_grade_rows
+warning,coverage_report_issue,DAN1047,필라테스와이미지,,,missing_grade_rows
+warning,coverage_report_issue,DAN1054,사회무용의연구,,,missing_grade_rows
+warning,coverage_report_issue,DAN2048,서양무용음악연구,,,missing_grade_rows
+warning,coverage_report_issue,DEE2053,글로벌시대의문화적감수성,,,missing_grade_rows
+warning,coverage_report_issue,DEE3054,영어구문연구,,,missing_grade_rows
+warning,coverage_report_issue,DEE3055,영어연극과글로벌역량,,,missing_grade_rows
+warning,coverage_report_issue,DEE3056,AI활용영어텍스트분석,,,missing_grade_rows
+warning,coverage_report_issue,DEE3057,시네마휴머니즘,,,missing_grade_rows
+warning,coverage_report_issue,DEE4047,영미고전과삶의가치,,,missing_grade_rows
+warning,coverage_report_issue,DET1006,학습과학의이론적기초,,,missing_grade_rows
+warning,coverage_report_issue,DET2040,조직개발과조직문화,,,missing_grade_rows
+warning,coverage_report_issue,DET3031,디지털영상미디어제작실습,,,missing_grade_rows
+warning,coverage_report_issue,DET3032,교육공학글로벌인턴십,,,missing_grade_rows
+warning,coverage_report_issue,DET3034,교육공학인턴십,,,missing_grade_rows
+warning,coverage_report_issue,DET3041,AI활용교육도구설계,,,missing_grade_rows
+warning,coverage_report_issue,DET3043,하이브리드러닝플랫폼설계,,,missing_grade_rows
+warning,coverage_report_issue,DET3044,학습분석의이해와적용,,,missing_grade_rows
+warning,coverage_report_issue,DET4030,교육공학연구방법과통계,,,missing_grade_rows
+warning,coverage_report_issue,DIS1001,Contemporary Society and Philosophy,,,missing_grade_rows
+warning,coverage_report_issue,DIS1003,Special Lecture Series I,,,missing_grade_rows
+warning,coverage_report_issue,DIS1016,East Asian History and Culture,,,missing_grade_rows
+warning,coverage_report_issue,DIS1017,Economic Growth and Development,,,missing_grade_rows
+warning,coverage_report_issue,DIS1018,Global Ethics,,,missing_grade_rows
+warning,coverage_report_issue,DIS1025,Basic Quantitative Methods,,,missing_grade_rows
+warning,coverage_report_issue,DIS1026,Business and Society,,,missing_grade_rows
+warning,coverage_report_issue,DIS1027,Law and Society,,,missing_grade_rows
+warning,coverage_report_issue,DIS1028,Quantitative Methods,,,missing_grade_rows
+warning,coverage_report_issue,DIS2006,International Law,,,missing_grade_rows
+warning,coverage_report_issue,DIS2007,International Economics,,,missing_grade_rows
+warning,coverage_report_issue,DIS2009,Leadership Workshop,,,missing_grade_rows
+warning,coverage_report_issue,DIS2016,International Conflict & Cooperation,,,missing_grade_rows
+warning,coverage_report_issue,DIS2018,Russian Politics & Foreign Policy,,,missing_grade_rows
+warning,coverage_report_issue,DIS2019,Chinese Politics and Foreign Policy,,,missing_grade_rows
+warning,coverage_report_issue,DIS2020,Japanese Politics & Foreign Policy,,,missing_grade_rows
+warning,coverage_report_issue,DIS2021,American Politics & Foreign Policy,,,missing_grade_rows
+warning,coverage_report_issue,DIS2024,Model United Nations,,,missing_grade_rows
+warning,coverage_report_issue,DIS2034,Macroeconomics,,,missing_grade_rows
+warning,coverage_report_issue,DIS2045,Contemporary Korean Society,,,missing_grade_rows
+warning,coverage_report_issue,DIS2046,Korean History and Culture,,,missing_grade_rows
+warning,coverage_report_issue,DIS2048,Debate and Argumentation,,,missing_grade_rows
+warning,coverage_report_issue,DIS2052,Accounting,,,missing_grade_rows
+warning,coverage_report_issue,DIS2053,Principle of Marketing,,,missing_grade_rows
+warning,coverage_report_issue,DIS2056,Digital Strategy I,,,missing_grade_rows
+warning,coverage_report_issue,DIS2059,한류의정치경제학,,,missing_grade_rows
+warning,coverage_report_issue,DIS2069,Quantative Analysis,,,missing_grade_rows
+warning,coverage_report_issue,DIS3003,Public International Law,,,missing_grade_rows
+warning,coverage_report_issue,DIS3004,Global Marketing and Business Strategy,,,missing_grade_rows
+warning,coverage_report_issue,DIS3007,International Banking and Capital Market,,,missing_grade_rows
+warning,coverage_report_issue,DIS3010,Microeconomics,,,missing_grade_rows
+warning,coverage_report_issue,DIS3012,Korean Politics and Foreign Policy,,,missing_grade_rows
+warning,coverage_report_issue,DIS3013,Korean Economy and Business,,,missing_grade_rows
+warning,coverage_report_issue,DIS3019,Transnational Management,,,missing_grade_rows
+warning,coverage_report_issue,DIS3021,Individual Study:Internships,,,missing_grade_rows
+warning,coverage_report_issue,DIS3027,Corporate Finance I,,,missing_grade_rows
+warning,coverage_report_issue,DIS3028,Corporate Finance II,,,missing_grade_rows
+warning,coverage_report_issue,DIS3029,Operation Management,,,missing_grade_rows
+warning,coverage_report_issue,DIS3030,Chinese Society & Culture,,,missing_grade_rows
+warning,coverage_report_issue,DIS3031,Special TopicsI,,,missing_grade_rows
+warning,coverage_report_issue,DIS3032,Chinese Economy & Business,,,missing_grade_rows
+warning,coverage_report_issue,DIS3036,Research Methodology,,,missing_grade_rows
+warning,coverage_report_issue,DIS3037,Basic Econometrics,,,missing_grade_rows
+warning,coverage_report_issue,DIS3038,The 4th Industrial Revolution and the Future of Asia,,,missing_grade_rows
+warning,coverage_report_issue,DIS3042,관광경영,,,missing_grade_rows
+warning,coverage_report_issue,DIS3043,한국기업의경쟁전략,,,missing_grade_rows
+warning,coverage_report_issue,DIS3048,북한체제의이해,,,missing_grade_rows
+warning,coverage_report_issue,DIS3049,한국의시민사회,,,missing_grade_rows
+warning,coverage_report_issue,DIS3056,Advanced Research Methods,,,missing_grade_rows
+warning,coverage_report_issue,DIS4002,Human Resource Management,,,missing_grade_rows
+warning,coverage_report_issue,DIS4003,캡스톤특강:M&A와기업구조조정,,,missing_grade_rows
+warning,coverage_report_issue,DIS4004,U.S. Legal System,,,missing_grade_rows
+warning,coverage_report_issue,DIS4005,Special Topics III,,,missing_grade_rows
+warning,coverage_report_issue,DIS4006,캡스톤특강:국제경영컨설팅실무,,,missing_grade_rows
+warning,coverage_report_issue,DIS4007,Special Topics IV,,,missing_grade_rows
+warning,coverage_report_issue,DIS4009,캡스톤특강:DigitalStrategy,,,missing_grade_rows
+warning,coverage_report_issue,DIS4010,글로벌사회와한중일,,,missing_grade_rows
+warning,coverage_report_issue,DIS4011,Impact Investing,,,missing_grade_rows
+warning,coverage_report_issue,DIS4016,사회과학연구방법론,,,missing_grade_rows
+warning,coverage_report_issue,DIS4017,4차산업혁명과한국기업의신성장전략,,,missing_grade_rows
+warning,coverage_report_issue,DIS4019,남북관계론,,,missing_grade_rows
+warning,coverage_report_issue,DIS4021,한국의기업가정신,,,missing_grade_rows
+warning,coverage_report_issue,DIS4022,실무실습: 임팩트투자와창업,,,missing_grade_rows
+warning,coverage_report_issue,DIS4023,한국과세계정치경제,,,missing_grade_rows
+warning,coverage_report_issue,DIS4024,캡스톤특강:한국학과뉴미디어,,,missing_grade_rows
+warning,coverage_report_issue,DIS4025,미디어콘텐츠기획,,,missing_grade_rows
+warning,coverage_report_issue,DIS4033,한국문화와글로벌역량,,,missing_grade_rows
+warning,coverage_report_issue,DIS4034,K-엔터테인먼트실무,,,missing_grade_rows
+warning,coverage_report_issue,DIS4035,캡스톤:글로벌콘텐츠와엔터테인먼트산업,,,missing_grade_rows
+warning,coverage_report_issue,DSD3002,디지털프로토타이핑,,,missing_grade_rows
+warning,coverage_report_issue,DSD4001,혁신서비스개발PBL,,,missing_grade_rows
+warning,coverage_report_issue,DSI2006,스포츠심화실기2,,,missing_grade_rows
+warning,coverage_report_issue,DSI2026,스포츠산업현장투어,,,missing_grade_rows
+warning,coverage_report_issue,DST2003,디지털서비스혁신개론,,,missing_grade_rows
+warning,coverage_report_issue,DST3001,SW기반특허분석실무,,,missing_grade_rows
+warning,coverage_report_issue,DST3002,LLM과비즈니스,,,missing_grade_rows
+warning,coverage_report_issue,ECL3010,전기기초실험3,,,missing_grade_rows
+warning,coverage_report_issue,ECL4020,에너지하베스팅,,,missing_grade_rows
+warning,coverage_report_issue,ECL4023,산업플라즈마입자시뮬레이션,,,missing_grade_rows
+warning,coverage_report_issue,ECO3093,시장설계이론,,,missing_grade_rows
+warning,coverage_report_issue,EDU2069,진로교육과상담,,,missing_grade_rows
+warning,coverage_report_issue,EDU3035,이러닝과원격교육,,,missing_grade_rows
+warning,coverage_report_issue,EDU3036,디지털교육,,,missing_grade_rows
+warning,coverage_report_issue,EDU3082,교사교육과수업장학,,,missing_grade_rows
+warning,coverage_report_issue,EDU4038,동기의이해,,,missing_grade_rows
+warning,coverage_report_issue,EDU4093,교육컨설팅,,,missing_grade_rows
+warning,coverage_report_issue,EDU4098,교육측정및검사,,,missing_grade_rows
+warning,coverage_report_issue,ELE3085,머신러닝개론,,,missing_grade_rows
+warning,coverage_report_issue,ELE4011,전기응용실험1,,,missing_grade_rows
+warning,coverage_report_issue,ELE4012,전기응용실험2,,,missing_grade_rows
+warning,coverage_report_issue,ENG2089,비판적생각과영어쓰기1,,,missing_grade_rows
+warning,coverage_report_issue,ENG2094,연극심화이해와실제캡스톤,,,missing_grade_rows
+warning,coverage_report_issue,ENG3094,실험언어학,,,missing_grade_rows
+warning,coverage_report_issue,ENG3097,비판적생각과영어쓰기2,,,missing_grade_rows
+warning,coverage_report_issue,ENG3103,영미정치사상과문학,,,missing_grade_rows
+warning,coverage_report_issue,ENG4090,영어읽기와토론3,,,missing_grade_rows
+warning,coverage_report_issue,ENG4091,비판적생각과영어쓰기3,,,missing_grade_rows
+warning,coverage_report_issue,EWE4023,광통신,,,missing_grade_rows
+warning,coverage_report_issue,FET1002,에너지와지속가능경영의기초,,,missing_grade_rows
+warning,coverage_report_issue,FET3004,에너지자원순환공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9101,에너지소재개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9102,에너지신산업머신러닝개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9103,AI와에너지신산업,,,missing_grade_rows
+warning,coverage_report_issue,FET9104,에너지와지식재산라이센싱,,,missing_grade_rows
+warning,coverage_report_issue,FET9201,에너지저장공학개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9202,신에너지공학개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9203,전기화학에너지저장이론및실험,,,missing_grade_rows
+warning,coverage_report_issue,FET9204,재생에너지공학개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9205,수소연료전지개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9206,에너지와기술의경제학,,,missing_grade_rows
+warning,coverage_report_issue,FET9207,에너지와기후변화,,,missing_grade_rows
+warning,coverage_report_issue,FET9208,파이썬프로그래밍입문,,,missing_grade_rows
+warning,coverage_report_issue,FET9209,원자력발전공학개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9210,탄소중립과ESG,,,missing_grade_rows
+warning,coverage_report_issue,FET9211,수소에너지개론,,,missing_grade_rows
+warning,coverage_report_issue,FET9301,에너지기후변화정책,,,missing_grade_rows
+warning,coverage_report_issue,FET9302,거대에너지저장,,,missing_grade_rows
+warning,coverage_report_issue,FET9303,에너지저장소재설계,,,missing_grade_rows
+warning,coverage_report_issue,FET9304,에너지생산소재공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9305,에너지반응공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9306,바이오폐기물에너지공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9307,화학적에너지수송,,,missing_grade_rows
+warning,coverage_report_issue,FET9308,AI기반에너지안전공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9309,제로에너지시스템,,,missing_grade_rows
+warning,coverage_report_issue,FET9310,에너지빅데이터분석,,,missing_grade_rows
+warning,coverage_report_issue,FET9311,이산화탄소포집활용저장,,,missing_grade_rows
+warning,coverage_report_issue,FET9401,태양에너지공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9402,지열에너지공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9403,풍력에너지공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9404,에너지사업타당성평가,,,missing_grade_rows
+warning,coverage_report_issue,FET9405,수소생산과연료전지응용,,,missing_grade_rows
+warning,coverage_report_issue,FET9406,열에너지변환공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9407,AI기반시스템최적화,,,missing_grade_rows
+warning,coverage_report_issue,FET9408,수소에너지공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9409,전기차배터리공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9410,차세대에너지저장변환공학,,,missing_grade_rows
+warning,coverage_report_issue,FET9411,무선에너지전달,,,missing_grade_rows
+warning,coverage_report_issue,FET9412,수소에너지실험,,,missing_grade_rows
+warning,coverage_report_issue,FET9413,에너지신산업커리어디자인,,,missing_grade_rows
+warning,coverage_report_issue,FUT4004,Lego-H인문캡스톤디자인1:현장전문가리더십특강,,,missing_grade_rows
+warning,coverage_report_issue,FUT4005,Lego-H인문캡스톤디자인2:현장커뮤니케이션및과제,,,missing_grade_rows
+warning,coverage_report_issue,GEN2100,기독교영성의 이해,,,missing_grade_rows
+warning,coverage_report_issue,GEN3082,보건학,,,missing_grade_rows
+warning,coverage_report_issue,GEN3095,Relational dialogue,,,missing_grade_rows
+warning,coverage_report_issue,GEN4079,사회봉사,,,missing_grade_rows
+warning,coverage_report_issue,GEN6061,특허실무,,,missing_grade_rows
+warning,coverage_report_issue,GEN7036,스페인어회화,,,missing_grade_rows
+warning,coverage_report_issue,GEN9027,Intensive Korean,,,missing_grade_rows
+warning,coverage_report_issue,GEN9181,블록체인과미래사회비즈니스,,,missing_grade_rows
+warning,coverage_report_issue,GER3069,독일현대소설,,,missing_grade_rows
+warning,coverage_report_issue,GER3080,독일어어휘연습,,,missing_grade_rows
+warning,coverage_report_issue,GER3099,독일어텍스트의이해,,,missing_grade_rows
+warning,coverage_report_issue,GER3104,독영언어대조,,,missing_grade_rows
+warning,coverage_report_issue,GER4089,유럽지성사,,,missing_grade_rows
+warning,coverage_report_issue,HIC1002,Make Core,,,missing_grade_rows
+warning,coverage_report_issue,HIC1003,Life Project,,,missing_grade_rows
+warning,coverage_report_issue,HIC1004,Unified Systems Science,,,missing_grade_rows
+warning,coverage_report_issue,HIC1005,Mathematical Thinking,,,missing_grade_rows
+warning,coverage_report_issue,HIC1006,"Algorithmic, Computational, and Data Thinking",,,missing_grade_rows
+warning,coverage_report_issue,HIC1007,Global Critical Anthropology,,,missing_grade_rows
+warning,coverage_report_issue,HIC1008,Global Research Immersion,,,missing_grade_rows
+warning,coverage_report_issue,HIC1009,Unified Systems Science_StreamⅠ,,,missing_grade_rows
+warning,coverage_report_issue,HIC1010,Unified Systems Science_StreamⅡ,,,missing_grade_rows
+warning,coverage_report_issue,HIC1011,Unified Systems Science_Lab(Biochem),,,missing_grade_rows
+warning,coverage_report_issue,HIC1012,Unified Systems Science_Lab(Physics),,,missing_grade_rows
+warning,coverage_report_issue,HIC2004,디자인과혁신심리학,,,missing_grade_rows
+warning,coverage_report_issue,HIC2005,마인드이론과fMRI,,,missing_grade_rows
+warning,coverage_report_issue,HIC2006,머신러닝기초와응용,,,missing_grade_rows
+warning,coverage_report_issue,HIC2007,미래사회와우주자원개발,,,missing_grade_rows
+warning,coverage_report_issue,HIC2008,반도체및재료과학입문,,,missing_grade_rows
+warning,coverage_report_issue,HIC2010,반도체전자기학2,,,missing_grade_rows
+warning,coverage_report_issue,HIC2011,법의기초적이해,,,missing_grade_rows
+warning,coverage_report_issue,HIC2012,보건학의이해,,,missing_grade_rows
+warning,coverage_report_issue,HIC2013,빅데이터분석의학통계,,,missing_grade_rows
+warning,coverage_report_issue,HIC2014,생체신호센서,,,missing_grade_rows
+warning,coverage_report_issue,HIC2016,융합약리학개론,,,missing_grade_rows
+warning,coverage_report_issue,HIC2017,융합의과학개론,,,missing_grade_rows
+warning,coverage_report_issue,HIC2018,의료데이타사이언스,,,missing_grade_rows
+warning,coverage_report_issue,HIC2021,인지적왜곡과인지치료,,,missing_grade_rows
+warning,coverage_report_issue,HIC2022,CrossDisciplinary Project,,,missing_grade_rows
+warning,coverage_report_issue,HIC2024,지속가능경영과ESG,,,missing_grade_rows
+warning,coverage_report_issue,HIC2025,혁신가와기업가정신,,,missing_grade_rows
+warning,coverage_report_issue,HIC2027,휴먼컴퓨터인터페이스,,,missing_grade_rows
+warning,coverage_report_issue,HIC2028,신경융합과학,,,missing_grade_rows
+warning,coverage_report_issue,HIC2029,인공지능의활용,,,missing_grade_rows
+warning,coverage_report_issue,HIC3001,4차산업혁명시대의노동과법,,,missing_grade_rows
+warning,coverage_report_issue,HIC3002,감각증강과융합인지과학,,,missing_grade_rows
+warning,coverage_report_issue,HIC3003,기반시설모니터링,,,missing_grade_rows
+warning,coverage_report_issue,HIC3004,기후변화와클라이밋파이낸스,,,missing_grade_rows
+warning,coverage_report_issue,HIC3005,뇌와감각인지의응용,,,missing_grade_rows
+warning,coverage_report_issue,HIC3006,대전환의시대와변화의법,,,missing_grade_rows
+warning,coverage_report_issue,HIC3007,딥러닝과인공지능활용,,,missing_grade_rows
+warning,coverage_report_issue,HIC3008,메이크어드밴스드,,,missing_grade_rows
+warning,coverage_report_issue,HIC3009,반도체고체물리학개론,,,missing_grade_rows
+warning,coverage_report_issue,HIC3010,반도체를위한AI와머신러닝활용,,,missing_grade_rows
+warning,coverage_report_issue,HIC3011,반도체소자공정,,,missing_grade_rows
+warning,coverage_report_issue,HIC3012,반도체소자및분석,,,missing_grade_rows
+warning,coverage_report_issue,HIC3013,반도체소재응용및특성분석,,,missing_grade_rows
+warning,coverage_report_issue,HIC3014,반도체제조및공정제어,,,missing_grade_rows
+warning,coverage_report_issue,HIC3015,"보건경제학과정책결정,의료미디어",,,missing_grade_rows
+warning,coverage_report_issue,HIC3016,보건의료빅데이터연구,,,missing_grade_rows
+warning,coverage_report_issue,HIC3017,브랜드전략과마케팅,,,missing_grade_rows
+warning,coverage_report_issue,HIC3018,비즈니스데이터스토리텔링,,,missing_grade_rows
+warning,coverage_report_issue,HIC3019,사회인프라경제성분석,,,missing_grade_rows
+warning,coverage_report_issue,HIC3020,생체에너지소자,,,missing_grade_rows
+warning,coverage_report_issue,HIC3021,생체영상공학,,,missing_grade_rows
+warning,coverage_report_issue,HIC3022,스타트업런치패드,,,missing_grade_rows
+warning,coverage_report_issue,HIC3023,신경과학과학습설계,,,missing_grade_rows
+warning,coverage_report_issue,HIC3024,의학연구의설계와이해,,,missing_grade_rows
+warning,coverage_report_issue,HIC3025,인지계산,,,missing_grade_rows
+warning,coverage_report_issue,HIC3026,인지발달과신경과학,,,missing_grade_rows
+warning,coverage_report_issue,HIC3027,InterDisciplinary Project,,,missing_grade_rows
+warning,coverage_report_issue,HIC3028,임상신경과학,,,missing_grade_rows
+warning,coverage_report_issue,HIC3029,임상질환학,,,missing_grade_rows
+warning,coverage_report_issue,HIC3030,임팩트비즈니스와임팩트이코노미,,,missing_grade_rows
+warning,coverage_report_issue,HIC3032,지식재산과사업화전략,,,missing_grade_rows
+warning,coverage_report_issue,HIC3033,혁신애널리틱스,,,missing_grade_rows
+warning,coverage_report_issue,HIC3034,의학종양학,,,missing_grade_rows
+warning,coverage_report_issue,HIC3035,줄기세포학,,,missing_grade_rows
+warning,coverage_report_issue,HIC4001,AI융합인지임상,,,missing_grade_rows
+warning,coverage_report_issue,HIC4002,HCI인지융합설계,,,missing_grade_rows
+warning,coverage_report_issue,HIC4003,계산인지와행동분석,,,missing_grade_rows
+warning,coverage_report_issue,HIC4004,국가발전의원리,,,missing_grade_rows
+warning,coverage_report_issue,HIC4005,뇌신경공학,,,missing_grade_rows
+warning,coverage_report_issue,HIC4006,딥테크혁신경영,,,missing_grade_rows
+warning,coverage_report_issue,HIC4007,로컬리즘과리빙랩,,,missing_grade_rows
+warning,coverage_report_issue,HIC4008,리걸디자인,,,missing_grade_rows
+warning,coverage_report_issue,HIC4009,마음과기계:AI기반인지시스템의미래,,,missing_grade_rows
+warning,coverage_report_issue,HIC4010,바이오인공장기,,,missing_grade_rows
+warning,coverage_report_issue,HIC4011,반도체결함제어및활용,,,missing_grade_rows
+warning,coverage_report_issue,HIC4012,반도체의현재와미래,,,missing_grade_rows
+warning,coverage_report_issue,HIC4013,반도체패키징,,,missing_grade_rows
+warning,coverage_report_issue,HIC4014,반도체한계극복,,,missing_grade_rows
+warning,coverage_report_issue,HIC4015,보건의료정책인턴쉽,,,missing_grade_rows
+warning,coverage_report_issue,HIC4016,생물수학,,,missing_grade_rows
+warning,coverage_report_issue,HIC4017,스타트업파이낸싱과투자,,,missing_grade_rows
+warning,coverage_report_issue,HIC4018,오픈이노베이션과크로스섹터파트너십,,,missing_grade_rows
+warning,coverage_report_issue,HIC4019,의학영상시스템,,,missing_grade_rows
+warning,coverage_report_issue,HIC4020,인간답게사는법,,,missing_grade_rows
+warning,coverage_report_issue,HIC4021,인지과학과AI융합:인지편향과AI윤리,,,missing_grade_rows
+warning,coverage_report_issue,HIC4022,TransDisciplinary Project,,,missing_grade_rows
+warning,coverage_report_issue,HIC4023,임상유전체학,,,missing_grade_rows
+warning,coverage_report_issue,HIC4024,집단과심리치료,,,missing_grade_rows
+warning,coverage_report_issue,HIC4025,차세대유연전자소자,,,missing_grade_rows
+warning,coverage_report_issue,HIC4026,헬스케어소프트웨어설계및실습,,,missing_grade_rows
+warning,coverage_report_issue,HIC4027,환경과건강,,,missing_grade_rows
+warning,coverage_report_issue,HOM2029,공간사용자경험,,,missing_grade_rows
+warning,coverage_report_issue,HOM3035,실내디자인경영,,,missing_grade_rows
+warning,coverage_report_issue,HOM4027,현대실내공간론,,,missing_grade_rows
+warning,coverage_report_issue,HOM4038,디자인아카데믹라이팅,,,missing_grade_rows
+warning,coverage_report_issue,HOM4041,AIxDesign리서치,,,missing_grade_rows
+warning,coverage_report_issue,HYP1006,바이오메디컬공학HY-UP(실용연구실습)1,,,missing_grade_rows
+warning,coverage_report_issue,HYP1007,경영학HY-UP(실용연구실습)1,,,missing_grade_rows
+warning,coverage_report_issue,HYP1018,융합전자공학HY-UP(실용연구실습)1,,,missing_grade_rows
+warning,coverage_report_issue,HYP1022,독어독문학HY-UP(실용연구실습)1,,,missing_grade_rows
+warning,coverage_report_issue,HYP1024,중어중문학HY-UP(실용연구실습)1,,,missing_grade_rows
+warning,coverage_report_issue,HYP2002,정보시스템HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2004,미래자동차공학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2005,바이오메디컬공학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2006,경영학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2009,심리뇌과학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2010,데이터사이언스HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2011,도시공학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2016,융합전자공학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2017,수학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2018,컴퓨터소프트웨어HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2021,전기공학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2022,중어중문학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP2024,영어영문학HY-UP(실용연구실습)2,,,missing_grade_rows
+warning,coverage_report_issue,HYP3002,전기공학HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3003,정보시스템HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3005,미래자동차공학HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3006,바이오메디컬공학HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3007,경영학HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3011,도시공학HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3015,컴퓨터소프트웨어HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP3018,중어중문학HY-UP(실용연구실습)3,,,missing_grade_rows
+warning,coverage_report_issue,HYP4002,정보시스템HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4004,미래자동차공학HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4005,바이오메디컬공학HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4006,경영학HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4008,의류학HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4013,컴퓨터소프트웨어HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4016,전기공학HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYP4017,중어중문학HY-UP(실용연구실습)4,,,missing_grade_rows
+warning,coverage_report_issue,HYR0004,정보시스템HY-UROP(실용연구심화),,,missing_grade_rows
+warning,coverage_report_issue,HYR0009,영어영문학HY-UROP(실용연구심화),,,missing_grade_rows
+warning,coverage_report_issue,I-D3027,제품디자인,,,missing_grade_rows
+warning,coverage_report_issue,IAI3001,인공지능핵심및응용,,,missing_grade_rows
+warning,coverage_report_issue,IAI3002,중급산업AI프로젝트,,,missing_grade_rows
+warning,coverage_report_issue,IAI3003,산업LLM이해및실습,,,missing_grade_rows
+warning,coverage_report_issue,IAI3004,고급산업AI프로젝트,,,missing_grade_rows
+warning,coverage_report_issue,IAI3005,산업AI해커톤1,,,missing_grade_rows
+warning,coverage_report_issue,IAI3006,피지컬AI를위한데이터레이블링과모델구축,,,missing_grade_rows
+warning,coverage_report_issue,IAI4001,클라우드데이터엔지니어링,,,missing_grade_rows
+warning,coverage_report_issue,IAI4002,에이전트AI응용,,,missing_grade_rows
+warning,coverage_report_issue,IAI4003,AI기반산업데이터분석실습,,,missing_grade_rows
+warning,coverage_report_issue,IAI4004,산업데이터시각화와스토리텔링,,,missing_grade_rows
+warning,coverage_report_issue,IAI4005,멀티모달AI기술과산업응용,,,missing_grade_rows
+warning,coverage_report_issue,IAI4006,생성형모델컨텍스트설계,,,missing_grade_rows
+warning,coverage_report_issue,IAI4007,AI를위한GPU병렬프로그래밍,,,missing_grade_rows
+warning,coverage_report_issue,IAI4008,차량센서데이터융합AI,,,missing_grade_rows
+warning,coverage_report_issue,IAI4009,자율주행AI해커톤,,,missing_grade_rows
+warning,coverage_report_issue,IAI4010,디지털트윈기반차량용AI검증,,,missing_grade_rows
+warning,coverage_report_issue,IAI4011,자율주행시뮬레이션구현원리,,,missing_grade_rows
+warning,coverage_report_issue,IAI4012,AI의이해원리와딥러닝(IC-PBL),,,missing_grade_rows
+warning,coverage_report_issue,IAI4013,AI를이용한3D자율주행,,,missing_grade_rows
+warning,coverage_report_issue,IAI4014,FuriosaAINPU로끝내는멀티모달프로젝트,,,missing_grade_rows
+warning,coverage_report_issue,IAI4015,생성형AI원리와응용(IC-PBL),,,missing_grade_rows
+warning,coverage_report_issue,IDC1001,응용시스템개론,,,missing_grade_rows
+warning,coverage_report_issue,IDC1002,정보융합개론,,,missing_grade_rows
+warning,coverage_report_issue,IDC2002,정보융합심리학,,,missing_grade_rows
+warning,coverage_report_issue,IDC4001,CEO특강,,,missing_grade_rows
+warning,coverage_report_issue,INV2005,사회적경제의고전강의,,,missing_grade_rows
+warning,coverage_report_issue,INV2014,국제개발협력과ICT4ED,,,missing_grade_rows
+warning,coverage_report_issue,INV2016,공감기반리빙랩1:지식창조,,,missing_grade_rows
+warning,coverage_report_issue,INV3003,체인지메이커액션러닝,,,missing_grade_rows
+warning,coverage_report_issue,INV3004,단기체인지메이커액션러닝,,,missing_grade_rows
+warning,coverage_report_issue,INV3005,체인지메이커액션러닝(일반선택),,,missing_grade_rows
+warning,coverage_report_issue,INV3006,체인지메이커액션러닝(일반교양),,,missing_grade_rows
+warning,coverage_report_issue,INV3012,임팩트커리어의이해,,,missing_grade_rows
+warning,coverage_report_issue,INV3014,국제개발협력평가,,,missing_grade_rows
+warning,coverage_report_issue,INV4001,나로부터시작하는사회혁신과라이프디자인,,,missing_grade_rows
+warning,coverage_report_issue,INV4006,공감기반리빙랩2:시스템전환,,,missing_grade_rows
+warning,coverage_report_issue,ISS1001,Beginning Korean Language,,,missing_grade_rows
+warning,coverage_report_issue,ISS1002,Intermediate Korean Language,,,missing_grade_rows
+warning,coverage_report_issue,ISS1003,Cross Cultural Documentary Research & Production in Korea,,,missing_grade_rows
+warning,coverage_report_issue,ISS1004,Understanding a Visual Language in Media,,,missing_grade_rows
+warning,coverage_report_issue,ISS1006,Seminar: Media Industry in Korea,,,missing_grade_rows
+warning,coverage_report_issue,ISS1011,International Advertising and Communication,,,missing_grade_rows
+warning,coverage_report_issue,ISS1012,Introduction to Art History,,,missing_grade_rows
+warning,coverage_report_issue,ISS1013,Project Management,,,missing_grade_rows
+warning,coverage_report_issue,ISS1014,Crisis Communication,,,missing_grade_rows
+warning,coverage_report_issue,ISS1015,Introduction to World Literature,,,missing_grade_rows
+warning,coverage_report_issue,ISS1017,Art of Self Defense (Taekwondo),,,missing_grade_rows
+warning,coverage_report_issue,ISS1018,Communicating Through Technology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1019,Comparative Studies in Criminal Justice System,,,missing_grade_rows
+warning,coverage_report_issue,ISS1020,Contemporary Art Globally,,,missing_grade_rows
+warning,coverage_report_issue,ISS1021,Customer Relationship Management (CRM),,,missing_grade_rows
+warning,coverage_report_issue,ISS1022,East Asian Linguistics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1023,Emerging Asian Markets and the Global Economic Crisis,,,missing_grade_rows
+warning,coverage_report_issue,ISS1024,"Gender, Race, and Empire in Asia",,,missing_grade_rows
+warning,coverage_report_issue,ISS1025,Health Equity & Determinants of Health,,,missing_grade_rows
+warning,coverage_report_issue,ISS1026,Innovative ID Studio,,,missing_grade_rows
+warning,coverage_report_issue,ISS1027,Strategic Communication Campaign,,,missing_grade_rows
+warning,coverage_report_issue,ISS1028,Understanding Modern Business and Management,,,missing_grade_rows
+warning,coverage_report_issue,ISS1029,Women and Politics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1031,Introduction to Rehabilitation,,,missing_grade_rows
+warning,coverage_report_issue,ISS1032,Multicultural Counseling,,,missing_grade_rows
+warning,coverage_report_issue,ISS1033,History of the Documentary,,,missing_grade_rows
+warning,coverage_report_issue,ISS1034,Tourism and Recreation,,,missing_grade_rows
+warning,coverage_report_issue,ISS1035,Contemporary Society and Philosophy,,,missing_grade_rows
+warning,coverage_report_issue,ISS1036,Understanding U.S. History,,,missing_grade_rows
+warning,coverage_report_issue,ISS1037,Business Calculus,,,missing_grade_rows
+warning,coverage_report_issue,ISS1038,Data Science,,,missing_grade_rows
+warning,coverage_report_issue,ISS1039,East Asian Politics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1040,"Empire, War and Memory",,,missing_grade_rows
+warning,coverage_report_issue,ISS1041,Engineer and Society,,,missing_grade_rows
+warning,coverage_report_issue,ISS1042,Entrepreneurship-Management and Human Development,,,missing_grade_rows
+warning,coverage_report_issue,ISS1043,Health Equity,,,missing_grade_rows
+warning,coverage_report_issue,ISS1044,Impact of Electromagnetic Radiation,,,missing_grade_rows
+warning,coverage_report_issue,ISS1045,International Experiential Marketing,,,missing_grade_rows
+warning,coverage_report_issue,ISS1046,"Language, Culture and Society in Korea",,,missing_grade_rows
+warning,coverage_report_issue,ISS1047,Media Constructions,,,missing_grade_rows
+warning,coverage_report_issue,ISS1048,Numerical Analysis,,,missing_grade_rows
+warning,coverage_report_issue,ISS1049,Paperclay and Paperporcelain,,,missing_grade_rows
+warning,coverage_report_issue,ISS1050,The History and Theory of Documentary,,,missing_grade_rows
+warning,coverage_report_issue,ISS1051,Topics in Korean Arts and Society,,,missing_grade_rows
+warning,coverage_report_issue,ISS1052,Visual Arts for Elementary Teachers,,,missing_grade_rows
+warning,coverage_report_issue,ISS1053,Introduction to Education,,,missing_grade_rows
+warning,coverage_report_issue,ISS1054,Marketing,,,missing_grade_rows
+warning,coverage_report_issue,ISS1055,Introduction to Political Science,,,missing_grade_rows
+warning,coverage_report_issue,ISS1056,Ceramic Art,,,missing_grade_rows
+warning,coverage_report_issue,ISS1057,History of Graphic Design,,,missing_grade_rows
+warning,coverage_report_issue,ISS1058,Korean Traditional Fan Dance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1059,Contemporary Environmental and Activist Media,,,missing_grade_rows
+warning,coverage_report_issue,ISS1060,Photo and Video Journalism,,,missing_grade_rows
+warning,coverage_report_issue,ISS1061,Art of Film,,,missing_grade_rows
+warning,coverage_report_issue,ISS1062,"Housing, Family and Community",,,missing_grade_rows
+warning,coverage_report_issue,ISS1063,Confucian Ethics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1064,Premodern Chinese Literature,,,missing_grade_rows
+warning,coverage_report_issue,ISS1065,East Asian Linguistics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1066,Arab Spring Revolt,,,missing_grade_rows
+warning,coverage_report_issue,ISS1067,Government and Politics of Middle East and North Africa,,,missing_grade_rows
+warning,coverage_report_issue,ISS1068,Introduction to Korean Cinema,,,missing_grade_rows
+warning,coverage_report_issue,ISS1069,Advanced Korean Language,,,missing_grade_rows
+warning,coverage_report_issue,ISS1070,Adulthood and Aging in South Korea,,,missing_grade_rows
+warning,coverage_report_issue,ISS1071,Introduction to Research Methods for Social Work,,,missing_grade_rows
+warning,coverage_report_issue,ISS1072,Introduction to Social Work and Social Welfare,,,missing_grade_rows
+warning,coverage_report_issue,ISS1073,Introduction to International Studies,,,missing_grade_rows
+warning,coverage_report_issue,ISS1074,Introduction to International Relations,,,missing_grade_rows
+warning,coverage_report_issue,ISS1075,Korean Traditional Mask Dance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1076,Digital Studio,,,missing_grade_rows
+warning,coverage_report_issue,ISS1077,Korean Civilization,,,missing_grade_rows
+warning,coverage_report_issue,ISS1078,Mind-body Health,,,missing_grade_rows
+warning,coverage_report_issue,ISS1079,Architecture Design Studio: Reinterpreting the Korean Hanok,,,missing_grade_rows
+warning,coverage_report_issue,ISS1080,Gender and Korean Society,,,missing_grade_rows
+warning,coverage_report_issue,ISS1081,Korean Language 1 (Basic),,,missing_grade_rows
+warning,coverage_report_issue,ISS1082,Korean Language 2 (Beginning),,,missing_grade_rows
+warning,coverage_report_issue,ISS1083,Korean Language 3 (Intermediate),,,missing_grade_rows
+warning,coverage_report_issue,ISS1084,Korean Language 4 (Intermediate),,,missing_grade_rows
+warning,coverage_report_issue,ISS1085,Engineering Communication,,,missing_grade_rows
+warning,coverage_report_issue,ISS1086,Asian Cinema,,,missing_grade_rows
+warning,coverage_report_issue,ISS1087,Korean Beauty and Make-up,,,missing_grade_rows
+warning,coverage_report_issue,ISS1088,Seminar:Fashion Design for Well-being,,,missing_grade_rows
+warning,coverage_report_issue,ISS1089,Fundamentals of Business Start-Up,,,missing_grade_rows
+warning,coverage_report_issue,ISS1090,Adulthood and Aging,,,missing_grade_rows
+warning,coverage_report_issue,ISS1091,Investments,,,missing_grade_rows
+warning,coverage_report_issue,ISS1092,Introduction to Computer Graphic,,,missing_grade_rows
+warning,coverage_report_issue,ISS1093,Look around you:Language and City,,,missing_grade_rows
+warning,coverage_report_issue,ISS1094,New Neighbors:Refugees and Immigrants,,,missing_grade_rows
+warning,coverage_report_issue,ISS1095,Human Anatomy,,,missing_grade_rows
+warning,coverage_report_issue,ISS1096,Principles of Nutrition,,,missing_grade_rows
+warning,coverage_report_issue,ISS1097,Abnormal Psychology Across Cultures,,,missing_grade_rows
+warning,coverage_report_issue,ISS1098,Multicultural Psychology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1099,Psychology of Women,,,missing_grade_rows
+warning,coverage_report_issue,ISS1100,Operations Research,,,missing_grade_rows
+warning,coverage_report_issue,ISS1101,Sociology of Religion,,,missing_grade_rows
+warning,coverage_report_issue,ISS1102,International Organizations,,,missing_grade_rows
+warning,coverage_report_issue,ISS1103,Numerical Methods for Engineers,,,missing_grade_rows
+warning,coverage_report_issue,ISS1104,Design Thinking and Product Design Strategy,,,missing_grade_rows
+warning,coverage_report_issue,ISS1105,Sustainable Business and Development,,,missing_grade_rows
+warning,coverage_report_issue,ISS1106,International Social Entrepreneurship,,,missing_grade_rows
+warning,coverage_report_issue,ISS1107,Global Entrepreneurship-Launch your Startup,,,missing_grade_rows
+warning,coverage_report_issue,ISS1108,Communication & Negotiation Strategy,,,missing_grade_rows
+warning,coverage_report_issue,ISS1109,International Journalism,,,missing_grade_rows
+warning,coverage_report_issue,ISS1110,Art of Self Defense 2 (Taekwondo),,,missing_grade_rows
+warning,coverage_report_issue,ISS1111,Intro to Mass Communication,,,missing_grade_rows
+warning,coverage_report_issue,ISS1112,Documentary Research Methods,,,missing_grade_rows
+warning,coverage_report_issue,ISS1113,Environmental Issues In Documentary Films,,,missing_grade_rows
+warning,coverage_report_issue,ISS1114,Korean Pop Dance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1115,Korean Pop Vocal,,,missing_grade_rows
+warning,coverage_report_issue,ISS1116,Epidemiology:Application to Public Health,,,missing_grade_rows
+warning,coverage_report_issue,ISS1117,Research Project,,,missing_grade_rows
+warning,coverage_report_issue,ISS1118,Consumer Psychology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1119,Psychology of Happiness,,,missing_grade_rows
+warning,coverage_report_issue,ISS1120,Integrated Marketing Communications,,,missing_grade_rows
+warning,coverage_report_issue,ISS1121,Introduction to Criminology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1122,International Criminal Justice System,,,missing_grade_rows
+warning,coverage_report_issue,ISS1123,Civil Rights and Literature,,,missing_grade_rows
+warning,coverage_report_issue,ISS1124,Literature and Film,,,missing_grade_rows
+warning,coverage_report_issue,ISS1125,Microprocessor and IoT,,,missing_grade_rows
+warning,coverage_report_issue,ISS1126,Human Development,,,missing_grade_rows
+warning,coverage_report_issue,ISS1127,Healthy Life Skills,,,missing_grade_rows
+warning,coverage_report_issue,ISS1128,Research Project,,,missing_grade_rows
+warning,coverage_report_issue,ISS1129,Human Physiology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1130,Stem Cell and Regenerative Medicine,,,missing_grade_rows
+warning,coverage_report_issue,ISS1131,Fluid Mechanics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1132,Ceramic Practice,,,missing_grade_rows
+warning,coverage_report_issue,ISS1133,Communication Strategies and Tactics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1134,Korean Food and Culture,,,missing_grade_rows
+warning,coverage_report_issue,ISS1135,Digital Consumer Behavior,,,missing_grade_rows
+warning,coverage_report_issue,ISS1136,Python for Beginners,,,missing_grade_rows
+warning,coverage_report_issue,ISS1137,Foundations on Data Science and Visualization,,,missing_grade_rows
+warning,coverage_report_issue,ISS1138,The Rise of the Korean Wave,,,missing_grade_rows
+warning,coverage_report_issue,ISS1139,Digital Media Storytelling,,,missing_grade_rows
+warning,coverage_report_issue,ISS1140,Introduction to Power Electronics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1141,Transmedia Journalism,,,missing_grade_rows
+warning,coverage_report_issue,ISS1142,AI and Finance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1143,Omnibus Lecture Series in STEM,,,missing_grade_rows
+warning,coverage_report_issue,ISS1144,Introduction to Electronics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1145,Designing Sustainably,,,missing_grade_rows
+warning,coverage_report_issue,ISS1146,Interior Urbanism,,,missing_grade_rows
+warning,coverage_report_issue,ISS1147,Transformative Responsive Environments,,,missing_grade_rows
+warning,coverage_report_issue,ISS1148,Understanding Collective Intelligence & Encyclopedic Writing through Editing Wikipedia,,,missing_grade_rows
+warning,coverage_report_issue,ISS1149,Globalization and Society,,,missing_grade_rows
+warning,coverage_report_issue,ISS1150,K-pop as Transnational Phenomenon,,,missing_grade_rows
+warning,coverage_report_issue,ISS1151,Understanding Korea through Korean films,,,missing_grade_rows
+warning,coverage_report_issue,ISS1152,Introduction to Managerial Accounting,,,missing_grade_rows
+warning,coverage_report_issue,ISS1153,Statistics and Probability for Engineers,,,missing_grade_rows
+warning,coverage_report_issue,ISS1154,Introduction to Cybersecurity,,,missing_grade_rows
+warning,coverage_report_issue,ISS1155,Exploring Seoul: Geography of the City,,,missing_grade_rows
+warning,coverage_report_issue,ISS1156,Geographies of Sustainable Agriculture,,,missing_grade_rows
+warning,coverage_report_issue,ISS1157,Environmental Issues in Korean & North American Cinema,,,missing_grade_rows
+warning,coverage_report_issue,ISS1158,Introduction to AI and Deep Learning Basics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1159,Brand Workshop,,,missing_grade_rows
+warning,coverage_report_issue,ISS1160,XR Experience Design with Unity,,,missing_grade_rows
+warning,coverage_report_issue,ISS1161,Introduction to Big Data Analysis,,,missing_grade_rows
+warning,coverage_report_issue,ISS1162,Creative Programming,,,missing_grade_rows
+warning,coverage_report_issue,ISS1163,Introduction to Acting,,,missing_grade_rows
+warning,coverage_report_issue,ISS1164,AI Basics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1165,Computer Networks,,,missing_grade_rows
+warning,coverage_report_issue,ISS1166,Understanding of Psychology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1167,Basic Korean (Level 1),,,missing_grade_rows
+warning,coverage_report_issue,ISS1168,Basic Korean (Level 2),,,missing_grade_rows
+warning,coverage_report_issue,ISS1169,Behavioral Insights for International Business,,,missing_grade_rows
+warning,coverage_report_issue,ISS1170,International Marketing and Content Creation,,,missing_grade_rows
+warning,coverage_report_issue,ISS1171,Introduction to Microelectronics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1172,General Physics 1,,,missing_grade_rows
+warning,coverage_report_issue,ISS1173,General Physics 2,,,missing_grade_rows
+warning,coverage_report_issue,ISS1174,Exploring Korean Entertainment Business,,,missing_grade_rows
+warning,coverage_report_issue,ISS1175,Cultural Geography: Exploring Korea Through Film,,,missing_grade_rows
+warning,coverage_report_issue,ISS1176,East Asian Political Economy,,,missing_grade_rows
+warning,coverage_report_issue,ISS1177,Politics of Science and Technology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1178,Beginning Korean Language with K-Culture,,,missing_grade_rows
+warning,coverage_report_issue,ISS1179,Intermediate Korean Language with K-Culture,,,missing_grade_rows
+warning,coverage_report_issue,ISS1180,Financial Management and Decision-Making,,,missing_grade_rows
+warning,coverage_report_issue,ISS1181,Exploring Statistical Analyses Using Korean Data,,,missing_grade_rows
+warning,coverage_report_issue,ISS1182,Learning Korean Traditions and Culture with Folk Dance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1183,Investment in Advanced Economies,,,missing_grade_rows
+warning,coverage_report_issue,ISS1184,Financial Management in Advanced Economies,,,missing_grade_rows
+warning,coverage_report_issue,ISS1185,The Architectural Imagination,,,missing_grade_rows
+warning,coverage_report_issue,ISS1186,"Managerial Accounting, Decision-Making Perspective",,,missing_grade_rows
+warning,coverage_report_issue,ISS1187,East Asian Languages and Cultures,,,missing_grade_rows
+warning,coverage_report_issue,ISS1188,Contemporary Society and Marketing,,,missing_grade_rows
+warning,coverage_report_issue,ISS1189,Principles of Microconomics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1190,Exploring Pop Music,,,missing_grade_rows
+warning,coverage_report_issue,ISS1191,Advertising & Promotion,,,missing_grade_rows
+warning,coverage_report_issue,ISS1192,Interactive Media Performance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1193,Korean Traditional Sogo Dance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1194,Business Practice in the Asian Market,,,missing_grade_rows
+warning,coverage_report_issue,ISS1195,Multimedia Marketing and Content Design,,,missing_grade_rows
+warning,coverage_report_issue,ISS1196,"Health, Environment, Lifestyle and Preserve earth(HELP)",,,missing_grade_rows
+warning,coverage_report_issue,ISS1197,Cross Cultural Communication,,,missing_grade_rows
+warning,coverage_report_issue,ISS1198,Marketing for Engineers,,,missing_grade_rows
+warning,coverage_report_issue,ISS1199,Korea and Japan in the World,,,missing_grade_rows
+warning,coverage_report_issue,ISS1200,Korean Language and Creative Dance Workshop,,,missing_grade_rows
+warning,coverage_report_issue,ISS1201,Mobile Storytelling and Social Media,,,missing_grade_rows
+warning,coverage_report_issue,ISS1202,Creative Computing and Data with Python,,,missing_grade_rows
+warning,coverage_report_issue,ISS1203,"Culture, Content, Creative Industry and Financial Strategies",,,missing_grade_rows
+warning,coverage_report_issue,ISS1204,Designing the Future_Creativity with Generative AI,,,missing_grade_rows
+warning,coverage_report_issue,ISS1205,Future Design & Technology,,,missing_grade_rows
+warning,coverage_report_issue,ISS1206,Introduction to Behavioral Finance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1207,Introduction to Ethical Hacking,,,missing_grade_rows
+warning,coverage_report_issue,ISS1208,Introduction to Korean Architecture and its urban forms,,,missing_grade_rows
+warning,coverage_report_issue,ISS1209,Jiu-Jitsu and Self Defense,,,missing_grade_rows
+warning,coverage_report_issue,ISS1210,Korean Dystopian Content : From Train to Busan to Parasite,,,missing_grade_rows
+warning,coverage_report_issue,ISS1211,Korean Wave Deconstructed,,,missing_grade_rows
+warning,coverage_report_issue,ISS1212,Nutrition and Disease Prevention,,,missing_grade_rows
+warning,coverage_report_issue,ISS1213,Racket Sports,,,missing_grade_rows
+warning,coverage_report_issue,ISS1214,SDGs to Social Innovation,,,missing_grade_rows
+warning,coverage_report_issue,ISS1215,Visual Communication and Merchandising,,,missing_grade_rows
+warning,coverage_report_issue,ISS1216,Visual Language of Korea,,,missing_grade_rows
+warning,coverage_report_issue,ISS1217,Consumer Behaviour,,,missing_grade_rows
+warning,coverage_report_issue,ISS1218,Creative Fashion Design with AI,,,missing_grade_rows
+warning,coverage_report_issue,ISS1219,Digital Film and Video Editing,,,missing_grade_rows
+warning,coverage_report_issue,ISS1220,Entrepreneurship,,,missing_grade_rows
+warning,coverage_report_issue,ISS1221,Forecasting and Predictive Analytics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1222,Global English Communication: Real-World Fluency,,,missing_grade_rows
+warning,coverage_report_issue,ISS1223,Innovation and Project Management,,,missing_grade_rows
+warning,coverage_report_issue,ISS1224,Introduction to Semiconductor,,,missing_grade_rows
+warning,coverage_report_issue,ISS1225,"K-Fashion, Creative Design",,,missing_grade_rows
+warning,coverage_report_issue,ISS1226,Step by Step: Introduction to Line Dance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1227,Machine Learning for Business,,,missing_grade_rows
+warning,coverage_report_issue,ISS1228,Marketing Analytics,,,missing_grade_rows
+warning,coverage_report_issue,ISS1229,Marketing Research,,,missing_grade_rows
+warning,coverage_report_issue,ISS1230,Outbreak,,,missing_grade_rows
+warning,coverage_report_issue,ISS1231,R Programming,,,missing_grade_rows
+warning,coverage_report_issue,ISS1232,Regression Analysis,,,missing_grade_rows
+warning,coverage_report_issue,ISS1233,Social Psychology: K-Pop Edition,,,missing_grade_rows
+warning,coverage_report_issue,ISS1234,South Korean Creative Industries,,,missing_grade_rows
+warning,coverage_report_issue,ISS1235,Startup Strategy with Real Startups,,,missing_grade_rows
+warning,coverage_report_issue,ISS1236,Introduction to Smart Manufacturing,,,missing_grade_rows
+warning,coverage_report_issue,ISS1237,K-Culture Communication,,,missing_grade_rows
+warning,coverage_report_issue,ISS1238,Sustainable Marketing,,,missing_grade_rows
+warning,coverage_report_issue,ISS1239,AI and Society,,,missing_grade_rows
+warning,coverage_report_issue,ISS1240,ESG Supply Chain Management,,,missing_grade_rows
+warning,coverage_report_issue,ISS1241,From Microprocessor to Intelligent IoT,,,missing_grade_rows
+warning,coverage_report_issue,ISS1242,Korean Goods Design with Hands-on Experience,,,missing_grade_rows
+warning,coverage_report_issue,ISS1243,Art in Seoul: City as a Living Mutation,,,missing_grade_rows
+warning,coverage_report_issue,ISS1244,From 8-Bit to Orchestra: The Art and Technology of Video Game Music,,,missing_grade_rows
+warning,coverage_report_issue,ISS1245,Marketing Data Analytercy(Data Analytics + AI Literacy),,,missing_grade_rows
+warning,coverage_report_issue,ISS1246,Korean Language and Culture within East Asia,,,missing_grade_rows
+warning,coverage_report_issue,ISS1247,Basic Korean (Level 0 - Korean Alphabet),,,missing_grade_rows
+warning,coverage_report_issue,ISS1248,Applied Bioinspiration and Biodesign,,,missing_grade_rows
+warning,coverage_report_issue,ISS1249,Cultural Re-Engineering in South Korea,,,missing_grade_rows
+warning,coverage_report_issue,ISS1250,Deep Learning and Visual Intelligence,,,missing_grade_rows
+warning,coverage_report_issue,ISS1251,Financial Markets 101: From Fundamentals to Contemporary Issues,,,missing_grade_rows
+warning,coverage_report_issue,ISS1252,"Globalisation, Citizenship & Ethics in the Age of AI",,,missing_grade_rows
+warning,coverage_report_issue,ISS1253,Introduction to Finance,,,missing_grade_rows
+warning,coverage_report_issue,ISS1254,Philosophy of Art and Film,,,missing_grade_rows
+warning,coverage_report_issue,ISS1255,Photojournalism,,,missing_grade_rows
+warning,coverage_report_issue,ISS1256,Statistics Foundation for AI,,,missing_grade_rows
+warning,coverage_report_issue,ISS1257,"Strategic Personal Branding: Stories, Values, and Decisions",,,missing_grade_rows
+warning,coverage_report_issue,ISS1258,Artistic Research on Culture and Nature in Korea,,,missing_grade_rows
+warning,coverage_report_issue,ISS1259,"Society at a Crossroads: AI, Technology and You",,,missing_grade_rows
+warning,coverage_report_issue,ISS1260,Introductory Korean (Level 3),,,missing_grade_rows
+warning,coverage_report_issue,ISS1261,Basic Korean,,,missing_grade_rows
+warning,coverage_report_issue,ISS4001,Cultural Perspectiveson Substance Abuse and Addictions,,,missing_grade_rows
+warning,coverage_report_issue,ITC2001,파이썬데이터분석,,,missing_grade_rows
+warning,coverage_report_issue,ITC2002,디지털기술과경영,,,missing_grade_rows
+warning,coverage_report_issue,ITC2005,컴퓨터그래픽스디자인,,,missing_grade_rows
+warning,coverage_report_issue,ITC3001,고객경험관리,,,missing_grade_rows
+warning,coverage_report_issue,ITC3008,정보검색및추출,,,missing_grade_rows
+warning,coverage_report_issue,ITC3010,모바일앱프로그래밍,,,missing_grade_rows
+warning,coverage_report_issue,ITC3011,서비스UX디자인,,,missing_grade_rows
+warning,coverage_report_issue,ITC3012,UI/UX입문,,,missing_grade_rows
+warning,coverage_report_issue,ITC3013,해석가능인공지능,,,missing_grade_rows
+warning,coverage_report_issue,ITC3014,경험서비스디자인,,,missing_grade_rows
+warning,coverage_report_issue,ITC3015,데이터베이스이론과응용,,,missing_grade_rows
+warning,coverage_report_issue,ITC3016,객체지향컴퓨팅,,,missing_grade_rows
+warning,coverage_report_issue,ITC3017,경험평가방법론,,,missing_grade_rows
+warning,coverage_report_issue,ITC3018,데이터기반경험서비스설계,,,missing_grade_rows
+warning,coverage_report_issue,ITC4001,기업가정신과창업,,,missing_grade_rows
+warning,coverage_report_issue,ITC4005,정보융합세미나,,,missing_grade_rows
+warning,coverage_report_issue,ITC4007,정보공학종합설계,,,missing_grade_rows
+warning,coverage_report_issue,ITC4008,지식공학,,,missing_grade_rows
+warning,coverage_report_issue,ITC4010,인공지능2,,,missing_grade_rows
+warning,coverage_report_issue,ITC4011,산업사물인터넷(캡스톤디자인),,,missing_grade_rows
+warning,coverage_report_issue,ITC4012,사운드스케이프디자인,,,missing_grade_rows
+warning,coverage_report_issue,ITC4013,디지털콘텐츠개발,,,missing_grade_rows
+warning,coverage_report_issue,ITC4014,인간-인공지능협업제품서비스설계,,,missing_grade_rows
+warning,coverage_report_issue,ITE3025,기술인텔리전스,,,missing_grade_rows
+warning,coverage_report_issue,ITE4018,시스템분석및설계,,,missing_grade_rows
+warning,coverage_report_issue,ITE4066,클라우드컴퓨팅,,,missing_grade_rows
+warning,coverage_report_issue,ITE4079,모바일시스템및프로그래밍,,,missing_grade_rows
+warning,coverage_report_issue,ITE4081,지능제어SW,,,missing_grade_rows
+warning,coverage_report_issue,ITE4082,차량임베디드시스템설계기초,,,missing_grade_rows
+warning,coverage_report_issue,JMC4031,미디어경영,,,missing_grade_rows
+warning,coverage_report_issue,JMC4034,미디어문화산업의과제,,,missing_grade_rows
+warning,coverage_report_issue,JOB1001,현장실습(단기),,,missing_grade_rows
+warning,coverage_report_issue,JOB1002,해외단기현장실습,,,missing_grade_rows
+warning,coverage_report_issue,JOB1005,현장실습(단기)1,,,missing_grade_rows
+warning,coverage_report_issue,JOB1006,현장실습(단기)2,,,missing_grade_rows
+warning,coverage_report_issue,JOB2001,현장실습(전공핵심),,,missing_grade_rows
+warning,coverage_report_issue,JOB2002,현장실습(전공심화),,,missing_grade_rows
+warning,coverage_report_issue,JOB2003,현장실습(일반교양),,,missing_grade_rows
+warning,coverage_report_issue,JOB2005,현장실습(일반선택),,,missing_grade_rows
+warning,coverage_report_issue,JOB3001,현장실습(4+1),,,missing_grade_rows
+warning,coverage_report_issue,JOB5001,단기창업현장실습,,,missing_grade_rows
+warning,coverage_report_issue,JOB6001,창업현장실습(전공핵심),,,missing_grade_rows
+warning,coverage_report_issue,JOB6002,창업현장실습(전공심화),,,missing_grade_rows
+warning,coverage_report_issue,JOB6003,창업현장실습(일반교양),,,missing_grade_rows
+warning,coverage_report_issue,JOB6005,창업현장실습(일반선택),,,missing_grade_rows
+warning,coverage_report_issue,JPS0001,Korean 1,,,missing_grade_rows
+warning,coverage_report_issue,JPS0002,Korean 2,,,missing_grade_rows
+warning,coverage_report_issue,JPS0003,Korean 3,,,missing_grade_rows
+warning,coverage_report_issue,JPS0004,Korean 4,,,missing_grade_rows
+warning,coverage_report_issue,JPS0005,Korean 5,,,missing_grade_rows
+warning,coverage_report_issue,JPS0006,Korean 6,,,missing_grade_rows
+warning,coverage_report_issue,JPS0007,Korean 7,,,missing_grade_rows
+warning,coverage_report_issue,KLE3024,글로벌한국어교육,,,missing_grade_rows
+warning,coverage_report_issue,KOR4078,학위논문지도1(국문),,,missing_grade_rows
+warning,coverage_report_issue,KOR4079,학위논문지도2(국문),,,missing_grade_rows
+warning,coverage_report_issue,KOR4082,경계를가로지르는한국문학과세계문학,,,missing_grade_rows
+warning,coverage_report_issue,KTM3080,세계음악문화,,,missing_grade_rows
+warning,coverage_report_issue,KTM4001,창작실험실습1,,,missing_grade_rows
+warning,coverage_report_issue,KTM4002,창작실험실습2,,,missing_grade_rows
+warning,coverage_report_issue,LIF4004,식물스트레스학,,,missing_grade_rows
+warning,coverage_report_issue,MAT3039,수치해석학,,,missing_grade_rows
+warning,coverage_report_issue,MAT3063,위상수학연습1,,,missing_grade_rows
+warning,coverage_report_issue,MAT3076,AI와공학도구를활용한수학수업,,,missing_grade_rows
+warning,coverage_report_issue,MAT4035,현대수학특강,,,missing_grade_rows
+warning,coverage_report_issue,MAT4036,응용수학특강,,,missing_grade_rows
+warning,coverage_report_issue,MAT4076,수학연구캡스톤디자인2,,,missing_grade_rows
+warning,coverage_report_issue,MED1016,병리학및실습,,,missing_grade_rows
+warning,coverage_report_issue,MED3101,의학연구프로젝트3,,,missing_grade_rows
+warning,coverage_report_issue,MED3102,기초의학실습캠프,,,missing_grade_rows
+warning,coverage_report_issue,MED4100,의학연구프로젝트4,,,missing_grade_rows
+warning,coverage_report_issue,MME2056,토양지하수오염복원학,,,missing_grade_rows
+warning,coverage_report_issue,MME3036,환경기초화학,,,missing_grade_rows
+warning,coverage_report_issue,MME4064,나노재료와자원환경,,,missing_grade_rows
+warning,coverage_report_issue,MOT0001,예술공학의이해,,,missing_grade_rows
+warning,coverage_report_issue,MOT0002,특허와지식재산경영,,,missing_grade_rows
+warning,coverage_report_issue,MOT0003,과학기술정책개론,,,missing_grade_rows
+warning,coverage_report_issue,MOT0004,디자인과기술혁신,,,missing_grade_rows
+warning,coverage_report_issue,MOT0005,기술경영공학의이해,,,missing_grade_rows
+warning,coverage_report_issue,NUR1006,간호와직업,,,missing_grade_rows
+warning,coverage_report_issue,NUR1007,간호고전,,,missing_grade_rows
+warning,coverage_report_issue,NUR1008,동양적건강과질병관,,,missing_grade_rows
+warning,coverage_report_issue,NUR2001,간호윤리,,,missing_grade_rows
+warning,coverage_report_issue,NUR2008,기본간호학및실습1,,,missing_grade_rows
+warning,coverage_report_issue,NUR2009,기본간호학및실습2,,,missing_grade_rows
+warning,coverage_report_issue,NUR2021,아동발달과건강,,,missing_grade_rows
+warning,coverage_report_issue,NUR2023,성인간호개론,,,missing_grade_rows
+warning,coverage_report_issue,NUR2028,출산기건강장애와간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR2029,성인건강간호중재론1,,,missing_grade_rows
+warning,coverage_report_issue,NUR2031,지역중심간호과학1,,,missing_grade_rows
+warning,coverage_report_issue,NUR2033,성장과발달,,,missing_grade_rows
+warning,coverage_report_issue,NUR2034,논리와비평적사고,,,missing_grade_rows
+warning,coverage_report_issue,NUR2036,기초간호과학4,,,missing_grade_rows
+warning,coverage_report_issue,NUR3009,임상실습1,,,missing_grade_rows
+warning,coverage_report_issue,NUR3010,임상실습2,,,missing_grade_rows
+warning,coverage_report_issue,NUR3015,보건교육,,,missing_grade_rows
+warning,coverage_report_issue,NUR3022,한방간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3037,간호생리학,,,missing_grade_rows
+warning,coverage_report_issue,NUR3039,인간발달,,,missing_grade_rows
+warning,coverage_report_issue,NUR3040,호스피스간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3041,성인건강간호중재론2,,,missing_grade_rows
+warning,coverage_report_issue,NUR3046,응급간호학,,,missing_grade_rows
+warning,coverage_report_issue,NUR3047,지역중심간호과학2,,,missing_grade_rows
+warning,coverage_report_issue,NUR3048,학교중심간호과학,,,missing_grade_rows
+warning,coverage_report_issue,NUR3052,중환자간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3053,정신건강간호중재,,,missing_grade_rows
+warning,coverage_report_issue,NUR3059,대체요법과간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3060,문화와전인간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3062,심리사회간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3064,간호연구및통계,,,missing_grade_rows
+warning,coverage_report_issue,NUR3066,지역사회/정신건강간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR3067,통합간호1,,,missing_grade_rows
+warning,coverage_report_issue,NUR3069,보건프로그램개발및평가,,,missing_grade_rows
+warning,coverage_report_issue,NUR3071,성인간호중재론(배설),,,missing_grade_rows
+warning,coverage_report_issue,NUR3073,성인간호중재론(인지와조절),,,missing_grade_rows
+warning,coverage_report_issue,NUR3074,성인간호중재론(산화),,,missing_grade_rows
+warning,coverage_report_issue,NUR3085,근거기반기본간호이슈,,,missing_grade_rows
+warning,coverage_report_issue,NUR3086,대상자교육중재,,,missing_grade_rows
+warning,coverage_report_issue,NUR4009,임상실습3,,,missing_grade_rows
+warning,coverage_report_issue,NUR4010,임상실습4,,,missing_grade_rows
+warning,coverage_report_issue,NUR4021,간호관리학1,,,missing_grade_rows
+warning,coverage_report_issue,NUR4022,간호관리학2,,,missing_grade_rows
+warning,coverage_report_issue,NUR4043,만성질환자간호,,,missing_grade_rows
+warning,coverage_report_issue,NUR4050,임상종합평가(PBL),,,missing_grade_rows
+warning,coverage_report_issue,NUR4063,간호과오론,,,missing_grade_rows
+warning,coverage_report_issue,NUR4064,통합간호2(중년건강간호),,,missing_grade_rows
+warning,coverage_report_issue,NUR4065,통합간호3,,,missing_grade_rows
+warning,coverage_report_issue,NUR4066,통합간호4,,,missing_grade_rows
+warning,coverage_report_issue,NUR4068,건강증진,,,missing_grade_rows
+warning,coverage_report_issue,NUR4069,통합간호실습1,,,missing_grade_rows
+warning,coverage_report_issue,NUR4070,통합간호실습2,,,missing_grade_rows
+warning,coverage_report_issue,NUR4074,통합간호실습,,,missing_grade_rows
+warning,coverage_report_issue,NUR4076,보건교육방법론,,,missing_grade_rows
+warning,coverage_report_issue,NUR4079,직업환경중심간호과학,,,missing_grade_rows
+warning,coverage_report_issue,NUR4081,성인간호중재론(대사),,,missing_grade_rows
+warning,coverage_report_issue,NUR4082,성인간호중재론(순환),,,missing_grade_rows
+warning,coverage_report_issue,NUR4098,지역사회간호실습,,,missing_grade_rows
+warning,coverage_report_issue,NUR4099,노인간호실습,,,missing_grade_rows
+warning,coverage_report_issue,PAD2061,행정기술론,,,missing_grade_rows
+warning,coverage_report_issue,PAD3065,국제사회와행정,,,missing_grade_rows
+warning,coverage_report_issue,PAD4043,졸업논문캡스톤디자인1,,,missing_grade_rows
+warning,coverage_report_issue,PBL4026,반도체공학캡스톤PBL,,,missing_grade_rows
+warning,coverage_report_issue,PER2017,중국어커뮤니케이션기초,,,missing_grade_rows
+warning,coverage_report_issue,PER2018,중국어커뮤니케이션연습,,,missing_grade_rows
+warning,coverage_report_issue,PER2054,한중커뮤니케이션기초1,,,missing_grade_rows
+warning,coverage_report_issue,PER2055,중국어통역기초1,,,missing_grade_rows
+warning,coverage_report_issue,PER2056,한국어통역기초1,,,missing_grade_rows
+warning,coverage_report_issue,PER3031,LANGUAGE AND MIND,,,missing_grade_rows
+warning,coverage_report_issue,PER3051,Politics and Drama,,,missing_grade_rows
+warning,coverage_report_issue,PER3055,중국어번역기초1,,,missing_grade_rows
+warning,coverage_report_issue,PER3056,한국어번역기초1,,,missing_grade_rows
+warning,coverage_report_issue,PER3057,중국어번역기초2,,,missing_grade_rows
+warning,coverage_report_issue,PER3058,한국어번역기초2,,,missing_grade_rows
+warning,coverage_report_issue,PER3059,한중프레젠테이션2,,,missing_grade_rows
+warning,coverage_report_issue,PER4033,한중통번역연습,,,missing_grade_rows
+warning,coverage_report_issue,PER4034,중한통번역연습,,,missing_grade_rows
+warning,coverage_report_issue,PHE2026,야영훈련,,,missing_grade_rows
+warning,coverage_report_issue,PHE3123,수상스포츠,,,missing_grade_rows
+warning,coverage_report_issue,PHE4092,해부기능학,,,missing_grade_rows
+warning,coverage_report_issue,PHE4113,스포츠와도핑,,,missing_grade_rows
+warning,coverage_report_issue,PHY4073,나노에너지및환경물리학,,,missing_grade_rows
+warning,coverage_report_issue,PHY4080,물리학연구실현장실습4,,,missing_grade_rows
+warning,coverage_report_issue,PHY4083,물리학연구캡스톤디자인,,,missing_grade_rows
+warning,coverage_report_issue,PNO4035,낭만주의피아노음악,,,missing_grade_rows
+warning,coverage_report_issue,PRE2038,의료데이터사이언스통섭,,,missing_grade_rows
+warning,coverage_report_issue,PRE2039,의공학융합연구특론,,,missing_grade_rows
+warning,coverage_report_issue,PRE2040,융합연구프로젝트1,,,missing_grade_rows
+warning,coverage_report_issue,PRE2041,융합연구프로젝트2,,,missing_grade_rows
+warning,coverage_report_issue,PSD4028,독재정치,,,missing_grade_rows
+warning,coverage_report_issue,ROB2003,전기전자회로,,,missing_grade_rows
+warning,coverage_report_issue,SBC0009,AI반도체기술의이해,,,missing_grade_rows
+warning,coverage_report_issue,SBC5001,차세대디스플레이,,,missing_grade_rows
+warning,coverage_report_issue,SBC5002,나노소재의물성과산업응용,,,missing_grade_rows
+warning,coverage_report_issue,SCE2001,양자역학개론,,,missing_grade_rows
+warning,coverage_report_issue,SCE2002,융합양자공학,,,missing_grade_rows
+warning,coverage_report_issue,SCE3002,기계학습입문,,,missing_grade_rows
+warning,coverage_report_issue,SCE4001,반도체공학종합설계1,,,missing_grade_rows
+warning,coverage_report_issue,SCE4002,반도체공학종합설계2,,,missing_grade_rows
+warning,coverage_report_issue,SCE4003,나노전자공학,,,missing_grade_rows
+warning,coverage_report_issue,SCE4004,전자재료,,,missing_grade_rows
+warning,coverage_report_issue,SOC3029,조사분석인턴쉽,,,missing_grade_rows
+warning,coverage_report_issue,SOC3055,영상사회학,,,missing_grade_rows
+warning,coverage_report_issue,SOI1001,인공지능기초,,,missing_grade_rows
+warning,coverage_report_issue,SOI1002,파이션기초,,,missing_grade_rows
+warning,coverage_report_issue,SOI1004,인공지능캡스톤프로젝트1-1,,,missing_grade_rows
+warning,coverage_report_issue,SOI1005,고급파이션프로그래밍,,,missing_grade_rows
+warning,coverage_report_issue,SOI1006,인지과학및인공지능,,,missing_grade_rows
+warning,coverage_report_issue,SOI1007,지식추출및추론,,,missing_grade_rows
+warning,coverage_report_issue,SOI2002,인공지능베이지안이론,,,missing_grade_rows
+warning,coverage_report_issue,SOI3009,강화학습이론및응용,,,missing_grade_rows
+warning,coverage_report_issue,SOI3015,AI컴퓨팅시스템,,,missing_grade_rows
+warning,coverage_report_issue,SOI3016,인지과학연구방법론1,,,missing_grade_rows
+warning,coverage_report_issue,SOI4003,인공지능졸업프로젝트,,,missing_grade_rows
+warning,coverage_report_issue,SOI4014,데이터사이언스산업트랜드,,,missing_grade_rows
+warning,coverage_report_issue,SOI4016,데이터사이언스세미나1,,,missing_grade_rows
+warning,coverage_report_issue,SOI4017,데이터사이언스세미나2,,,missing_grade_rows
+warning,coverage_report_issue,SOI4018,사회신경과학,,,missing_grade_rows
+warning,coverage_report_issue,SYB1106,경제학의이해,,,missing_grade_rows
+warning,coverage_report_issue,SYB2113,인터페이스디자인,,,missing_grade_rows
+warning,coverage_report_issue,SYB3064,C프로그래밍,,,missing_grade_rows
+warning,coverage_report_issue,SYB5044,E-비즈니스개론,,,missing_grade_rows
+warning,coverage_report_issue,SYB5103,사례관리론,,,missing_grade_rows
+warning,coverage_report_issue,SYB5105,비교의료제도론,,,missing_grade_rows
+warning,coverage_report_issue,SYB9106,취업리더십1:성공DNA,,,missing_grade_rows
+warning,coverage_report_issue,SYB9113,외국인학생을위한실용한국어,,,missing_grade_rows
+warning,coverage_report_issue,SYB9115,긍정컴퓨팅을통한인간과인공지능의공존,,,missing_grade_rows
+warning,coverage_report_issue,SYB9129,언어의품격:언어바르고품위있게사용하기,,,missing_grade_rows
+warning,coverage_report_issue,SYB9130,빅데이터시대의ESG트렌드,,,missing_grade_rows
+warning,coverage_report_issue,SYB9136,알고리즘및컴퓨터적사고,,,missing_grade_rows
+warning,coverage_report_issue,SYB9139,전자기학과미래산업,,,missing_grade_rows
+warning,coverage_report_issue,SYB9140,일상속의역학:힘과운동의비밀,,,missing_grade_rows
+warning,coverage_report_issue,SYB9141,생화학으로읽는몸과세계,,,missing_grade_rows
+warning,coverage_report_issue,SYB9145,"AI리터러시,아는것이힘이다",,,missing_grade_rows
+warning,coverage_report_issue,SYB9146,AI활용의기초와윤리,,,missing_grade_rows
+warning,coverage_report_issue,SYH0002,사랑의실천2(스마트커뮤니케이션),,,missing_grade_rows
+warning,coverage_report_issue,SYH0003,사랑의실천3(기업가정신),,,missing_grade_rows
+warning,coverage_report_issue,TOU3074,호텔·관광경영분석론,,,missing_grade_rows
+warning,coverage_report_issue,TOU3076,관광거버넌스론,,,missing_grade_rows
+warning,coverage_report_issue,URE4034,스마트모빌리티개론,,,missing_grade_rows
+warning,coverage_report_issue,VEN2004,창업기초:창업아이디어기획,,,missing_grade_rows
+warning,coverage_report_issue,VEN2033,Modern Stress Psychology,,,missing_grade_rows
+warning,coverage_report_issue,VEN2034,From K-Pop to K-Beauty: The Rise of Media Platforms and Korean Popular Culture,,,missing_grade_rows
+warning,coverage_report_issue,VEN2035,Principles of Chemistry,,,missing_grade_rows
+warning,coverage_report_issue,VEN2036,Introduction to Computer Graphics,,,missing_grade_rows
+warning,coverage_report_issue,VEN3003,창업심화:사회적기업과창업,,,missing_grade_rows
+warning,coverage_report_issue,VEN4002,창업실습:강소기업필드스터디,,,missing_grade_rows
+warning,coverage_report_issue,VEN4007,창업실습:실전창업워크숍2,,,missing_grade_rows
+warning,coverage_report_issue,VOC4062,성악마스터클래스2,,,missing_grade_rows
+warning,coverage_report_issue,VOC4067,예술가곡2,,,"
+"

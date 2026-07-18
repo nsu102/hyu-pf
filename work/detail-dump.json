@@ -1,0 +1,656 @@
+{
+  "dump": {
+    "url": "https://portal.hanyang.ac.kr/openPop.do?header=hidden&footer=hidden&url=haksa/openPage.do?pgmId=P320321&tk=34f2209cdc363c436437a6e81975d67878ea65d5393fd5ad4988547447eecd4e&pHaksuNo=ACC2056&pPopupYn=Y&pHakbun=9999999999&pSosokCd=FH02528#!Q09OVFJPTExFUiRAXiNoeWluQ29udGVudHMkQF5wSGFrYnVuPSZwU29zb2tDZD0mcEhha2J1bk5tPSZwTWVudVN0YXR1cz1NJnBTdGFydFBhZ2U9JiRAXmhha3NhL29wZW5QYWdlLmRvP3BnbUlkPVAzMjAzMzMmdGs9YTU3MmU2ZjJjNGVkZGJkOWNjNTJkZTBhOTg2ZjVjYjJmMzkxM2JlZTY0MTNmNmQ2OTlkMzYzNWZhNzJlN2I2NiZtZW51SWQ9TTMxOTQ3Nw==",
+    "title": "교과목 포트폴리오 (ACC2056: 회계학)",
+    "text": "교과목 포트폴리오 (ACC2056: 회계학)\n\n포트폴리오 홈\n차트\n차트\n지식나눔게시판-학생\n교과목 수강인원\n\n\n평균 수강인원\n\n\n성적부여현황 (평점)\n\n\n강의평가 점수\n\n\n강의평가 문항별 현황\n\n\n개설학과 현황\n\n\n강좌유형별 현황\n\n\n교과목개요\n\n\n인쇄하기 리포트출력\n\n교과목기본\n\n과목명\t회계학\n학수번호\tACC2056\n역량\t창의\n최초개설년도\t0000/1\n교과목명 변경이력\n\n년도\t학기\t과목명\n2007\t2\t회계학\n담당 교강사\n\n성명\t직급\t소속\n이윤기\t강사, 2026-2학기\t정보시스템학과\n박민아\t강사, 2021-2학기\t정보시스템학과\n신왕건\t겸임교수, 2017-2학기\t경영전문대학원\n김경자\t강사, 2016-2학기\t정보시스템학과\n이춘국\t특임교수, 2015-2학기\t정보시스템학과\n\nCOPYRIGHT 2013 HANYANG UNIVERSITY ALL RIGHTS RESERVED.",
+    "controls": [
+      {
+        "i": 0,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "/",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 1,
+        "tag": "FORM",
+        "id": "",
+        "name": "pageReplaceFormMainCon",
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": "haksa/openPage.do?pgmId=P320322&tk=2bcb4e1826e328e42493052304fd996a67f8801795d0f802528aa6524a4845af"
+      },
+      {
+        "i": 2,
+        "tag": "INPUT",
+        "id": "pHakbun",
+        "name": "pHakbun",
+        "type": "hidden",
+        "value": "9999999999",
+        "className": "",
+        "text": "9999999999",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 3,
+        "tag": "INPUT",
+        "id": "pSosokCd",
+        "name": "pSosokCd",
+        "type": "hidden",
+        "value": "FH02528",
+        "className": "",
+        "text": "FH02528",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 4,
+        "tag": "INPUT",
+        "id": "pHakbunNm",
+        "name": "pHakbunNm",
+        "type": "hidden",
+        "value": "",
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 5,
+        "tag": "INPUT",
+        "id": "pMenuStatus",
+        "name": "pMenuStatus",
+        "type": "hidden",
+        "value": "M",
+        "className": "",
+        "text": "M",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 6,
+        "tag": "INPUT",
+        "id": "pStartPage",
+        "name": "pStartPage",
+        "type": "hidden",
+        "value": "",
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 7,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "포트폴리오 홈",
+        "href": "#",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 8,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "차트",
+        "href": "#",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 9,
+        "tag": "INPUT",
+        "id": "",
+        "name": null,
+        "type": "hidden",
+        "value": "haksa/openPage.do?pgmId=P320333&tk=a572e6f2c4eddbd9cc52de0a986f5cb2f3913bee6413f6d699d3635fa72e7b66",
+        "className": "",
+        "text": "haksa/openPage.do?pgmId=P320333&tk=a572e6f2c4eddbd9cc52de0a986f5cb2f3913bee6413f6d699d3635fa72e7b66",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 10,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "지식나눔게시판-학생",
+        "href": "#",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 11,
+        "tag": "INPUT",
+        "id": "",
+        "name": null,
+        "type": "hidden",
+        "value": "haksa/openPage.do?menuGb=0020&pgmId=P320337&tk=35dfe7d4193a7a46ad495401c5c60a25d1bdae06646ac3e755a88eaa408693bc",
+        "className": "",
+        "text": "haksa/openPage.do?menuGb=0020&pgmId=P320337&tk=35dfe7d4193a7a46ad495401c5c60a25d1bdae06646ac3e755a88eaa408693bc",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 12,
+        "tag": "FORM",
+        "id": "",
+        "name": "pageReplaceFormCon",
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": "haksa/openPage.do?pgmId=P320333&tk=a572e6f2c4eddbd9cc52de0a986f5cb2f3913bee6413f6d699d3635fa72e7b66"
+      },
+      {
+        "i": 13,
+        "tag": "INPUT",
+        "id": "pHakbun",
+        "name": "pHakbun",
+        "type": "hidden",
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 14,
+        "tag": "INPUT",
+        "id": "pSosokCd",
+        "name": "pSosokCd",
+        "type": "hidden",
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 15,
+        "tag": "INPUT",
+        "id": "pHakbunNm",
+        "name": "pHakbunNm",
+        "type": "hidden",
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 16,
+        "tag": "INPUT",
+        "id": "pMenuStatus",
+        "name": "pMenuStatus",
+        "type": "hidden",
+        "value": "M",
+        "className": "",
+        "text": "M",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 17,
+        "tag": "INPUT",
+        "id": "pStartPage",
+        "name": "pStartPage",
+        "type": "hidden",
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 18,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 21,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 22,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 23,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 24,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 25,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 26,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 27,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 28,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": "button",
+        "value": null,
+        "className": "mj_btn_blue",
+        "text": "인쇄하기",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 29,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": "button",
+        "value": null,
+        "className": "mj_btn_blue",
+        "text": "리포트출력",
+        "href": "#none",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 30,
+        "tag": "A",
+        "id": "",
+        "name": null,
+        "type": null,
+        "value": null,
+        "className": "",
+        "text": "",
+        "href": "#",
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 31,
+        "tag": "INPUT",
+        "id": "pageId",
+        "name": null,
+        "type": "hidden",
+        "value": "st",
+        "className": "",
+        "text": "st",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 32,
+        "tag": "INPUT",
+        "id": "popUpYn",
+        "name": null,
+        "type": "hidden",
+        "value": "Y",
+        "className": "",
+        "text": "Y",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 33,
+        "tag": "INPUT",
+        "id": "currPageUrl",
+        "name": null,
+        "type": "hidden",
+        "value": "haksa/openPage.do?pgmId=P320333&tk=a572e6f2c4eddbd9cc52de0a986f5cb2f3913bee6413f6d699d3635fa72e7b66",
+        "className": "",
+        "text": "haksa/openPage.do?pgmId=P320333&tk=a572e6f2c4eddbd9cc52de0a986f5cb2f3913bee6413f6d699d3635fa72e7b66",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      },
+      {
+        "i": 34,
+        "tag": "INPUT",
+        "id": "currPageLoc",
+        "name": null,
+        "type": "hidden",
+        "value": "차트",
+        "className": "",
+        "text": "차트",
+        "href": null,
+        "onclick": null,
+        "src": null,
+        "action": null
+      }
+    ],
+    "scripts": [
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/jquery-1.7.2.min.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/jquery-ui-1.8.16.custom.min.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/jquery.ui.datepicker-ko.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/jquery.ui.datepicker-zh.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/jquery.ba-hashchange.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/lib/jquery.ui.tabs.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/lib/slides.min.jquery.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/lib/Math.uuid.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/formatdate.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/json2.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/cvc-config.js?v=160229",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/cvc-commonlibrary.js?v=20210115",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/cvc-communicator.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/cvc-controller.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/cvc-component.js?v=151105",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/pki/script/enc_core.js?v=20210121",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/cvc-i18n.js?v=20180330",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/common.i18n.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/env/env.js?v=20241216",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/common.index.js?v=20260406",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/common.js?v=20241211",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/hy.js?v=20230704",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/cvcaf/lib/tree-component.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/lib/jquery.tinyscrollbar.min.js",
+        "inline": ""
+      },
+      {
+        "src": "https://portal.hanyang.ac.kr/js/common/common.nexacro.js?v=20260514",
+        "inline": ""
+      },
+      {
+        "src": "",
+        "inline": "\nGNBServiceController.gaeinNo = \"TWpBeU5EQXdNVEk0TlE9PQ==\";\nGNBServiceController.userGb = \"TURFeE1BPT0=\";\nIndexServiceController.userId = \"ZVhNeE1ERTA=\";\n\njQuery(document).ready(function(){\n    //for eZHub\n    if(\"haksa/openPage.do?pgmId=P320321\".indexOf(\"openPage.do\") > -1) {\n        var queryParams = \"haksa/openPage.do?pgmId=P320321\".split(\"?\");\n        if(queryParams.length == 2) {\n            var param = null;\n            var params = {};\n            jQuery(queryParams[1].split(\"&\")).each(function() {\n                param = this.split(\"=\");\n                params[param[0]] = param[1];\n            });\n            if(params.pgmId && params.menuId && params.tk) {\n                jQuery(Config.pageContext).data(\"xuiPageInfo\", {\n                    pgmId : params.pgmId,\n                    menuId : params.menuId,\n                    tk : params.tk\n                });\n            }\n        }\n\n        try {\n            if(opener && opener.document && opener.document.body && jQuery(Config.pageContext).data(\"xuiPageInfo\") == null) {\n                jQuery(opener.document.body).find(Config.pageContext).data(\"xuiPageInfo\", opener.GlobalServiceController.getPageInfo());\n            }\n        } catch(e) {}\n    }\n\n    if(IndexServiceController.options == null){\n        IndexServiceController.options = {};\n    }\n    IndexServiceController.options.mainPageTk = {\n        \"P309856\" : 'b5cd21869f3cd18071fa2427aaa74ed36230e30dfbdac5af1d4504a16b928002',\n        \"P309855\" : '2aae043a3b393161d2e6bbf5778f08573cebb969bde906bf23f4a4765252b69b'\n    };\n\n    \n    Config.locale = \"ko\";\n        if($.browser.msie) {\n        $(\"body\").attr(\"scroll\", \"auto\");\n    }\n    \n    var url = StringUtils.trimToEmpty(\"haksa/openPage.do?pgmId=P320321\");\n    if(StringUtils.trimToNull(\"\") != null) {\n        url = url.replace(\"\", encodeURIComponent(\"\"));\n    }\n\n    var queryStringSeparator = \"?\";\n    if(url.indexOf(\"?\") > -1) {\n        queryStringSeparator = \"&\";\n    }\n\n    var etcParams = new StringBuffer()"
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/loader.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/js/jsapi_compiled_default_module.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/js/jsapi_compiled_graphics_module.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/js/jsapi_compiled_ui_module.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/js/jsapi_compiled_corechart_module.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/js/jsapi_compiled_fw_module.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/third_party/dygraphs/dygraph-tickers-combined.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/third_party/webfontloader/webfont.js",
+        "inline": ""
+      },
+      {
+        "src": "https://www.gstatic.com/charts/51/js/jsapi_compiled_bar_module.js",
+        "inline": ""
+      }
+    ],
+    "htmlMatches": {
+      "report": "",
+      "Report": "",
+      "print": "src=\"https://www.gstatic.com/charts/51/js/jsapi_compiled_ui_module.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://www.gstatic.com/charts/51/js/jsapi_compiled_corechart_module.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://www.gstatic.com/charts/51/js/jsapi_compiled_fw_module.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://www.gstatic.com/charts/51/third_party/dygraphs/dygraph-tickers-combined.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://www.gstatic.com/charts/51/third_party/webfontloader/webfont.js\"></script><script type=\"text/javascript\" charset=\"UTF-8\" src=\"https://www.gstatic.com/charts/51/js/jsapi_compiled_bar_module.js\"></script></head>\n\n<body style=\"background: none; margin: 0px; padding: 0px; overflow: auto;\">\n    <div class=\"browser_pop\">\n                <div style=\"background: none; margin: 0; padding: 0\"><style type=\"text/css\">\n.mj_bg #contents{background:#dbdcde;}\n@media print {\n  .noprint { display:none; }\n}\n</style>\n<div id=\"ptflWrap\" class=\"student_wrap mj_bg\" style=\"min-width: 1253px;\">\n    <!-- Header -->\n    <div id=\"header\" class=\"ptflHeader\">\n            <h1 style=\"margin: -20px 0px 0px; background: none;\"><a href=\"/\"><img src=\"/haksa/ptfl/images/layout/logo.png\" alt=\"한양대학교 로고\"></a></h1>        \n            <p class=\"sub_tit\">교과목 포트폴리오 (ACC2056: 회계학)</p>\n    </div>\n    <!-- //Header -->\n\n    <form name=\"pageReplaceFormMainCon\" enctype=\"text/plain\" method=\"POST\" target=\"#contents\" action=\"haksa/openPage.do?pgmId=P320322&amp;tk=2bcb4e1826e328e42493052304fd996a67f8801795d0f802528aa6524a4845af\">\n        <input type=\"hidden\" id=\"pHakbun\" name=\"pHakbun\" value=\"9999999999\">\n        <input type=\"hidden\" id=\"pSosokCd\" name=\"pSosokCd\" value=\"FH02528\">\n        <input type=\"hidden\" id=\"pHakbunNm\" name=\"pHakbunNm\" value=\"\">\n        <input type=\"hidden\" id=\"pMenuStatus\" name=\"pMenuStatus\" value=\"M\">\n        <input type=\"hidden\" id=\"pStartPage\" name=\"pStartPage\" value=\"\">\n    </form>\n    <!-- Contents -->\n    <div id=\"contents\" style=\"min-width: 1253px;\" class=\"mj_cts\"><style>\ntable#gyogwamukInfo tbody tr td {\n  overflow: visible;\n  word-break: break-all;\n  white-space: normal;\n}\n\ntable#gyogwamukChangeHisTbl tbody tr td {\n  overflow: visible;\n  word-break: break-all;\n  white-space: normal;\n}\n\ntable#gyogwamukdamdanggyogangsaTbl tbody tr td {\n  overflow: visible;\n  word-break: break-all;\n  white-space: normal;\n}\n\n.hyinTemplate .mj_asdR_table{margin-bottom:0; border-bottom:1px solid #d6d6d6;}\n.hyinTemplate .mj_asdR_table tr th{border-top:0; line-height:1.5; text-align:left; color:#303030; font-weight:bold;}\n.hyinTemplate .mj_asdR_table tr th,.hyinTemplate .mj_asdR_table tr td{padding:4px 10px; line-height:1.5;}\n\n.hyinTemplate .mj_asdR_table tr td.tal{text-align:left;}\n.hyinTemplate .mj_asdR_table tr td{background:#ffffff;}\n.mj_aside{background:#f4f4f4;}\n.mj_pLocation{background:#f5f5f5; border-bottom:1px solid #d3d3d3;}\n#contents .mj_pLocatio",
+      "Print": "",
+      "출력": "        <td id=\"gwamokSosokNm\" style=\"text-align:left;\"></td>\n                            <td id=\"gwamokGaeyo\" style=\"text-align:left;\"></td>\n                            <td id=\"gwamokGaeyoEng\" style=\"text-align:left;\"></td>\n                            <td id=\"suupMokpyo\" style=\"text-align:left;\"></td>\n                                                    </tr>\n                    </tbody>\n                </table>\n            </div>\n            <div style=\"display: inline-block; width:1%; clear: both;\">\n                &nbsp;\n            </div>\n        </div>\n    </div>\n    <!-- // 교과목개요 영역 -->\n    \n    <div style=\"text-align:right; margin-top:10px;\">\n     <a href=\"#none\" type=\"button\" class=\"mj_btn_blue\"><img src=\"/haksa/ptfl/images/layout/mj_print_icon.png\" alt=\"\">인쇄하기</a>\n      <!-- <input type=\"button\"class='{ \"color\" : \"blue\", \"size\" : \"medium\"}' value=\"인쇄\" /> -->\n     <a href=\"#none\" type=\"button\" class=\"mj_btn_blue\"><img src=\"/haksa/ptfl/images/layout/mj_print_icon.png\" alt=\"\">리포트출력</a> \n    </div>\n    <!-- // 강좌유형별 현황 영역 -->\n\n</div>\n\n\n<var id=\"contextDataRepository\"></var></div>\n\n<!-- //Content Area -->\n\n\n<!-- Aside -->\n<div class=\"aside noprint mj_aside\" style=\"width: 237px; float: left;\"><p class=\"aside_ctr\" style=\"float: left; background: rgb(219, 220, 222); border-right: 1px solid rgb(203, 203, 203); height: 655px;\"><a href=\"#\"></a></p>\n    <div class=\"info_area hyinTemplate\" style=\"float: left; width:225px;\">\n        <table id=\"gyogwamukInfo\" class=\"mj_asdR_table\">\n            <colgroup>\n                <col width=\"40%\">\n                <col width=\"60%\">\n            </colgroup>\n            <thead>\n                <tr style=\"cursor: pointer;\">\n                    <th colspan=\"2\" align=\"left\" class=\"mg_drop\">교과목기본                    <span class=\"mj_fRight mj_mt_5\"><img src=\"/haksa/ptfl/images/layout/aside_h2_arrow.gif\" alt=\"접기\"></span></th>\n                </tr>\n            </thead>\n            <tbody><tr>    <td align=\"left\">과목명</td>    <td align=\"left\">회계학</td></tr><tr>    <td align=\"left\">학수번호</td>    <td align=\"left\">ACC2056</td></tr><tr>    <td align=\"left\">역량</td>    <td align=\"left\">창의</td></tr><tr>    <td align=\"left\">최초개설년도</td>    <td align=\"left\">0000/1</td></tr></tbody>\n        </table>\n\n        <table id=\"gyogwamukChangeHisTbl\" class=\"dataGridContainer mj_asdR_table\">\n            <colgroup>\n                <col width=\"30%\">\n                <col width=\"30%\">\n                <col width=\"40%\">\n            </colgroup>\n            <thead>\n                <tr style=\"cursor: pointer;\">\n                    <th colspan=\"3\" class=\"left_no\">교과목명 변경이력                    <span class=\"mj_fRight mj_mt_5\"><img src=\"/haksa/ptfl/images/layout/aside_h2_arrow.gif\" alt=\"접기\"></span>\n                    </th>\n                </tr>\n                <tr style=\"\">\n                    <td align=\"center\" style=\"font-weight: bolder;\">년도</td>\n                    <td align=\"center\" style=\"font-weight: bolder;\">학기</td>\n                    <td align=\"center\"",
+      "성적": "         <th width=\"14%\">캠퍼스</th>\n                            <th width=\"14%\">공통교과목</th>\n                            <th width=\"14%\">학과교과목</th>\n                            <th width=\"14%\">해당교과목</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td align=\"center\" id=\"suupYear\"></td>\n                            <td align=\"center\" id=\"suupTermNm\"></td>\n                            <td align=\"center\" id=\"asgIwAvg\"></td>\n                            <td align=\"center\" id=\"bsgIwAvg\"></td>\n                            <td align=\"center\" id=\"csgIwAvg\"></td>\n                            <td align=\"center\" id=\"dsgIwAvg\"></td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n            <div style=\"display: inline-block; width:1%; clear: both;\">\n                &nbsp;\n            </div>\n        </div>\n    </div>\n\n    <!-- // 평균 수강인원 영역 -->\n\n    <!-- 성적부여현황 (평점) 영역-->\n    <div id=\"sungJukBuyoAvgStateDiv\" class=\"mj_contWrap\" style=\"\">\n        <div class=\"mj_ctnTitle\">\n            <h4 class=\"f_left\">성적부여현황 (평점)</h4>\n            <span class=\"mj_fRight\"><a href=\"#none\"><img src=\"/haksa/ptfl/images/layout/ctn_icon_plus.png\" alt=\"펼치기\"></a></span>\n            <br style=\"clear: both;\">\n        </div>\n        <div style=\"display:none;\">\n            <div style=\"display: inline-block; width:50%; text-align:center; float:left; padding:0 3.5%;\" class=\"mj_bdRight\">\n                <table id=\"sungJukBuyoAvgStateChartTbl\" class=\"mj_nobdTable\" style=\"margin-top: 50px; width:100%; height:300px; margin-bottom:0px;\">\n                    <colgroup>\n                        <col width=\"100%\">\n                    </colgroup>\n                    <thead>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td align=\"center\" style=\"vertical-align: middle;\" id=\"sungJukBuyoAvgState\">Loading..</td>\n                        </tr>\n                    </tbody>\n                </table>\n                <span style=\"margin-bottom:17px; font-size: 17px;\">&nbsp;</span>\n            </div>\n\n            <div style=\"display: inline-block; width:37%; padding:60px 2.5% 0; text-align:center; float:left;\">\n                <table id=\"sungJukBuyoAvgStateGridTbl\" class=\"grid mj_tbStyle01\" style=\"width:100%; max-height:300px;\">\n                    <thead>\n                        <tr>\n                            <th width=\"15%\">수업년도</th>\n                            <th width=\"16%\">수업학기</th>\n                            <th width=\"14%\">캠퍼스</th>\n                            <th width=\"14%\">공통교과목</th>\n                            <th width=\"14%\">학과교과목</th>\n                            <th width=\"14%\">해당교과목</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr>\n                            <td align=\"center\" id=\"suupYear\"></td>\n                  ",
+      "Rex": "",
+      "pdf": "",
+      "교과목": "<html><head>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge,Chrome=1; text/html; charset=utf-8\">\n<title>교과목 포트폴리오 (ACC2056: 회계학)</title>\n<!-- 라이브러리 -->\n<!-- jQuery Librarys -->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/jquery-ui-1.8.16.custom.css?v=1.1\">\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/jquery-1.7.2.min.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/jquery-ui-1.8.16.custom.min.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/jquery.ui.datepicker-ko.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/jquery.ui.datepicker-zh.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/jquery.ba-hashchange.js\"></script>\n<script type=\"text/javascript\" src=\"js/common/lib/jquery.ui.tabs.js\"></script>\n<script type=\"text/javascript\" src=\"js/common/lib/slides.min.jquery.js\"></script>\n<script type=\"text/javascript\" src=\"js/common/lib/Math.uuid.js\"></script>\n\n<!-- CVC Architecture Framework Librarys -->\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/formatdate.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/lib/json2.js\"></script>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"js/cvcaf/css/cvc-component.css?v=1.1\">\n<!--[if IE 8]> <link rel=\"stylesheet\" type=\"text/css\" href=\"js/cvcaf/css/cvc-component-ie8.css?v=1.1\" /> <![endif]-->\n<script type=\"text/javascript\" src=\"js/cvcaf/cvc-config.js?v=160229\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/cvc-commonlibrary.js?v=20210115\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/cvc-communicator.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/cvc-controller.js\"></script>\n<script type=\"text/javascript\" src=\"js/cvcaf/cvc-component.js?v=151105\"></script>\n\n<!-- RSA(ksign) -->\n<script type=\"text/javascript\" src=\"/pki/script/enc_core.js?v=20210121\"></script>\n\n<script type=\"text/javascript\" src=\"js/cvcaf/cvc-i18n.js?v=20180330\"></script>\n<script type=\"text/javascript\" src=\"js/common/common.i18n.js\"></script>\n\n<!--AllowSyncXHR-->\n<meta http-equiv=\"origin-trial\" content=\"AkDvLRM3ZRMdx9GilsMSXabhGgmfZhZArIR8qii45jeCTdipOS2maTD8duLD7tQaVuedn7o"
+    }
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://portal.hanyang.ac.kr/haksa/openPage.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/CommAct/findJojikGbCodeList.do?&strMode=S&strJojikGb=[23]&strUse=1&pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SuggAct/findGyoyukGwajeongCdMngs.do?&strJojikGbCd=H0002256&strIsWeb=true&pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findSosokListOrderNm.do?&strStartSosokCd=H0002256&sosokGb=slg&pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": ""
+    },
+    {
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/findGyoGwaMokWeb.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{\"strGnjSosokCd\":\"H0002867\",\"strCampus\":\"H0002256\",\"strSosokGb\":\"slg\",\"strGaeinNoChk\":\"2024001285\"}"
+    },
+    {
+      "method": "POST",
+      "url": "https://portal.hanyang.ac.kr/haksa/SupfAct/saveSuPfInfo.do?pgmId=P320316&menuId=M319477&tk=2f1102eb3c2f32b67731b893a587852480a50649c6cf7c93ff0d8160fa6fedb7",
+      "postData": "{\"haksuNo\":\"ACC2056\",\"cbCampus\":\"H0002256\"}"
+    }
+  ]
+}
