@@ -84,7 +84,19 @@ export function CourseTable({
               >
                 <TableCell sx={{ fontFamily: "monospace", fontSize: "0.72rem", color: "primary.main", fontWeight: 600 }}>{s.course_no}</TableCell>
                 <TableCell sx={{ fontWeight: 600, fontSize: "0.8rem", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.course_name}</TableCell>
-                <TableCell sx={{ fontSize: "0.72rem", color: "text.secondary", maxWidth: 100, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.dept_name}</TableCell>
+                <TableCell
+                  sx={{
+                    fontSize: "0.72rem",
+                    color: "text.secondary",
+                    minWidth: 180,
+                    maxWidth: 320,
+                    whiteSpace: "normal",
+                    wordBreak: "keep-all",
+                    lineHeight: 1.45,
+                  }}
+                >
+                  {s.departmentNames.join(", ")}
+                </TableCell>
                 <TableCell sx={{ fontSize: "0.75rem", color: "text.secondary", whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>{s.hasGradeData ? `${s.latestYear}/${s.latestTerm}` : "-"}</TableCell>
                 <TableCell><GradeStrip grades={s.grades} counts={s.counts} unavailable={!s.hasGradeData} /></TableCell>
                 <TableCell align="right"><CourseSignals course={s} /></TableCell>

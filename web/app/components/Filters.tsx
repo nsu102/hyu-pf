@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ClearIcon from "@mui/icons-material/Clear";
-import { DISPLAY_GRADES } from "../lib/constants";
+import { DEFAULT_DEPARTMENT, DISPLAY_GRADES } from "../lib/constants";
 import { useFilterStore } from "../store/filterStore";
 import { useUiStore } from "../store/uiStore";
 
@@ -128,7 +128,15 @@ export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; f
       )}
       {hasActive && (
         <Box sx={{ mt: 1, display: "flex", gap: 0.5, flexWrap: "wrap", alignItems: "center" }}>
-          {deptFilter && <Chip label={deptFilter} size="small" onDelete={() => setDeptFilter("")} color="primary" variant="outlined" />}
+          {deptFilter && (
+            <Chip
+              label={deptFilter === DEFAULT_DEPARTMENT ? "서울 대학 (전체)" : deptFilter}
+              size="small"
+              onDelete={() => setDeptFilter("")}
+              color="primary"
+              variant="outlined"
+            />
+          )}
           {aPlusFullFilter === "exclude" && <Chip label="A+ 100% 제외" size="small" onDelete={() => setAPlusFullFilter("include")} color="secondary" variant="outlined" />}
           {recentOnly === "on" && <Chip label="최근 3년 개설" size="small" onDelete={() => setRecentOnly("off")} variant="outlined" />}
           {noGradeFilter === "exclude" && <Chip label="성적표 없음 제외" size="small" onDelete={() => setNoGradeFilter("include")} variant="outlined" />}

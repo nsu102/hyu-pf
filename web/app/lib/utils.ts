@@ -25,7 +25,7 @@ export function formatRatio(value: number): string {
 export function getTextSortValue(course: CourseSummary, key: string): string {
   if (key === "course_no") return course.course_no;
   if (key === "course_name") return course.course_name;
-  if (key === "dept_name") return course.dept_name;
+  if (key === "dept_name") return course.departmentNames.join(", ");
   if (key === "opening_dept") return course.opening_dept;
   if (key === "year_term_range") return course.year_term_range;
   return "";
@@ -125,6 +125,7 @@ export function filterAndSort(summaries: CourseSummary[], f: Filters): CourseSum
     result = result.filter((s) =>
       s.course_name.toLowerCase().includes(q) ||
       s.course_no.toLowerCase().includes(q) ||
+      s.departmentNames.some((departmentName) => departmentName.toLowerCase().includes(q)) ||
       s.opening_dept?.toLowerCase().includes(q)
     );
   }

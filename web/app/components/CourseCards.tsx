@@ -29,9 +29,11 @@ export function CourseCards({
             <CardContent sx={{ py: 1.25, px: 1.5, "&:last-child": { pb: 1.25 } }}>
               <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <Box sx={{ minWidth: 0, flex: 1 }}>
-                  <Box sx={{ display: "flex", gap: 1, alignItems: "baseline" }}>
+                  <Box sx={{ display: "flex", gap: 1, alignItems: "flex-start" }}>
                     <Typography sx={{ fontSize: "0.7rem", color: "primary.main", fontWeight: 700, fontFamily: "monospace" }}>{s.course_no}</Typography>
-                    <Typography sx={{ fontSize: "0.65rem", color: "text.secondary" }}>{s.dept_name}</Typography>
+                    <Typography sx={{ fontSize: "0.65rem", color: "text.secondary", lineHeight: 1.4 }}>
+                      {s.departmentNames.join(", ")}
+                    </Typography>
                   </Box>
                   <Typography sx={{ fontSize: "0.85rem", fontWeight: 700, lineHeight: 1.3 }} noWrap>{s.course_name}</Typography>
                 </Box>
