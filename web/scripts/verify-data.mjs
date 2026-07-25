@@ -32,7 +32,7 @@ function readCsv(fileName) {
 
 function writeCsv(fileName, rows, columns) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(path.join(DATA_DIR, fileName), `${Papa.unparse(rows, { columns })}\n`);
+  fs.writeFileSync(path.join(DATA_DIR, fileName), `${Papa.unparse(rows, { columns, newline: "\n" })}\n`);
 }
 
 function pushIssue(issues, severity, issueType, row, detail) {

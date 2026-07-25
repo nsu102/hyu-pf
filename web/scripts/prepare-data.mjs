@@ -99,7 +99,7 @@ function numberValue(value) {
 
 function writeCsv(fileName, rows, columns) {
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  const csv = Papa.unparse(rows, { columns });
+  const csv = Papa.unparse(rows, { columns, newline: "\n" });
   fs.writeFileSync(path.join(OUT_DIR, fileName), `${csv}\n`);
 }
 

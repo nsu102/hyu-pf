@@ -221,7 +221,7 @@ function parseGradeRatios(text) {
   if (gradeStateMatch) {
     const byYearTerm = new Map();
     for (const line of gradeStateMatch[1].split("\n")) {
-      const match = line.trim().match(/^(20\d{2})\s+([12])\s+(A\+|A0?|B\+|B0?|C\+|C0?|D\+|D0?|F|P|S|U)\s+\d+\s+(\d+(?:\.\d+)?)/);
+      const match = line.trim().match(/^(20\d{2})\s+([12])\s+(A\+|A0?|B\+|B0?|C\+|C0?|D\+|D0?|F|P|S|U)\s+[\d,]+\s+(\d+(?:\.\d+)?)/);
       if (!match) continue;
       const [, year, term, rawGrade, ratio] = match;
       const key = `${year}/${term}`;
@@ -271,14 +271,14 @@ function parseGradeRatioRows(text) {
 
   const rows = [];
   for (const line of gradeStateMatch[1].split("\n")) {
-    const matches = line.trim().matchAll(/(20\d{2})\s+([12])\s+(A\+|A0?|B\+|B0?|C\+|C0?|D\+|D0?|F|P|S|U)\s+(\d+)\s+(\d+(?:\.\d+)?)/g);
+    const matches = line.trim().matchAll(/(20\d{2})\s+([12])\s+(A\+|A0?|B\+|B0?|C\+|C0?|D\+|D0?|F|P|S|U)\s+([\d,]+)\s+(\d+(?:\.\d+)?)/g);
     for (const match of matches) {
       const [, year, term, grade, count, ratio] = match;
       rows.push({
         "수업년도": year,
         "수업학기": term,
         "등급": grade.replace(/^([ABCD])$/, "$10"),
-        "인원": count,
+        "인원": count.replaceAll(",", ""),
         "비율": ratio,
       });
     }

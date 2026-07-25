@@ -267,7 +267,6 @@ warning,course_without_grade_data,FUT4005,Lego-H인문캡스톤디자인2:현장
 warning,course_without_grade_data,GEN2100,기독교영성의 이해,,,parse_status=not_found
 warning,course_without_grade_data,GEN3082,보건학,,,parse_status=not_found
 warning,course_without_grade_data,GEN3095,Relational dialogue,,,parse_status=not_found
-warning,course_without_grade_data,GEN4079,사회봉사,,,parse_status=not_found
 warning,course_without_grade_data,GEN6061,특허실무,,,parse_status=not_found
 warning,course_without_grade_data,GEN7036,스페인어회화,,,parse_status=not_found
 warning,course_without_grade_data,GEN9027,Intensive Korean,,,parse_status=not_found
@@ -915,8 +914,6 @@ warning,course_without_grade_data,SYB9140,일상속의역학:힘과운동의비�
 warning,course_without_grade_data,SYB9141,생화학으로읽는몸과세계,,,parse_status=not_found
 warning,course_without_grade_data,SYB9145,"AI리터러시,아는것이힘이다",,,parse_status=not_found
 warning,course_without_grade_data,SYB9146,AI활용의기초와윤리,,,parse_status=not_found
-warning,course_without_grade_data,SYH0002,사랑의실천2(스마트커뮤니케이션),,,parse_status=not_found
-warning,course_without_grade_data,SYH0003,사랑의실천3(기업가정신),,,parse_status=not_found
 warning,course_without_grade_data,TOU3074,호텔·관광경영분석론,,,parse_status=not_found
 warning,course_without_grade_data,TOU3076,관광거버넌스론,,,parse_status=not_found
 warning,course_without_grade_data,URE4034,스마트모빌리티개론,,,parse_status=not_found
@@ -929,8 +926,6 @@ warning,course_without_grade_data,VEN3003,창업심화:사회적기업과창업,
 warning,course_without_grade_data,VEN4002,창업실습:강소기업필드스터디,,,parse_status=not_found
 warning,course_without_grade_data,VEN4007,창업실습:실전창업워크숍2,,,parse_status=not_found
 warning,course_without_grade_data,VOC4062,성악마스터클래스2,,,parse_status=not_found
-warning,course_without_grade_data,VOC4067,예술가곡2,,,"parse_status=ok
-"
 warning,term_ratio_sum_not_near_100,ACC3001,원가회계,2026,1,"ratio_sum=93.75, grade_count=7"
 warning,term_ratio_sum_not_near_100,ARE5028,건축구조시스템,2026,1,"ratio_sum=87.51, grade_count=5"
 warning,term_ratio_sum_not_near_100,BUS2034,오퍼레이션관리,2026,1,"ratio_sum=80.14, grade_count=4"
@@ -939,15 +934,6 @@ warning,term_ratio_sum_not_near_100,CSE2010,자료구조론,2026,1,"ratio_sum=94
 warning,term_ratio_sum_not_near_100,CUL3013,일반생물학및실험1,2019,1,"ratio_sum=79.34, grade_count=5"
 warning,term_ratio_sum_not_near_100,D-C3031,서양연극사1,2017,1,"ratio_sum=52.64, grade_count=5"
 warning,term_ratio_sum_not_near_100,EDU4074,과학교육론,2005,2,"ratio_sum=81.81, grade_count=3"
-warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2022,1,"ratio_sum=13.46, grade_count=6"
-warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2023,1,"ratio_sum=14.03, grade_count=7"
-warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2024,1,"ratio_sum=10.69, grade_count=7"
-warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2025,1,"ratio_sum=11.43, grade_count=7"
-warning,term_ratio_sum_not_near_100,GEN5029,커리어개발Ⅰ:취.창업진로로드맵,2026,1,"ratio_sum=16.79, grade_count=8"
-warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2022,2,"ratio_sum=9.13, grade_count=6"
-warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2023,2,"ratio_sum=10.54, grade_count=7"
-warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2024,2,"ratio_sum=9.30, grade_count=7"
-warning,term_ratio_sum_not_near_100,GEN5100,커리어개발Ⅱ:취.창업진로포트폴리오,2025,2,"ratio_sum=9.13, grade_count=7"
 warning,term_ratio_sum_not_near_100,MED1015,약리학및실습,2008,2,"ratio_sum=98.21, grade_count=7"
 warning,term_ratio_sum_not_near_100,MEE3003,유체역학1,2026,1,"ratio_sum=99.04, grade_count=8"
 warning,term_ratio_sum_not_near_100,TOU1011,관광론,2026,1,"ratio_sum=78.10, grade_count=7"
@@ -1219,7 +1205,6 @@ warning,coverage_report_issue,FUT4005,Lego-H인문캡스톤디자인2:현장커�
 warning,coverage_report_issue,GEN2100,기독교영성의 이해,,,missing_grade_rows
 warning,coverage_report_issue,GEN3082,보건학,,,missing_grade_rows
 warning,coverage_report_issue,GEN3095,Relational dialogue,,,missing_grade_rows
-warning,coverage_report_issue,GEN4079,사회봉사,,,missing_grade_rows
 warning,coverage_report_issue,GEN6061,특허실무,,,missing_grade_rows
 warning,coverage_report_issue,GEN7036,스페인어회화,,,missing_grade_rows
 warning,coverage_report_issue,GEN9027,Intensive Korean,,,missing_grade_rows
@@ -1867,8 +1852,6 @@ warning,coverage_report_issue,SYB9140,일상속의역학:힘과운동의비밀,,
 warning,coverage_report_issue,SYB9141,생화학으로읽는몸과세계,,,missing_grade_rows
 warning,coverage_report_issue,SYB9145,"AI리터러시,아는것이힘이다",,,missing_grade_rows
 warning,coverage_report_issue,SYB9146,AI활용의기초와윤리,,,missing_grade_rows
-warning,coverage_report_issue,SYH0002,사랑의실천2(스마트커뮤니케이션),,,missing_grade_rows
-warning,coverage_report_issue,SYH0003,사랑의실천3(기업가정신),,,missing_grade_rows
 warning,coverage_report_issue,TOU3074,호텔·관광경영분석론,,,missing_grade_rows
 warning,coverage_report_issue,TOU3076,관광거버넌스론,,,missing_grade_rows
 warning,coverage_report_issue,URE4034,스마트모빌리티개론,,,missing_grade_rows
@@ -1881,5 +1864,3 @@ warning,coverage_report_issue,VEN3003,창업심화:사회적기업과창업,,,mi
 warning,coverage_report_issue,VEN4002,창업실습:강소기업필드스터디,,,missing_grade_rows
 warning,coverage_report_issue,VEN4007,창업실습:실전창업워크숍2,,,missing_grade_rows
 warning,coverage_report_issue,VOC4062,성악마스터클래스2,,,missing_grade_rows
-warning,coverage_report_issue,VOC4067,예술가곡2,,,"
-"

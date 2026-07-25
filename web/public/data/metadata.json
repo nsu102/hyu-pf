@@ -1,13 +1,13 @@
 {
   "source_csv": "/Users/yunsu/Documents/hyu-pf/outputs/grade_ratios_full_by_year.csv",
   "catalog_csv": "/Users/yunsu/Documents/hyu-pf/outputs/grade_ratios_full_by_year.before_two_column_fix.csv",
-  "generated_at": "2026-07-16T07:54:41.587Z",
-  "source_rows": 81863,
-  "service_courses": 4603,
-  "grade_ratio_rows": 80933,
-  "grade_ratio_terms": 18074,
+  "generated_at": "2026-07-25T13:46:32.608Z",
+  "source_rows": 81889,
+  "service_courses": 4606,
+  "grade_ratio_rows": 80962,
+  "grade_ratio_terms": 18094,
   "catalog_courses": 5533,
   "departments": 116,
   "department_course_links": 9257,
-  "coverage_issues": 930
+  "coverage_issues": 927
 }
