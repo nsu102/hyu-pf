@@ -15,7 +15,7 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import { GRADE_ORDER } from "../lib/constants";
-import { gradeColor, sumGrades } from "../lib/utils";
+import { formatDepartmentNames, gradeColor, sumGrades } from "../lib/utils";
 import { GradeStrip } from "./GradeStrip";
 import { useUiStore } from "../store/uiStore";
 
@@ -46,9 +46,11 @@ export function CourseModal({ isMobile }: { isMobile: boolean }) {
               <Box>
                 <Typography sx={{ fontSize: "0.72rem", color: "primary.main", fontFamily: "monospace", fontWeight: 700, mb: 0.25 }}>{modalCourse.course_no}</Typography>
                 <Typography sx={{ fontSize: "1.2rem", fontWeight: 800, lineHeight: 1.2, mb: 0.5 }}>{modalCourse.course_name}</Typography>
-                <Typography sx={{ fontSize: "0.78rem", color: "text.secondary", lineHeight: 1.5 }}>
-                  {modalCourse.departmentNames.join(", ")}
-                </Typography>
+                <Tooltip title={modalCourse.departmentNames.join(", ")} arrow placement="bottom-start">
+                  <Typography sx={{ fontSize: "0.78rem", color: "text.secondary", lineHeight: 1.5 }}>
+                    {formatDepartmentNames(modalCourse.departmentNames)}
+                  </Typography>
+                </Tooltip>
               </Box>
               <IconButton onClick={() => setModalCourse(null)} size="small" aria-label="닫기" sx={{ mt: -0.5, mr: -0.5 }}>
                 <CloseIcon fontSize="small" />

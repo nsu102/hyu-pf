@@ -22,6 +22,11 @@ export function formatRatio(value: number): string {
   return `${value.toFixed(1)}%`;
 }
 
+export function formatDepartmentNames(names: string[], visibleCount = 2): string {
+  if (names.length <= visibleCount) return names.join(", ");
+  return `${names.slice(0, visibleCount).join(", ")} 외 ${names.length - visibleCount}개`;
+}
+
 export function getTextSortValue(course: CourseSummary, key: string): string {
   if (key === "course_no") return course.course_no;
   if (key === "course_name") return course.course_name;
