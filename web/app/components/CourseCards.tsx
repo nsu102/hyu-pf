@@ -2,7 +2,7 @@ import { RefObject } from "react";
 import { Box, Card, CardContent, CircularProgress, Stack, Tooltip, Typography } from "@mui/material";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import type { CourseSummary } from "../lib/types";
-import { formatDepartmentNames } from "../lib/utils";
+import { formatDepartmentNames, formatDepartmentTooltip } from "../lib/utils";
 import { useUiStore } from "../store/uiStore";
 import { GradeStrip } from "./GradeStrip";
 import { CourseSignals } from "./CourseSignals";
@@ -32,7 +32,7 @@ export function CourseCards({
                 <Box sx={{ minWidth: 0, flex: 1 }}>
                   <Box sx={{ display: "flex", gap: 1, alignItems: "flex-start" }}>
                     <Typography sx={{ fontSize: "0.7rem", color: "primary.main", fontWeight: 700, fontFamily: "monospace" }}>{s.course_no}</Typography>
-                    <Tooltip title={s.departmentNames.join(", ")} arrow>
+                    <Tooltip title={formatDepartmentTooltip(s.departmentNames)} arrow>
                       <Typography sx={{ fontSize: "0.65rem", color: "text.secondary", lineHeight: 1.4 }} noWrap>
                         {formatDepartmentNames(s.departmentNames)}
                       </Typography>

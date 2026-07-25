@@ -22,9 +22,15 @@ export function formatRatio(value: number): string {
   return `${value.toFixed(1)}%`;
 }
 
-export function formatDepartmentNames(names: string[], visibleCount = 2): string {
-  if (names.length <= visibleCount) return names.join(", ");
-  return `${names.slice(0, visibleCount).join(", ")} 외 ${names.length - visibleCount}개`;
+export function formatDepartmentNames(names: string[]): string {
+  if (names.length <= 1) return names.join(", ");
+  const otherCount = names.includes(DEFAULT_DEPARTMENT) ? names.length - 1 : names.length;
+  return `${DEFAULT_DEPARTMENT} 외 ${otherCount}개`;
+}
+
+export function formatDepartmentTooltip(names: string[]): string {
+  if (names.length <= 1 || names.includes(DEFAULT_DEPARTMENT)) return names.join(", ");
+  return [DEFAULT_DEPARTMENT, ...names].join(", ");
 }
 
 export function getTextSortValue(course: CourseSummary, key: string): string {

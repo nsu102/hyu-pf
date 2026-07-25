@@ -16,7 +16,7 @@ import {
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import type { CourseSummary } from "../lib/types";
-import { formatDepartmentNames } from "../lib/utils";
+import { formatDepartmentNames, formatDepartmentTooltip } from "../lib/utils";
 import { useFilterStore } from "../store/filterStore";
 import { useUiStore } from "../store/uiStore";
 import { GradeStrip } from "./GradeStrip";
@@ -86,7 +86,7 @@ export function CourseTable({
                 <TableCell sx={{ fontFamily: "monospace", fontSize: "0.72rem", color: "primary.main", fontWeight: 600 }}>{s.course_no}</TableCell>
                 <TableCell sx={{ fontWeight: 600, fontSize: "0.8rem", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.course_name}</TableCell>
                 <TableCell sx={{ fontSize: "0.72rem", color: "text.secondary", minWidth: 180, maxWidth: 260 }}>
-                  <Tooltip title={s.departmentNames.join(", ")} arrow placement="top">
+                  <Tooltip title={formatDepartmentTooltip(s.departmentNames)} arrow placement="top">
                     <Box component="span" sx={{ display: "block", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                       {formatDepartmentNames(s.departmentNames)}
                     </Box>
