@@ -10,9 +10,11 @@ import {
   TableHead,
   TableRow,
   TableSortLabel,
+  Tooltip,
   Typography,
 } from "@mui/material";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import type { CourseSummary } from "../lib/types";
 import { useFilterStore } from "../store/filterStore";
 import { useUiStore } from "../store/uiStore";
@@ -49,12 +51,22 @@ export function CourseTable({
                 <TableSortLabel active={sortBy === "course_name"} direction={sortBy === "course_name" ? sd : "asc"} onClick={() => toggleSort("course_name")}>과목명</TableSortLabel>
               </TableCell>
               <TableCell sx={{ bgcolor: "#f8fafc" }}>
-                <TableSortLabel active={sortBy === "dept_name"} direction={sortBy === "dept_name" ? sd : "asc"} onClick={() => toggleSort("dept_name")}>학과</TableSortLabel>
+                <Box component="span" sx={{ display: "inline-flex", alignItems: "center", gap: 0.25 }}>
+                  <TableSortLabel active={sortBy === "dept_name"} direction={sortBy === "dept_name" ? sd : "asc"} onClick={() => toggleSort("dept_name")}>학과</TableSortLabel>
+                  <Tooltip title="교과목은 같은 학수번호로 여러 학과에 존재할 수 있습니다.">
+                    <InfoOutlinedIcon sx={{ fontSize: 14, color: "text.disabled", cursor: "help" }} />
+                  </Tooltip>
+                </Box>
               </TableCell>
               <TableCell sx={{ bgcolor: "#f8fafc" }}>최근</TableCell>
               <TableCell sx={{ bgcolor: "#f8fafc", minWidth: 260 }}>분포</TableCell>
               <TableCell align="right" sx={{ bgcolor: sortBy === "A+" ? "#eff6ff" : "#f8fafc", minWidth: 230 }}>
-                <TableSortLabel active={sortBy === "A+"} direction={sortBy === "A+" ? sd : "desc"} onClick={() => toggleSort("A+")}>핵심지표</TableSortLabel>
+                <Box component="span" sx={{ display: "inline-flex", alignItems: "center", gap: 0.25, justifyContent: "flex-end" }}>
+                  <TableSortLabel active={sortBy === "A+"} direction={sortBy === "A+" ? sd : "desc"} onClick={() => toggleSort("A+")}>핵심지표</TableSortLabel>
+                  <Tooltip title="지표는 가장 최근 학기를 기준으로 집계됩니다.">
+                    <InfoOutlinedIcon sx={{ fontSize: 14, color: "text.disabled", cursor: "help" }} />
+                  </Tooltip>
+                </Box>
               </TableCell>
               <TableCell align="right" sx={{ bgcolor: "#f8fafc" }}>
                 <TableSortLabel active={sortBy === "latestTotalCount"} direction={sortBy === "latestTotalCount" ? sd : "desc"} onClick={() => toggleSort("latestTotalCount")}>총원</TableSortLabel>

@@ -1,4 +1,4 @@
-import { GRADE_COLORS, GRADE_ORDER } from "./constants";
+import { DEFAULT_DEPARTMENT, GRADE_COLORS, GRADE_ORDER } from "./constants";
 import type { CourseCatalogRow, CourseSummary, DepartmentCourseRow, GradeRow, TermData } from "./types";
 
 export function gradeColor(val: number): string {
@@ -114,7 +114,9 @@ export interface Filters {
 
 export function filterAndSort(summaries: CourseSummary[], f: Filters): CourseSummary[] {
   if (!f.deptFilter) return [];
-  let result = summaries.filter((s) => s.departmentNames.includes(f.deptFilter));
+  let result = f.deptFilter === DEFAULT_DEPARTMENT
+    ? summaries
+    : summaries.filter((s) => s.departmentNames.includes(f.deptFilter));
   if (f.noGradeFilter === "exclude") result = result.filter((s) => s.hasGradeData);
   if (f.aPlusFullFilter === "exclude") result = result.filter((s) => (s.grades["A+"] || 0) < 99.995);
   if (f.recentOnly === "on") result = result.filter((s) => s.recentYear >= 2024);
