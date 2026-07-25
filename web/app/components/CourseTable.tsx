@@ -86,7 +86,7 @@ export function CourseTable({
                 <TableCell sx={{ fontFamily: "monospace", fontSize: "0.72rem", color: "primary.main", fontWeight: 600 }}>{s.course_no}</TableCell>
                 <TableCell sx={{ fontWeight: 600, fontSize: "0.8rem", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{s.course_name}</TableCell>
                 <TableCell sx={{ fontSize: "0.72rem", color: "text.secondary", minWidth: 180, maxWidth: 260 }}>
-                  <Tooltip title={formatDepartmentTooltip(s.departmentNames)} arrow placement="top">
+                  <Tooltip title={formatDepartmentTooltip(s.departmentNames)} arrow placement="top-start">
                     <Box component="span" sx={{ display: "block", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                       {formatDepartmentNames(s.departmentNames)}
                     </Box>
