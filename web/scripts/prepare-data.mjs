@@ -107,15 +107,32 @@ function readSourceRows(file = SOURCE_CSV) {
   if (!fs.existsSync(file)) {
     throw new Error(`Source CSV not found: ${file}`);
   }
-  const parsed = Papa.parse(fs.readFileSync(file, "utf8"), {
-    header: true,
-    skipEmptyLines: true,
-  });
-  if (parsed.errors.length) {
-    console.warn(`[prepare] PapaParse reported ${parsed.errors.length} parse warning(s)`);
+
+  // Scraper error messages can contain embedded newlines and an unmatched quote.
+  // Parsing the whole file at once then treats thousands of subsequent valid rows
+  // as one quoted field. Every actual catalog/data row starts with a campus code,
+  // so parse those physical rows independently to keep one broken error payload
+  // from hiding otherwise valid departments and courses.
+  const physicalLines = fs.readFileSync(file, "utf8").split(/\r?\n/u);
+  const header = Papa.parse(physicalLines[0]).data[0];
+  const rows = [];
+  let candidateCount = 0;
+  let parseWarningCount = 0;
+
+  for (const line of physicalLines.slice(1)) {
+    if (!/^H[A-Z0-9]+,/u.test(line)) continue;
+    candidateCount += 1;
+    const parsed = Papa.parse(line);
+    parseWarningCount += parsed.errors.length;
+    const values = parsed.data[0] || [];
+    const row = Object.fromEntries(header.map((column, index) => [column, values[index] ?? ""]));
+    if (isValidCourseNo(row.course_no)) rows.push(row);
   }
-  const rows = parsed.data.filter((row) => isValidCourseNo(row.course_no));
-  const dropped = parsed.data.length - rows.length;
+
+  if (parseWarningCount > 0) {
+    console.warn(`[prepare] Recovered rows with ${parseWarningCount} isolated CSV parse warning(s)`);
+  }
+  const dropped = candidateCount - rows.length;
   if (dropped > 0) {
     console.warn(`[prepare] Dropped ${dropped} malformed row(s) without a valid course_no`);
   }

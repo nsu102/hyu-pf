@@ -77,14 +77,23 @@ function splitCsvLine(line) {
 }
 
 function readCsv(file) {
-  const parsed = Papa.parse(fs.readFileSync(file, "utf8"), {
-    header: true,
-    skipEmptyLines: true,
-  });
-  if (parsed.errors.length) {
-    console.warn(`[reparse] PapaParse reported ${parsed.errors.length} parse warning(s)`);
+  const physicalLines = fs.readFileSync(file, "utf8").split(/\r?\n/u);
+  const header = Papa.parse(physicalLines[0]).data[0];
+  const rows = [];
+  let parseWarningCount = 0;
+
+  for (const line of physicalLines.slice(1)) {
+    if (!/^H[A-Z0-9]+,/u.test(line)) continue;
+    const parsed = Papa.parse(line);
+    parseWarningCount += parsed.errors.length;
+    const values = parsed.data[0] || [];
+    rows.push(Object.fromEntries(header.map((column, index) => [column, values[index] ?? ""])));
   }
-  return parsed.data;
+
+  if (parseWarningCount > 0) {
+    console.warn(`[reparse] Recovered rows with ${parseWarningCount} isolated CSV parse warning(s)`);
+  }
+  return rows;
 }
 
 function csvEscape(value) {

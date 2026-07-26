@@ -191,14 +191,26 @@ function main() {
   }
 
   const departmentCourseKeys = new Set();
+  const departmentCodes = new Set(departments.map((row) => row.dept_code).filter(Boolean));
+  const linkedDepartmentCodes = new Set();
   for (const row of departmentCourses) {
     const key = `${row.dept_code}::${row.course_no}`;
+    linkedDepartmentCodes.add(row.dept_code);
     if (departmentCourseKeys.has(key)) {
       pushIssue(issues, "error", "duplicate_department_course_link", row, "Duplicate dept_code/course_no link");
     }
     departmentCourseKeys.add(key);
+    if (!departmentCodes.has(row.dept_code)) {
+      pushIssue(issues, "error", "department_link_missing_department", row, "department_courses.csv dept_code has no matching departments.csv row");
+    }
     if (!courseNos.has(row.course_no)) {
       pushIssue(issues, "error", "department_course_missing_course_metadata", row, "department_courses.csv row has no matching courses.csv row");
+    }
+  }
+
+  for (const row of departments) {
+    if (!linkedDepartmentCodes.has(row.dept_code)) {
+      pushIssue(issues, "error", "department_missing_course_link", row, "departments.csv row has no matching department_courses.csv row");
     }
   }
 
