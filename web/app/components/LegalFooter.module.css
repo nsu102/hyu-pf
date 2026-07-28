@@ -1,21 +1,50 @@
 .footer {
-  height: 32px;
-  min-height: 32px;
+  height: 20px;
+  min-height: 20px;
+  padding-inline: 8px;
   display: flex;
   flex-shrink: 0;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  overflow-x: auto;
+  overflow-y: hidden;
   border-top: 1px solid #e8edf3;
   color: #8a96a5;
   background: #ffffff;
   font-size: 10px;
-  line-height: 1;
+  line-height: 1.4;
+  scrollbar-width: none;
 }
 
-.nav {
+.footer::-webkit-scrollbar {
+  display: none;
+}
+
+.inner {
+  display: flex;
+  min-width: max-content;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 16px;
+  white-space: nowrap;
+}
+
+.nav,
+.meta {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.meta {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.label {
+  color: #697688;
+  font-weight: 700;
 }
 
 .link {
