@@ -1,4 +1,4 @@
-import { DEFAULT_DEPARTMENT, DEPARTMENT_SCOPED_COMPLETION_TYPES, GRADE_COLORS, GRADE_ORDER } from "./constants";
+import { DEFAULT_DEPARTMENT, GRADE_COLORS, GRADE_ORDER, LIBERAL_ARTS_COMPLETION_TYPES } from "./constants";
 import type { CourseCatalogRow, CourseClassificationRow, CourseSummary, DepartmentCourseRow, GradeRow, TermData } from "./types";
 
 export function gradeColor(val: number): string {
@@ -42,26 +42,6 @@ export function getTextSortValue(course: CourseSummary, key: string): string {
   return "";
 }
 
-const departmentScopedCompletionTypes = new Set<string>(
-  DEPARTMENT_SCOPED_COMPLETION_TYPES,
-);
-
-export function getCompletionTypesForDepartment(
-  course: CourseSummary,
-  departmentName: string,
-): string[] {
-  if (!departmentName || departmentName === DEFAULT_DEPARTMENT) {
-    return course.completionTypes;
-  }
-
-  const scopedTypes = new Set(
-    course.completionTypesByDepartment[departmentName] || [],
-  );
-  return course.completionTypes.filter(
-    (type) => !departmentScopedCompletionTypes.has(type) || scopedTypes.has(type),
-  );
-}
-
 export function buildSummaries(
   rows: GradeRow[],
   catalogRows: CourseCatalogRow[],
@@ -70,40 +50,24 @@ export function buildSummaries(
 ): CourseSummary[] {
   const map = new Map<string, { meta: GradeRow | CourseCatalogRow; terms: Map<string, { grades: Record<string, number>; counts: Record<string, number> }>; parseStatus: string }>();
   const departmentsByCourse = new Map<string, Set<string>>();
-  const departmentNamesByCourseAndCode = new Map<string, string>();
-  const completionTypesByCourse = new Map<string, Set<string>>();
-  const completionTypesByCourseAndDepartment = new Map<string, Map<string, Set<string>>>();
+  const liberalArtsCourses = new Set<string>();
+  const liberalArtsCompletionTypes = new Set<string>(
+    LIBERAL_ARTS_COMPLETION_TYPES,
+  );
 
   for (const link of departmentCourseRows) {
     if (!link.course_no || !link.dept_name) continue;
     if (!departmentsByCourse.has(link.course_no)) departmentsByCourse.set(link.course_no, new Set());
     departmentsByCourse.get(link.course_no)!.add(link.dept_name);
-    if (link.dept_code) {
-      departmentNamesByCourseAndCode.set(
-        `${link.course_no}::${link.dept_code}`,
-        link.dept_name,
-      );
-    }
   }
 
   for (const classification of courseClassificationRows) {
-    if (!classification.course_no || !classification.completion_type) continue;
-    if (!completionTypesByCourse.has(classification.course_no)) completionTypesByCourse.set(classification.course_no, new Set());
-    completionTypesByCourse.get(classification.course_no)!.add(classification.completion_type);
-    const departmentName = (
-      departmentNamesByCourseAndCode.get(
-        `${classification.course_no}::${classification.dept_code}`,
-      ) || classification.dept_name
-    )?.trim();
-    if (!departmentName) continue;
-    if (!completionTypesByCourseAndDepartment.has(classification.course_no)) {
-      completionTypesByCourseAndDepartment.set(classification.course_no, new Map());
+    if (
+      classification.course_no &&
+      liberalArtsCompletionTypes.has(classification.completion_type)
+    ) {
+      liberalArtsCourses.add(classification.course_no);
     }
-    const typesByDepartment = completionTypesByCourseAndDepartment.get(classification.course_no)!;
-    if (!typesByDepartment.has(departmentName)) {
-      typesByDepartment.set(departmentName, new Set());
-    }
-    typesByDepartment.get(departmentName)!.add(classification.completion_type);
   }
 
   for (const course of catalogRows) {
@@ -144,10 +108,6 @@ export function buildSummaries(
     const rangeEndYear = Number(meta.year_term_range?.match(/(\d{4})\/\d\s*$/)?.[1]) || 0;
     const deptName = "dept_name" in meta ? meta.dept_name : meta.canonical_dept_name;
     const departmentNames = [...(departmentsByCourse.get(meta.course_no) || new Set<string>())];
-    const completionTypesByDepartment = Object.fromEntries(
-      [...(completionTypesByCourseAndDepartment.get(meta.course_no) || new Map())]
-        .map(([departmentName, types]) => [departmentName, [...types]]),
-    );
     if (deptName && !departmentNames.includes(deptName)) departmentNames.push(deptName);
     summaries.push({
       course_no: meta.course_no,
@@ -166,8 +126,7 @@ export function buildSummaries(
       hasGradeData: termArr.length > 0,
       parseStatus,
       departmentNames,
-      completionTypes: [...(completionTypesByCourse.get(meta.course_no) || new Set<string>())],
-      completionTypesByDepartment,
+      isLiberalArts: liberalArtsCourses.has(meta.course_no),
     });
   }
   return summaries;
@@ -179,7 +138,7 @@ export interface Filters {
   aPlusFullFilter: string;
   recentOnly: string;
   noGradeFilter: string;
-  completionType: string;
+  liberalArtsOnly: string;
   sortBy: string;
   sortDir: string;
 }
@@ -192,11 +151,7 @@ export function filterAndSort(summaries: CourseSummary[], f: Filters): CourseSum
   if (f.noGradeFilter === "exclude") result = result.filter((s) => s.hasGradeData);
   if (f.aPlusFullFilter === "exclude") result = result.filter((s) => (s.grades["A+"] || 0) < 99.995);
   if (f.recentOnly === "on") result = result.filter((s) => s.recentYear >= 2024);
-  if (f.completionType) {
-    result = result.filter((s) =>
-      getCompletionTypesForDepartment(s, f.deptFilter).includes(f.completionType),
-    );
-  }
+  if (f.liberalArtsOnly === "on") result = result.filter((s) => s.isLiberalArts);
   if (f.search) {
     const q = f.search.toLowerCase();
     result = result.filter((s) =>

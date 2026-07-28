@@ -26,7 +26,7 @@ npm run data:verify
 - `public/data/courses.csv`: 학수번호 기준 과목 카탈로그
 - `public/data/departments.csv`: 학과 카탈로그
 - `public/data/department_courses.csv`: 관측된 학과-과목 연결
-- `public/data/course_classifications.csv`: 최근 3개년 수강편람 기준 학과별 과목-이수구분 연결
+- `public/data/course_classifications.csv`: 최근 3개년 수강편람 기준 과목-이수구분 연결(교양 판별용)
 - `public/data/coverage_report.csv`: 과목별 수집 상태와 PDF/성적 데이터 커버리지
 - `public/data/verification_issues.csv`: 검증 경고/오류 목록
 - `public/data/metadata.json`: 생성 요약

@@ -16,9 +16,9 @@ import {
 } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import RefreshIcon from "@mui/icons-material/Refresh";
-import { COMPLETION_TYPE_ORDER, PAGE_SIZE, DEFAULT_DEPARTMENT } from "../lib/constants";
+import { PAGE_SIZE, DEFAULT_DEPARTMENT } from "../lib/constants";
 import { theme } from "../lib/theme";
-import { buildSummaries, filterAndSort, getCompletionTypesForDepartment } from "../lib/utils";
+import { buildSummaries, filterAndSort } from "../lib/utils";
 import { useDataStore } from "../store/dataStore";
 import { useFilterStore } from "../store/filterStore";
 import { useUrlSync } from "../store/useUrlSync";
@@ -46,7 +46,7 @@ export function CourseDashboard({ user }: CourseDashboardProps) {
 
 function DashboardInner({ user }: CourseDashboardProps) {
   const { raw, catalog, departmentCourses, courseClassifications, loading, loadData } = useDataStore();
-  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir } = useFilterStore();
+  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, sortBy, sortDir } = useFilterStore();
   useUrlSync();
 
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -71,27 +71,15 @@ function DashboardInner({ user }: CourseDashboardProps) {
     [summaries]
   );
 
-  const completionTypes = useMemo(() => {
-    const available = new Set(
-      summaries.flatMap((summary) =>
-        getCompletionTypesForDepartment(summary, deptFilter),
-      ),
-    );
-    return [
-      ...COMPLETION_TYPE_ORDER.filter((type) => available.has(type)),
-      ...[...available].filter((type) => !COMPLETION_TYPE_ORDER.includes(type)).sort(),
-    ];
-  }, [summaries, deptFilter]);
-
   const filtered = useMemo(
-    () => filterAndSort(summaries, { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir }),
-    [summaries, search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir]
+    () => filterAndSort(summaries, { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, sortBy, sortDir }),
+    [summaries, search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, sortBy, sortDir]
   );
 
   useEffect(() => {
     const timer = window.setTimeout(() => setVisibleCount(PAGE_SIZE), 0);
     return () => window.clearTimeout(timer);
-  }, [deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, search, sortBy, sortDir]);
+  }, [deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, search, sortBy, sortDir]);
 
   const visible = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const hasMore = visibleCount < filtered.length;
@@ -152,7 +140,7 @@ function DashboardInner({ user }: CourseDashboardProps) {
             overflowY: { xs: "auto", md: "visible" },
           }}
         >
-          <Filters depts={depts} completionTypes={completionTypes} filteredCount={filtered.length} isMobile={isMobile} />
+          <Filters depts={depts} filteredCount={filtered.length} isMobile={isMobile} />
 
           {loading && <LinearProgress sx={{ mb: 1, borderRadius: 1 }} />}
 

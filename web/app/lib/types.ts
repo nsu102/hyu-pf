@@ -25,15 +25,12 @@ export interface CourseCatalogRow {
 
 export interface DepartmentCourseRow {
   course_no: string;
-  dept_code: string;
   dept_name: string;
 }
 
 export interface CourseClassificationRow {
   course_no: string;
   course_name: string;
-  dept_code: string;
-  dept_name: string;
   completion_type_code: string;
   completion_type: string;
   first_year: string;
@@ -60,8 +57,7 @@ export interface CourseSummary {
   hasGradeData: boolean;
   parseStatus: string;
   departmentNames: string[];
-  completionTypes: string[];
-  completionTypesByDepartment: Record<string, string[]>;
+  isLiberalArts: boolean;
 }
 
 export interface TermData {
