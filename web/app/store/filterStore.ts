@@ -2,27 +2,24 @@ import { create } from "zustand";
 import { DEFAULT_DEPARTMENT, DEPARTMENT_STORAGE_KEY, GRADE_ORDER } from "../lib/constants";
 import type { Filters } from "../lib/utils";
 
-function initParam(key: string, fallback: string): string {
-  if (typeof window === "undefined") return fallback;
-  return new URLSearchParams(window.location.search).get(key) || fallback;
-}
-
-function initDepartment(): string {
-  if (typeof window === "undefined") return DEFAULT_DEPARTMENT;
-  const fromUrl = new URLSearchParams(window.location.search).get("dept");
-  if (fromUrl) return fromUrl;
-  try {
-    return window.localStorage.getItem(DEPARTMENT_STORAGE_KEY) || DEFAULT_DEPARTMENT;
-  } catch {
-    return DEFAULT_DEPARTMENT;
-  }
-}
+const INITIAL_FILTERS: Filters = {
+  search: "",
+  deptFilter: DEFAULT_DEPARTMENT,
+  aPlusFullFilter: "exclude",
+  recentOnly: "on",
+  noGradeFilter: "exclude",
+  liberalArtsOnly: "off",
+  sortBy: "A+",
+  sortDir: "desc",
+};
 
 function isDescByDefault(key: string): boolean {
   return GRADE_ORDER.includes(key) || key === "termCount" || key === "latestTotalCount";
 }
 
 interface FilterStore extends Filters {
+  hasHydrated: boolean;
+  hydrateFromClient: () => void;
   setSearch: (v: string) => void;
   setDeptFilter: (v: string) => void;
   setAPlusFullFilter: (v: string) => void;
@@ -35,14 +32,38 @@ interface FilterStore extends Filters {
 }
 
 export const useFilterStore = create<FilterStore>((set, get) => ({
-  search: initParam("q", ""),
-  deptFilter: initDepartment(),
-  aPlusFullFilter: initParam("aplus", "exclude"),
-  recentOnly: initParam("recent", "on"),
-  noGradeFilter: initParam("nograde", "exclude"),
-  liberalArtsOnly: initParam("liberal", "off"),
-  sortBy: initParam("sort", "A+"),
-  sortDir: initParam("dir", "desc"),
+  ...INITIAL_FILTERS,
+  hasHydrated: false,
+
+  hydrateFromClient: () => {
+    if (get().hasHydrated || typeof window === "undefined") return;
+
+    const params = new URLSearchParams(window.location.search);
+    let storedDepartment = DEFAULT_DEPARTMENT;
+    try {
+      storedDepartment =
+        window.localStorage.getItem(DEPARTMENT_STORAGE_KEY) ||
+        DEFAULT_DEPARTMENT;
+    } catch {
+    }
+
+    set({
+      search: params.get("q") || INITIAL_FILTERS.search,
+      deptFilter:
+        params.get("dept") ||
+        storedDepartment,
+      aPlusFullFilter:
+        params.get("aplus") || INITIAL_FILTERS.aPlusFullFilter,
+      recentOnly: params.get("recent") || INITIAL_FILTERS.recentOnly,
+      noGradeFilter:
+        params.get("nograde") || INITIAL_FILTERS.noGradeFilter,
+      liberalArtsOnly:
+        params.get("liberal") || INITIAL_FILTERS.liberalArtsOnly,
+      sortBy: params.get("sort") || INITIAL_FILTERS.sortBy,
+      sortDir: params.get("dir") || INITIAL_FILTERS.sortDir,
+      hasHydrated: true,
+    });
+  },
 
   setSearch: (v) => set({ search: v }),
   setDeptFilter: (v) => {

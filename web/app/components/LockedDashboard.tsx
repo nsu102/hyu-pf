@@ -294,7 +294,7 @@ export function LockedDashboard({ errorMessage }: LockedDashboardProps) {
                 >
                   한양대학교 구성원 인증 목적의 이메일 주소 및 도메인 정보를
                   제외하고는 데이터를 수집하지 않습니다. 로그인 유지를 위한
-                  암호화된 세션 쿠키는 브라우저에 최대 90일간 저장됩니다.
+                  암호화된 세션 쿠키는 브라우저에 최대 30일간 저장됩니다.
                 </Typography>
               </Box>
             </Box>

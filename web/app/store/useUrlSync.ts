@@ -6,9 +6,26 @@ import { useFilterStore } from "./filterStore";
 export function useUrlSync() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, sortBy, sortDir } = useFilterStore();
+  const {
+    search,
+    deptFilter,
+    aPlusFullFilter,
+    recentOnly,
+    noGradeFilter,
+    liberalArtsOnly,
+    sortBy,
+    sortDir,
+    hasHydrated,
+    hydrateFromClient,
+  } = useFilterStore();
 
   useEffect(() => {
+    hydrateFromClient();
+  }, [hydrateFromClient]);
+
+  useEffect(() => {
+    if (!hasHydrated) return;
+
     const params = new URLSearchParams();
     if (search) params.set("q", search);
     if (deptFilter !== DEFAULT_DEPARTMENT) params.set("dept", deptFilter);
@@ -22,5 +39,5 @@ export function useUrlSync() {
     if (qs !== searchParams.toString()) {
       router.replace(qs ? `?${qs}` : "/", { scroll: false });
     }
-  }, [search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, sortBy, sortDir, router, searchParams]);
+  }, [search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, liberalArtsOnly, sortBy, sortDir, hasHydrated, router, searchParams]);
 }
