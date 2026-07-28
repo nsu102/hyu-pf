@@ -18,7 +18,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import RefreshIcon from "@mui/icons-material/Refresh";
 import { COMPLETION_TYPE_ORDER, PAGE_SIZE, DEFAULT_DEPARTMENT } from "../lib/constants";
 import { theme } from "../lib/theme";
-import { buildSummaries, filterAndSort } from "../lib/utils";
+import { buildSummaries, filterAndSort, getCompletionTypesForDepartment } from "../lib/utils";
 import { useDataStore } from "../store/dataStore";
 import { useFilterStore } from "../store/filterStore";
 import { useUrlSync } from "../store/useUrlSync";
@@ -72,12 +72,16 @@ function DashboardInner({ user }: CourseDashboardProps) {
   );
 
   const completionTypes = useMemo(() => {
-    const available = new Set(summaries.flatMap((summary) => summary.completionTypes));
+    const available = new Set(
+      summaries.flatMap((summary) =>
+        getCompletionTypesForDepartment(summary, deptFilter),
+      ),
+    );
     return [
       ...COMPLETION_TYPE_ORDER.filter((type) => available.has(type)),
       ...[...available].filter((type) => !COMPLETION_TYPE_ORDER.includes(type)).sort(),
     ];
-  }, [summaries]);
+  }, [summaries, deptFilter]);
 
   const filtered = useMemo(
     () => filterAndSort(summaries, { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir }),

@@ -16,6 +16,8 @@ const TERM_CODES = [
 const OUTPUT_COLUMNS = [
   "course_no",
   "course_name",
+  "dept_code",
+  "dept_name",
   "completion_type_code",
   "completion_type",
   "first_year",
@@ -199,15 +201,27 @@ async function main() {
   for (const { year, term, rows } of rowsByTerm) {
     for (const row of rows) {
       const courseNo = String(row.haksuNo || "").trim();
+      const departmentCode = String(
+        row.slgSosokCd || row.banSosokCd || row.gnjSosokCd || "",
+      ).trim();
+      const departmentName = String(
+        row.slgSosokNm || row.banSosokNm || row.gnjSosokNm || "",
+      ).trim();
       const completionType = String(row.isuGbNm || "").trim();
       const completionTypeCode = String(row.isuGbCd || "").trim();
       if (!courseNo || !completionType) continue;
-      const key = `${courseNo}::${completionTypeCode || completionType}`;
+      const key = [
+        courseNo,
+        departmentCode || departmentName,
+        completionTypeCode || completionType,
+      ].join("::");
       const existing = classifications.get(key);
       if (!existing) {
         classifications.set(key, {
           course_no: courseNo,
           course_name: String(row.gwamokNm || "").trim(),
+          dept_code: departmentCode,
+          dept_name: departmentName,
           completion_type_code: completionTypeCode,
           completion_type: completionType,
           first_year: String(year),
@@ -234,6 +248,7 @@ async function main() {
 
   const outputRows = [...classifications.values()].sort((a, b) => {
     if (a.course_no !== b.course_no) return a.course_no.localeCompare(b.course_no);
+    if (a.dept_code !== b.dept_code) return a.dept_code.localeCompare(b.dept_code);
     return a.completion_type_code.localeCompare(b.completion_type_code);
   });
   fs.mkdirSync(path.dirname(args.output), { recursive: true });
@@ -244,6 +259,7 @@ async function main() {
     to_year: args.toYear,
     course_type_links: outputRows.length,
     courses: new Set(outputRows.map((row) => row.course_no)).size,
+    departments: new Set(outputRows.map((row) => row.dept_code).filter(Boolean)).size,
     completion_types: [...new Set(outputRows.map((row) => row.completion_type))].sort(),
   }, null, 2));
 }

@@ -230,7 +230,11 @@ function main() {
   }
 
   for (const row of courseClassifications) {
-    const key = `${row.course_no}::${row.completion_type_code || row.completion_type}`;
+    const key = [
+      row.course_no,
+      row.dept_code || row.dept_name,
+      row.completion_type_code || row.completion_type,
+    ].join("::");
     if (classificationKeys.has(key)) {
       pushIssue(issues, "error", "duplicate_course_classification", row, "Duplicate course_no/completion_type link");
     }

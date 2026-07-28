@@ -31,4 +31,11 @@ export const COMPLETION_TYPE_ORDER = [
   "ROTC필수",
   "비교과",
 ];
+export const DEPARTMENT_SCOPED_COMPLETION_TYPES = [
+  "전공기초(필수)",
+  "전공핵심",
+  "전공심화",
+  "교직전공",
+  "타전공(일반)선택",
+];
 export const HANYANG_PORTFOLIO_URL = "https://portal.hanyang.ac.kr/port.do#!UDMyMDMxNiRAXmhha3NhLyRAXjAkQF5NMzE5NDc3JEBe6rWQ6rO866qp7Y+s7Yq47Y+066as7JikJEBeTTAwMzc5NCRAXjJmMTEwMmViM2MyZjMyYjY3NzMxYjg5M2E1ODc4NTI0ODBhNTA2NDljNmNmN2M5M2ZmMGQ4MTYwZmE2ZmVkYjc=!";
