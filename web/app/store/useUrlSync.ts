@@ -6,7 +6,7 @@ import { useFilterStore } from "./filterStore";
 export function useUrlSync() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, sortBy, sortDir } = useFilterStore();
+  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir } = useFilterStore();
 
   useEffect(() => {
     const params = new URLSearchParams();
@@ -15,11 +15,12 @@ export function useUrlSync() {
     if (aPlusFullFilter !== "exclude") params.set("aplus", aPlusFullFilter);
     if (recentOnly !== "on") params.set("recent", recentOnly);
     if (noGradeFilter !== "exclude") params.set("nograde", noGradeFilter);
+    if (completionType) params.set("isu", completionType);
     if (sortBy !== "A+") params.set("sort", sortBy);
     if (sortDir !== "desc") params.set("dir", sortDir);
     const qs = params.toString();
     if (qs !== searchParams.toString()) {
       router.replace(qs ? `?${qs}` : "/", { scroll: false });
     }
-  }, [search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, sortBy, sortDir, router, searchParams]);
+  }, [search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir, router, searchParams]);
 }

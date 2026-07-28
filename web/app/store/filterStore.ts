@@ -28,6 +28,7 @@ interface FilterStore extends Filters {
   setAPlusFullFilter: (v: string) => void;
   setRecentOnly: (v: string) => void;
   setNoGradeFilter: (v: string) => void;
+  setCompletionType: (v: string) => void;
   setSortBy: (v: string) => void;
   setSortDir: (v: string) => void;
   toggleSort: (key: string) => void;
@@ -39,6 +40,7 @@ export const useFilterStore = create<FilterStore>((set, get) => ({
   aPlusFullFilter: initParam("aplus", "exclude"),
   recentOnly: initParam("recent", "on"),
   noGradeFilter: initParam("nograde", "exclude"),
+  completionType: initParam("isu", ""),
   sortBy: initParam("sort", "A+"),
   sortDir: initParam("dir", "desc"),
 
@@ -53,6 +55,7 @@ export const useFilterStore = create<FilterStore>((set, get) => ({
   setAPlusFullFilter: (v) => set({ aPlusFullFilter: v }),
   setRecentOnly: (v) => set({ recentOnly: v }),
   setNoGradeFilter: (v) => set({ noGradeFilter: v }),
+  setCompletionType: (v) => set({ completionType: v }),
   setSortBy: (v) => set({ sortBy: v, sortDir: isDescByDefault(v) ? "desc" : "asc" }),
   setSortDir: (v) => set({ sortDir: v }),
   toggleSort: (key) => {

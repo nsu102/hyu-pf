@@ -14,6 +14,7 @@ CSV 기반으로 한양대 교과목 성적 비율 데이터를 조회하는 Nex
 
 ```bash
 npm run data:prepare
+npm run data:classifications
 npm run data:verify
 ```
 
@@ -25,6 +26,7 @@ npm run data:verify
 - `public/data/courses.csv`: 학수번호 기준 과목 카탈로그
 - `public/data/departments.csv`: 학과 카탈로그
 - `public/data/department_courses.csv`: 관측된 학과-과목 연결
+- `public/data/course_classifications.csv`: 최근 3개년 수강편람 기준 과목-이수구분 연결
 - `public/data/coverage_report.csv`: 과목별 수집 상태와 PDF/성적 데이터 커버리지
 - `public/data/verification_issues.csv`: 검증 경고/오류 목록
 - `public/data/metadata.json`: 생성 요약
@@ -58,8 +60,8 @@ NEXTAUTH_URL=http://localhost:3000
 인증은 NextAuth의 JWT 세션을 사용하므로 별도의 데이터베이스나 어댑터가 필요하지 않습니다.
 Google OAuth 응답의 검증된 `hd`, `email_verified`, 이메일 도메인을 모두 확인해
 `@hanyang.ac.kr` 계정만 허용합니다. 로그인 세션은 최대 90일간 유지됩니다.
-Google 계정 정보는 인증 확인에만 사용하며 별도의 사용자 데이터를 수집하거나
-데이터베이스에 저장하지 않습니다. 인증 전에는 `/data/*` 응답도 차단합니다.
+한양대학교 구성원 인증 목적의 이메일 주소 및 도메인 정보를 제외하고는 데이터를
+수집하지 않습니다. 인증 전에는 `/data/*` 응답도 차단합니다.
 
 First, run the development server:
 

@@ -16,7 +16,7 @@ import {
 } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import RefreshIcon from "@mui/icons-material/Refresh";
-import { PAGE_SIZE, DEFAULT_DEPARTMENT } from "../lib/constants";
+import { COMPLETION_TYPE_ORDER, PAGE_SIZE, DEFAULT_DEPARTMENT } from "../lib/constants";
 import { theme } from "../lib/theme";
 import { buildSummaries, filterAndSort } from "../lib/utils";
 import { useDataStore } from "../store/dataStore";
@@ -26,6 +26,7 @@ import { Filters } from "./Filters";
 import { CourseTable } from "./CourseTable";
 import { CourseCards } from "./CourseCards";
 import { CourseModal } from "./CourseModal";
+import { LegalFooter } from "./LegalFooter";
 import { UserMenu } from "./UserMenu";
 
 type CourseDashboardProps = {
@@ -44,8 +45,8 @@ export function CourseDashboard({ user }: CourseDashboardProps) {
 }
 
 function DashboardInner({ user }: CourseDashboardProps) {
-  const { raw, catalog, departmentCourses, loading, loadData } = useDataStore();
-  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, sortBy, sortDir } = useFilterStore();
+  const { raw, catalog, departmentCourses, courseClassifications, loading, loadData } = useDataStore();
+  const { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir } = useFilterStore();
   useUrlSync();
 
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -58,7 +59,10 @@ function DashboardInner({ user }: CourseDashboardProps) {
     return () => window.clearTimeout(timer);
   }, [loadData]);
 
-  const summaries = useMemo(() => buildSummaries(raw, catalog, departmentCourses), [raw, catalog, departmentCourses]);
+  const summaries = useMemo(
+    () => buildSummaries(raw, catalog, departmentCourses, courseClassifications),
+    [raw, catalog, departmentCourses, courseClassifications],
+  );
 
   const depts = useMemo(
     () => [...new Set(summaries.flatMap((s) => s.departmentNames))]
@@ -67,15 +71,23 @@ function DashboardInner({ user }: CourseDashboardProps) {
     [summaries]
   );
 
+  const completionTypes = useMemo(() => {
+    const available = new Set(summaries.flatMap((summary) => summary.completionTypes));
+    return [
+      ...COMPLETION_TYPE_ORDER.filter((type) => available.has(type)),
+      ...[...available].filter((type) => !COMPLETION_TYPE_ORDER.includes(type)).sort(),
+    ];
+  }, [summaries]);
+
   const filtered = useMemo(
-    () => filterAndSort(summaries, { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, sortBy, sortDir }),
-    [summaries, search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, sortBy, sortDir]
+    () => filterAndSort(summaries, { search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir }),
+    [summaries, search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy, sortDir]
   );
 
   useEffect(() => {
     const timer = window.setTimeout(() => setVisibleCount(PAGE_SIZE), 0);
     return () => window.clearTimeout(timer);
-  }, [deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, search, sortBy, sortDir]);
+  }, [deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, search, sortBy, sortDir]);
 
   const visible = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const hasMore = visibleCount < filtered.length;
@@ -127,7 +139,8 @@ function DashboardInner({ user }: CourseDashboardProps) {
         <Container
           maxWidth="xl"
           sx={{
-            py: 1.5,
+            pt: 1.5,
+            pb: 0.5,
             flex: 1,
             minHeight: 0,
             display: "flex",
@@ -135,7 +148,7 @@ function DashboardInner({ user }: CourseDashboardProps) {
             overflowY: { xs: "auto", md: "visible" },
           }}
         >
-          <Filters depts={depts} filteredCount={filtered.length} isMobile={isMobile} />
+          <Filters depts={depts} completionTypes={completionTypes} filteredCount={filtered.length} isMobile={isMobile} />
 
           {loading && <LinearProgress sx={{ mb: 1, borderRadius: 1 }} />}
 
@@ -154,6 +167,7 @@ function DashboardInner({ user }: CourseDashboardProps) {
           )}
         </Container>
 
+        <LegalFooter />
         <CourseModal isMobile={isMobile} />
       </Box>
     </ThemeProvider>

@@ -7,6 +7,19 @@ import Papa from "papaparse";
 const DATA_DIR = path.resolve(process.argv[2] || "public/data");
 const STRICT = process.argv.includes("--strict");
 const GRADE_ORDER = ["A+", "A", "B+", "B", "C+", "C", "D+", "D", "F", "P", "S", "U"];
+const COMPLETION_TYPES = new Set([
+  "비교과",
+  "교직전공",
+  "전공기초(필수)",
+  "전공심화",
+  "전공핵심",
+  "핵심교양",
+  "ROTC필수",
+  "교직선택",
+  "교직필수",
+  "타전공(일반)선택",
+  "교양필수",
+]);
 const ISSUE_COLUMNS = [
   "severity",
   "issue_type",
@@ -59,6 +72,7 @@ function main() {
   const termWide = readCsv("grade_ratios_by_term.csv");
   const departments = readCsv("departments.csv");
   const departmentCourses = readCsv("department_courses.csv");
+  const courseClassifications = readCsv("course_classifications.csv");
   const coverage = readCsv("coverage_report.csv");
 
   const issues = [];
@@ -68,6 +82,7 @@ function main() {
   const longKeys = new Set();
   const termWideKeys = new Set();
   const termSums = new Map();
+  const classificationKeys = new Set();
 
   for (const course of courses) {
     if (courseNos.has(course.course_no)) {
@@ -214,6 +229,20 @@ function main() {
     }
   }
 
+  for (const row of courseClassifications) {
+    const key = `${row.course_no}::${row.completion_type_code || row.completion_type}`;
+    if (classificationKeys.has(key)) {
+      pushIssue(issues, "error", "duplicate_course_classification", row, "Duplicate course_no/completion_type link");
+    }
+    classificationKeys.add(key);
+    if (!courseNos.has(row.course_no)) {
+      pushIssue(issues, "error", "classification_missing_course_metadata", row, "Classification row has no matching courses.csv row");
+    }
+    if (!COMPLETION_TYPES.has(row.completion_type)) {
+      pushIssue(issues, "error", "unknown_completion_type", row, `completion_type=${row.completion_type || "blank"}`);
+    }
+  }
+
   writeCsv("verification_issues.csv", issues, ISSUE_COLUMNS);
 
   const summary = {
@@ -223,6 +252,8 @@ function main() {
     grade_ratio_terms: termWide.length,
     departments: departments.length,
     department_course_links: departmentCourses.length,
+    course_classification_links: courseClassifications.length,
+    classified_courses: new Set(courseClassifications.map((row) => row.course_no)).size,
     issues: issues.length,
     errors: issues.filter((issue) => issue.severity === "error").length,
     warnings: issues.filter((issue) => issue.severity === "warning").length,

@@ -22,6 +22,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { signIn } from "next-auth/react";
 import { HANYANG_DOMAIN } from "../lib/auth-constants";
 import { theme } from "../lib/theme";
+import { LegalFooter } from "./LegalFooter";
 
 type LockedDashboardProps = {
   errorMessage: string | null;
@@ -291,13 +292,14 @@ export function LockedDashboard({ errorMessage }: LockedDashboardProps) {
                   color="text.secondary"
                   sx={{ fontSize: 11, lineHeight: 1.7 }}
                 >
-                  Google 계정 정보는 인증 여부 확인에만 사용되며, 별도의 사용자
-                  데이터를 수집하거나 데이터베이스에 저장하지 않습니다. 로그인
-                  유지를 위한 암호화된 세션 토큰은 브라우저 쿠키에 최대 30일간 저장됩니다.
+                  한양대학교 구성원 인증 목적의 이메일 주소 및 도메인 정보를
+                  제외하고는 데이터를 수집하지 않습니다. 로그인 유지를 위한
+                  암호화된 세션 쿠키는 브라우저에 최대 90일간 저장됩니다.
                 </Typography>
               </Box>
             </Box>
           </DialogContent>
+          <LegalFooter />
         </Dialog>
       </Box>
     </ThemeProvider>

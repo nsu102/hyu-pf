@@ -1,5 +1,5 @@
 import { DEFAULT_DEPARTMENT, GRADE_COLORS, GRADE_ORDER } from "./constants";
-import type { CourseCatalogRow, CourseSummary, DepartmentCourseRow, GradeRow, TermData } from "./types";
+import type { CourseCatalogRow, CourseClassificationRow, CourseSummary, DepartmentCourseRow, GradeRow, TermData } from "./types";
 
 export function gradeColor(val: number): string {
   if (val >= 35) return "#15803d";
@@ -42,14 +42,26 @@ export function getTextSortValue(course: CourseSummary, key: string): string {
   return "";
 }
 
-export function buildSummaries(rows: GradeRow[], catalogRows: CourseCatalogRow[], departmentCourseRows: DepartmentCourseRow[]): CourseSummary[] {
+export function buildSummaries(
+  rows: GradeRow[],
+  catalogRows: CourseCatalogRow[],
+  departmentCourseRows: DepartmentCourseRow[],
+  courseClassificationRows: CourseClassificationRow[],
+): CourseSummary[] {
   const map = new Map<string, { meta: GradeRow | CourseCatalogRow; terms: Map<string, { grades: Record<string, number>; counts: Record<string, number> }>; parseStatus: string }>();
   const departmentsByCourse = new Map<string, Set<string>>();
+  const completionTypesByCourse = new Map<string, Set<string>>();
 
   for (const link of departmentCourseRows) {
     if (!link.course_no || !link.dept_name) continue;
     if (!departmentsByCourse.has(link.course_no)) departmentsByCourse.set(link.course_no, new Set());
     departmentsByCourse.get(link.course_no)!.add(link.dept_name);
+  }
+
+  for (const classification of courseClassificationRows) {
+    if (!classification.course_no || !classification.completion_type) continue;
+    if (!completionTypesByCourse.has(classification.course_no)) completionTypesByCourse.set(classification.course_no, new Set());
+    completionTypesByCourse.get(classification.course_no)!.add(classification.completion_type);
   }
 
   for (const course of catalogRows) {
@@ -108,6 +120,7 @@ export function buildSummaries(rows: GradeRow[], catalogRows: CourseCatalogRow[]
       hasGradeData: termArr.length > 0,
       parseStatus,
       departmentNames,
+      completionTypes: [...(completionTypesByCourse.get(meta.course_no) || new Set<string>())],
     });
   }
   return summaries;
@@ -119,6 +132,7 @@ export interface Filters {
   aPlusFullFilter: string;
   recentOnly: string;
   noGradeFilter: string;
+  completionType: string;
   sortBy: string;
   sortDir: string;
 }
@@ -131,6 +145,7 @@ export function filterAndSort(summaries: CourseSummary[], f: Filters): CourseSum
   if (f.noGradeFilter === "exclude") result = result.filter((s) => s.hasGradeData);
   if (f.aPlusFullFilter === "exclude") result = result.filter((s) => (s.grades["A+"] || 0) < 99.995);
   if (f.recentOnly === "on") result = result.filter((s) => s.recentYear >= 2024);
+  if (f.completionType) result = result.filter((s) => s.completionTypes.includes(f.completionType));
   if (f.search) {
     const q = f.search.toLowerCase();
     result = result.filter((s) =>

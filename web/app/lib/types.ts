@@ -28,6 +28,18 @@ export interface DepartmentCourseRow {
   dept_name: string;
 }
 
+export interface CourseClassificationRow {
+  course_no: string;
+  course_name: string;
+  completion_type_code: string;
+  completion_type: string;
+  first_year: string;
+  first_term: string;
+  latest_year: string;
+  latest_term: string;
+  section_count: string;
+}
+
 export interface CourseSummary {
   course_no: string;
   course_name: string;
@@ -45,6 +57,7 @@ export interface CourseSummary {
   hasGradeData: boolean;
   parseStatus: string;
   departmentNames: string[];
+  completionTypes: string[];
 }
 
 export interface TermData {

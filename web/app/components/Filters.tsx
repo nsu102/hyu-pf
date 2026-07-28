@@ -23,10 +23,20 @@ import { DEFAULT_DEPARTMENT, DISPLAY_GRADES } from "../lib/constants";
 import { useFilterStore } from "../store/filterStore";
 import { useUiStore } from "../store/uiStore";
 
-export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; filteredCount: number; isMobile: boolean }) {
+export function Filters({
+  depts,
+  completionTypes,
+  filteredCount,
+  isMobile,
+}: {
+  depts: string[];
+  completionTypes: string[];
+  filteredCount: number;
+  isMobile: boolean;
+}) {
   const {
-    search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, sortBy,
-    setSearch, setDeptFilter, setAPlusFullFilter, setRecentOnly, setNoGradeFilter, setSortBy,
+    search, deptFilter, aPlusFullFilter, recentOnly, noGradeFilter, completionType, sortBy,
+    setSearch, setDeptFilter, setAPlusFullFilter, setRecentOnly, setNoGradeFilter, setCompletionType, setSortBy,
   } = useFilterStore();
   const { filterOpen, setFilterOpen } = useUiStore();
 
@@ -42,6 +52,24 @@ export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; f
       clearText="초기화"
       slotProps={{ listbox: { sx: { maxHeight: 240 } } }}
     />
+  );
+  const completionTypeField = (
+    <FormControl size="small" sx={{ minWidth: 155 }}>
+      <InputLabel shrink>이수구분</InputLabel>
+      <Select
+        value={completionType}
+        label="이수구분"
+        displayEmpty
+        renderValue={(value) => value || "전체"}
+        onChange={(e) => setCompletionType(e.target.value)}
+      >
+        <MenuItem value="">전체</MenuItem>
+        {completionType && !completionTypes.includes(completionType) && (
+          <MenuItem value={completionType}>{completionType}</MenuItem>
+        )}
+        {completionTypes.map((type) => <MenuItem key={type} value={type}>{type}</MenuItem>)}
+      </Select>
+    </FormControl>
   );
   const sortField = (
     <FormControl size="small" sx={{ minWidth: 140 }}>
@@ -95,7 +123,7 @@ export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; f
     />
   );
 
-  const hasActive = !!deptFilter || aPlusFullFilter === "exclude" || recentOnly === "on" || noGradeFilter === "exclude" || !!search;
+  const hasActive = !!deptFilter || !!completionType || aPlusFullFilter === "exclude" || recentOnly === "on" || noGradeFilter === "exclude" || !!search;
 
   return (
     <Paper sx={{ p: 1.5, mb: 1.5, flexShrink: 0, border: "1px solid", borderColor: "divider" }}>
@@ -111,6 +139,7 @@ export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; f
           <Dialog open={filterOpen} onClose={() => setFilterOpen(false)} fullWidth maxWidth="xs">
             <Box sx={{ p: 2, display: "flex", flexDirection: "column", gap: 2 }}>
               <Typography sx={{ fontWeight: 800 }}>필터</Typography>
+              {completionTypeField}
               {sortField}
               <Box sx={{ display: "flex", flexDirection: "column" }}>{checks}</Box>
               <Button variant="contained" onClick={() => setFilterOpen(false)}>적용</Button>
@@ -120,6 +149,7 @@ export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; f
       ) : (
         <Stack direction="row" spacing={1} sx={{ alignItems: "center", flexWrap: "nowrap" }}>
           {deptField}
+          {completionTypeField}
           {sortField}
           {checks}
           <Box sx={{ flexGrow: 1 }} />
@@ -137,6 +167,7 @@ export function Filters({ depts, filteredCount, isMobile }: { depts: string[]; f
               variant="outlined"
             />
           )}
+          {completionType && <Chip label={`이수구분: ${completionType}`} size="small" onDelete={() => setCompletionType("")} color="info" variant="outlined" />}
           {aPlusFullFilter === "exclude" && <Chip label="A+ 100% 제외" size="small" onDelete={() => setAPlusFullFilter("include")} color="secondary" variant="outlined" />}
           {recentOnly === "on" && <Chip label="최근 3년 개설" size="small" onDelete={() => setRecentOnly("off")} variant="outlined" />}
           {noGradeFilter === "exclude" && <Chip label="성적표 없음 제외" size="small" onDelete={() => setNoGradeFilter("include")} variant="outlined" />}

@@ -1,0 +1,40 @@
+.footer {
+  height: 32px;
+  min-height: 32px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e8edf3;
+  color: #8a96a5;
+  background: #ffffff;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.link:hover {
+  color: #1d4ed8;
+}
+
+.link:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid rgba(29, 78, 216, 0.35);
+  outline-offset: 2px;
+}
+
+.divider {
+  color: #cbd3dc;
+  user-select: none;
+}

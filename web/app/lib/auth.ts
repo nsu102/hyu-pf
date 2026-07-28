@@ -48,6 +48,10 @@ export const authOptions: NextAuthOptions = {
         token.hd = (profile as GoogleProfile).hd.toLowerCase();
       }
 
+      delete token.name;
+      delete token.picture;
+      delete token.sub;
+
       return token;
     },
     session({ session, token }) {
