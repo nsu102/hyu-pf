@@ -34,6 +34,33 @@ npm run data:verify
 
 ## Getting Started
 
+Google Cloud Console에서 OAuth 2.0 웹 클라이언트를 만든 뒤 승인된 리디렉션 URI를 등록합니다.
+
+```text
+http://localhost:3000/api/auth/callback/google
+https://your-domain.example/api/auth/callback/google
+```
+
+환경 변수 예시를 복사하고 값을 채웁니다.
+
+```bash
+cp .env.example .env.local
+openssl rand -base64 32
+```
+
+```dotenv
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=...
+NEXTAUTH_SECRET=...
+NEXTAUTH_URL=http://localhost:3000
+```
+
+인증은 NextAuth의 JWT 세션을 사용하므로 별도의 데이터베이스나 어댑터가 필요하지 않습니다.
+Google OAuth 응답의 검증된 `hd`, `email_verified`, 이메일 도메인을 모두 확인해
+`@hanyang.ac.kr` 계정만 허용합니다. 로그인 세션은 최대 90일간 유지됩니다.
+Google 계정 정보는 인증 확인에만 사용하며 별도의 사용자 데이터를 수집하거나
+데이터베이스에 저장하지 않습니다. 인증 전에는 `/data/*` 응답도 차단합니다.
+
 First, run the development server:
 
 ```bash
