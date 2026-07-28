@@ -221,7 +221,7 @@ export function LockedDashboard({ errorMessage }: LockedDashboardProps) {
               color="text.secondary"
               sx={{ mb: 4, fontSize: 14, lineHeight: 1.7 }}
             >
-              로그인 후 서비스를 이용할 수 있습니다.
+              hanyang 계정으로 로그인 후 서비스를 이용할 수 있습니다.
             </Typography>
 
             {visibleError ? (
@@ -292,7 +292,8 @@ export function LockedDashboard({ errorMessage }: LockedDashboardProps) {
                   sx={{ fontSize: 11, lineHeight: 1.7 }}
                 >
                   Google 계정 정보는 인증 여부 확인에만 사용되며, 별도의 사용자
-                  데이터를 수집하거나 데이터베이스에 저장하지 않습니다.
+                  데이터를 수집하거나 데이터베이스에 저장하지 않습니다. 로그인
+                  유지를 위한 암호화된 세션 토큰은 브라우저 쿠키에 최대 30일간 저장됩니다.
                 </Typography>
               </Box>
             </Box>
